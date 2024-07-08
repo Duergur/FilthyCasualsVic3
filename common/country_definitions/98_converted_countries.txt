@@ -8840,7 +8840,7 @@ W33 = {
 	color = { 94 117 55 }
 	country_type = colonial
 	tier = hegemony
-	cultures = { neo-usa_south_colony-vinlander }
+	cultures = { vinlander }
 	religion = protestant
 	capital = STATE_MISSISSIPPI
 }
