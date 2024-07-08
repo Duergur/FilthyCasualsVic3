@@ -14221,7 +14221,7 @@
 				size = 609
 			}
 			create_pop = {
-				culture marklander
+				culture = marklander
 				religion = protestant
 				size = 4928
 			}
@@ -14241,7 +14241,7 @@
 				size = 219
 			}
 			create_pop = {
-				culture marklander
+				culture = marklander
 				religion = protestant
 				size = 1612
 			}
@@ -14261,7 +14261,7 @@
 				size = 4289
 			}
 			create_pop = {
-				culture marklander
+				culture = marklander
 				religion = protestant
 				size = 2873
 			}
@@ -40681,7 +40681,7 @@
 				size = 7823
 			}
 			create_pop = {
-				culture marklander
+				culture = marklander
 				religion = protestant
 				size = 5629
 			}
@@ -40706,7 +40706,7 @@
 				size = 1
 			}
 			create_pop = {
-				culture marklander
+				culture = marklander
 				religion = protestant
 				size = 13460
 			}
@@ -40726,7 +40726,7 @@
 				size = 6438
 			}
 			create_pop = {
-				culture marklander
+				culture = marklander
 				religion = protestant
 				size = 2357
 			}
@@ -40746,7 +40746,7 @@
 				size = 8151
 			}
 			create_pop = {
-				culture marklander
+				culture = marklander
 				religion = protestant
 				size = 6142
 			}
@@ -46387,12 +46387,12 @@
 				size = 194
 			}
 			create_pop = {
-				culture marklander
+				culture = marklander
 				religion = protestant
 				size = 6176
 			}
 			create_pop = {
-				culture marklander
+				culture = marklander
 				religion = protestant
 				size = 116
 			}
@@ -46417,12 +46417,12 @@
 				size = 110
 			}
 			create_pop = {
-				culture marklander
+				culture = marklander
 				religion = protestant
 				size = 1777
 			}
 			create_pop = {
-				culture marklander
+				culture = marklander
 				religion = protestant
 				size = 33
 			}
@@ -46457,12 +46457,12 @@
 				size = 125
 			}
 			create_pop = {
-				culture marklander
+				culture = marklander
 				religion = protestant
 				size = 991
 			}
 			create_pop = {
-				culture marklander
+				culture = marklander
 				religion = protestant
 				size = 19
 			}
@@ -46507,12 +46507,12 @@
 				size = 16
 			}
 			create_pop = {
-				culture marklander
+				culture = marklander
 				religion = protestant
 				size = 6360
 			}
 			create_pop = {
-				culture marklander
+				culture = marklander
 				religion = protestant
 				size = 119
 			}
