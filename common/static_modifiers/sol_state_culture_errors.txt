@@ -1,0 +1,18 @@
+[15:49:48][localization_reader.cpp:446]: Invalid character '!' in key name 'DA!l_gCais' at line 53 and column 3 in localization/english/replace/converted_characters_l_english.yml
+[15:50:21][culture_type.cpp:275]: Missing culture sol static modifier norn_old_standard_of_living_modifier_positive
+[15:50:21][culture_type.cpp:275]: Missing culture sol static modifier norn_old_standard_of_living_modifier_negative
+[15:50:21][culture_type.cpp:275]: Missing culture sol static modifier neo-central_america_colony-marklander_old_standard_of_living_modifier_positive
+[15:50:21][culture_type.cpp:275]: Missing culture sol static modifier neo-central_america_colony-marklander_old_standard_of_living_modifier_negative
+[15:50:21][culture_type.cpp:275]: Missing culture sol static modifier neo-colombia_colony-danish_old_standard_of_living_modifier_positive
+[15:50:21][culture_type.cpp:275]: Missing culture sol static modifier neo-colombia_colony-danish_old_standard_of_living_modifier_negative
+[15:50:21][culture_type.cpp:275]: Missing culture sol static modifier neo-colombia_colony-marklander_old_standard_of_living_modifier_positive
+[15:50:21][culture_type.cpp:275]: Missing culture sol static modifier neo-colombia_colony-marklander_old_standard_of_living_modifier_negative
+[15:50:21][culture_type.cpp:275]: Missing culture sol static modifier neo-mexico_colony-hellulander_old_native_american_hybrid_standard_of_living_modifier_positive
+[15:50:21][culture_type.cpp:275]: Missing culture sol static modifier neo-mexico_colony-hellulander_old_native_american_hybrid_standard_of_living_modifier_negative
+[15:50:21][culture_type.cpp:275]: Missing culture sol static modifier neo-usa_south_colony-vinlander_old_standard_of_living_modifier_positive
+[15:50:21][culture_type.cpp:275]: Missing culture sol static modifier neo-usa_south_colony-vinlander_old_standard_of_living_modifier_negative
+
+
+
+
+

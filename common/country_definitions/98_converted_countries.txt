@@ -1726,7 +1726,7 @@ CLM = {
 	color = { 89 140 176 }
 	country_type = colonial
 	tier = kingdom
-	cultures = { neo-colombia_colony-marklander }
+	cultures = { marklander }
 	religion = protestant
 	capital = STATE_ZULIA
 }
@@ -9678,7 +9678,7 @@ X17 = {
 	color = { 138 169 133 }
 	country_type = colonial
 	tier = city_state
-	cultures = { neo-central_america_colony-marklander }
+	cultures = { marklander }
 	religion = protestant
 	capital = STATE_NICARAGUA
 }
