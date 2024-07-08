@@ -704,7 +704,7 @@
 			owned_provinces = { x4EBC79 x686279 x72C072 x7A6FA3 }
 			state_type = incorporated
 		}
-		add_homeland = cu:neo-caribbean_colony-halendingur
+		add_homeland = cu:norn
 		add_homeland = cu:neo-caribbean_colony-hellulander
 	}
 	s:STATE_BAHIA = {
@@ -7748,7 +7748,7 @@
 			owned_provinces = { x707080 xD496B1 }
 			state_type = unincorporated
 		}
-		add_homeland = cu:caribeno
+		add_homeland = cu:norn
 		add_homeland = cu:neo-caribbean_colony-hellulander
 		add_homeland = cu:neo-caribbean_colony-marklander
 	}

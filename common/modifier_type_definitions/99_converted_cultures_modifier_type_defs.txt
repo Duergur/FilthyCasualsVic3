@@ -2727,7 +2727,7 @@ state_neo-caribbean_colony-danish_standard_of_living_add = {
 	}
 }
 
-state_neo-caribbean_colony-halendingur_standard_of_living_add = {
+state_norn_standard_of_living_add = {
 	decimals=1
 	color=good
 	game_data={

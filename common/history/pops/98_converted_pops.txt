@@ -5378,7 +5378,7 @@
 				size = 5459
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-halendingur
+				culture = norn
 				religion = protestant
 				size = 31379
 			}
@@ -23336,7 +23336,7 @@
 				size = 3653
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-halendingur
+				culture = norn
 				religion = protestant
 				size = 1530
 			}
@@ -23351,7 +23351,7 @@
 				size = 3498
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-halendingur
+				culture = norn
 				religion = protestant
 				size = 821
 			}
@@ -51768,12 +51768,12 @@
 				size = 5370
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-halendingur
+				culture = norn
 				religion = protestant
 				size = 9058
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-halendingur
+				culture = norn
 				religion = catholic
 				size = 2866
 			}
@@ -51788,12 +51788,12 @@
 				size = 4409
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-halendingur
+				culture = norn
 				religion = protestant
 				size = 7122
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-halendingur
+				culture = norn
 				religion = catholic
 				size = 2469
 			}
@@ -51808,7 +51808,7 @@
 				size = 4318
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-halendingur
+				culture = norn
 				religion = protestant
 				size = 4741
 			}
@@ -51823,12 +51823,12 @@
 				size = 4650
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-halendingur
+				culture = norn
 				religion = protestant
 				size = 7401
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-halendingur
+				culture = norn
 				religion = catholic
 				size = 2772
 			}
@@ -51843,7 +51843,7 @@
 				size = 2158
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-halendingur
+				culture = norn
 				religion = protestant
 				size = 242
 			}
@@ -65242,7 +65242,7 @@
 				size = 5641
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-halendingur
+				culture = norn
 				religion = protestant
 				size = 11029
 			}
@@ -65257,7 +65257,7 @@
 				size = 5641
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-halendingur
+				culture = norn
 				religion = protestant
 				size = 11029
 			}
@@ -65272,7 +65272,7 @@
 				size = 10415
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-halendingur
+				culture = norn
 				religion = protestant
 				size = 20360
 			}
@@ -65307,17 +65307,17 @@
 				size = 6073
 			}
 			create_pop = {
-				culture = caribeno
+				culture = norn
 				religion = catholic
 				size = 5445
 			}
 			create_pop = {
-				culture = caribeno
+				culture = norn
 				religion = protestant
 				size = 14884
 			}
 			create_pop = {
-				culture = caribeno
+				culture = norn
 				religion = protestant
 				size = 32538
 			}
@@ -65357,17 +65357,17 @@
 				size = 6807
 			}
 			create_pop = {
-				culture = caribeno
+				culture = norn
 				religion = catholic
 				size = 4059
 			}
 			create_pop = {
-				culture = caribeno
+				culture = norn
 				religion = chalcedonian
 				size = 7783
 			}
 			create_pop = {
-				culture = caribeno
+				culture = norn
 				religion = protestant
 				size = 51342
 			}

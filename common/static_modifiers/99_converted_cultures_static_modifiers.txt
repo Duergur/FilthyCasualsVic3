@@ -3068,13 +3068,13 @@ neo-caribbean_colony-danish_standard_of_living_modifier_negative = {
 	state_neo-caribbean_colony-danish_standard_of_living_add = 1
 }
 
-neo-caribbean_colony-halendingur_standard_of_living_modifier_positive = {
+norn_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_neo-caribbean_colony-halendingur_standard_of_living_add = 1
+	state_norn_standard_of_living_add = 1
 }
-neo-caribbean_colony-halendingur_standard_of_living_modifier_negative = {
+norn_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_neo-caribbean_colony-halendingur_standard_of_living_add = 1
+	state_norn_standard_of_living_add = 1
 }
 
 neo-caribbean_colony-hellulander_standard_of_living_modifier_positive = {
