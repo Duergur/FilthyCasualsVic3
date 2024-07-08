@@ -8250,7 +8250,7 @@ UCA = {
 	color = { 204 186 201 }
 	country_type = colonial
 	tier = grand_principality
-	cultures = { neo-mexico_colony-hellulander }
+	cultures = { hellulander }
 	religion = protestant
 	capital = STATE_JALISCO
 }
