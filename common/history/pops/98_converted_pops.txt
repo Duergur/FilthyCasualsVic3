@@ -14431,7 +14431,7 @@
 				size = 18365
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-vestmenn
+				culture = norn
 				religion = protestant
 				size = 12661
 			}
@@ -14446,7 +14446,7 @@
 				size = 7296
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-vestmenn
+				culture = norn
 				religion = protestant
 				size = 2858
 			}
@@ -14496,7 +14496,7 @@
 				size = 7803
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-vestmenn
+				culture = norn
 				religion = protestant
 				size = 5421
 			}
@@ -14511,12 +14511,12 @@
 				size = 10300
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-vestmenn
+				culture = norn
 				religion = protestant
 				size = 3000
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-vestmenn
+				culture = norn
 				religion = catholic
 				size = 4469
 			}
@@ -14536,12 +14536,12 @@
 				size = 9463
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-vestmenn
+				culture = norn
 				religion = protestant
 				size = 2690
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-vestmenn
+				culture = norn
 				religion = catholic
 				size = 2655
 			}
@@ -14561,7 +14561,7 @@
 				size = 10491
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-vestmenn
+				culture = norn
 				religion = protestant
 				size = 3611
 			}
@@ -23311,7 +23311,7 @@
 				size = 4330
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-vestmenn
+				culture = norn
 				religion = protestant
 				size = 1746
 			}
@@ -27289,7 +27289,7 @@
 				size = 10100
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-vestmenn
+				culture = norn
 				religion = protestant
 				size = 5565
 			}
@@ -48797,12 +48797,12 @@
 				size = 4699
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-vestmenn
+				culture = norn
 				religion = protestant
 				size = 533
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-vestmenn
+				culture = norn
 				religion = catholic
 				size = 2348
 			}
