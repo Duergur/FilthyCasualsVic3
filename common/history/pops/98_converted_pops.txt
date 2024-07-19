@@ -67681,107 +67681,206 @@
 		}
 	}
 	s:STATE_ZAMBEZI = {
+		region_state:CAS = {
+			create_pop = {
+				culture = sena
+				religion = animist
+				size = 122079
+			}
+			create_pop = {
+				culture = sena
+				religion = animist
+				pop_type = slaves
+				size = 3612
+			}
+			create_pop = {
+				culture = sena
+				religion = catholic
+				size = 57802
+			}
+			create_pop = {
+				culture = sena
+				religion = catholic
+				pop_type = slaves
+				size = 1710
+			}
+			create_pop = {
+				culture = spanish
+				religion = catholic
+				size = 180178
+			}
+			create_pop = {
+				culture = spanish
+				religion = catholic
+				pop_type = slaves
+				size = 5331
+			}
+			create_pop = {
+				culture = sena
+				religion = animist
+				size = 37641
+			}
+			create_pop = {
+				culture = sena
+				religion = animist
+				pop_type = slaves
+				size = 1114
+			}
+			create_pop = {
+				culture = sena
+				religion = catholic
+				size = 21282
+			}
+			create_pop = {
+				culture = sena
+				religion = catholic
+				pop_type = slaves
+				size = 630
+			}
+			create_pop = {
+				culture = spanish
+				religion = catholic
+				size = 53596
+			}
+			create_pop = {
+				culture = spanish
+				religion = catholic
+				pop_type = slaves
+				size = 1586
+			}
+			create_pop = {
+				culture = sena
+				religion = animist
+				size = 37946
+			}
+			create_pop = {
+				culture = sena
+				religion = animist
+				pop_type = slaves
+				size = 1123
+			}
+			create_pop = {
+				culture = sena
+				religion = catholic
+				size = 26645
+			}
+			create_pop = {
+				culture = sena
+				religion = catholic
+				pop_type = slaves
+				size = 788
+			}
+			create_pop = {
+				culture = spanish
+				religion = catholic
+				size = 47928
+			}
+			create_pop = {
+				culture = spanish
+				religion = catholic
+				pop_type = slaves
+				size = 1418
+			}
+		}
 		region_state:ETH = {
 			create_pop = {
 				culture = sena
 				religion = animist
-				size = 12796
-			}
-			create_pop = {
-				culture = sena
-				religion = shiite
-				size = 16350
+				size = 47062
 			}
 			create_pop = {
 				culture = sena
 				religion = animist
-				size = 4843
+				pop_type = slaves
+				size = 1392
 			}
 			create_pop = {
 				culture = sena
 				religion = shiite
-				size = 7522
+				size = 31702
+			}
+			create_pop = {
+				culture = sena
+				religion = shiite
+				pop_type = slaves
+				size = 938
 			}
 			create_pop = {
 				culture = sena
 				religion = animist
-				size = 3489
-			}
-			create_pop = {
-				culture = sena
-				religion = shiite
-				size = 3097
-			}
-			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
-				religion = shiite
-				size = 4014
+				size = 27989
 			}
 			create_pop = {
 				culture = sena
 				religion = animist
-				size = 4939
+				pop_type = slaves
+				size = 828
+			}
+			create_pop = {
+				culture = sena
+				religion = shiite
+				size = 24520
+			}
+			create_pop = {
+				culture = sena
+				religion = shiite
+				pop_type = slaves
+				size = 726
+			}
+			create_pop = {
+				culture = sena
+				religion = animist
+				size = 26881
+			}
+			create_pop = {
+				culture = sena
+				religion = animist
+				pop_type = slaves
+				size = 796
+			}
+			create_pop = {
+				culture = sena
+				religion = shiite
+				size = 18126
+			}
+			create_pop = {
+				culture = sena
+				religion = shiite
+				pop_type = slaves
+				size = 536
+			}
+			create_pop = {
+				culture = sena
+				religion = animist
+				size = 28545
+			}
+			create_pop = {
+				culture = sena
+				religion = animist
+				pop_type = slaves
+				size = 845
 			}
 			create_pop = {
 				culture = sena
 				religion = sunni
-				size = 342
+				size = 1978
+			}
+			create_pop = {
+				culture = sena
+				religion = sunni
+				pop_type = slaves
+				size = 59
 			}
 			create_pop = {
 				culture = sena
 				religion = shiite
-				size = 6642
-			}
-		}
-		region_state:MSH = {
-			create_pop = {
-				culture = shona
-				religion = animist
-				size = 43636
-			}
-			create_pop = {
-				culture = lacustrine_bantu
-				religion = animist
-				size = 3636
-			}
-			create_pop = {
-				culture = lacustrine_bantu
-				religion = animist
-				pop_type = slaves
-				size = 3636
-			}
-		}
-		region_state:MTB = {
-			create_pop = {
-				culture = shona
-				religion = animist
-				size = 101538
-			}
-			create_pop = {
-				culture = sotho
-				religion = animist
-				size = 6600
-			}
-			create_pop = {
-				culture = lacustrine_bantu
-				religion = animist
-				size = 38077
-			}
-			create_pop = {
-				culture = nguni
-				religion = animist
-				size = 43997
+				size = 20111
 			}
 			create_pop = {
 				culture = sena
-				religion = animist
-				size = 10154
-			}
-			create_pop = {
-				culture = lacustrine_bantu
-				religion = animist
+				religion = shiite
 				pop_type = slaves
-				size = 12692
+				size = 595
 			}
 		}
 	}
@@ -67873,69 +67972,147 @@
 				size = 11244
 			}
 		}
-	}
-	s:STATE_ZAMBIA = {
-		region_state:ETH = {
+	}	s:STATE_ZAMBIA = {
+		region_state:CAS = {
 			create_pop = {
 				culture = bemba
 				religion = animist
-				size = 2496
-			}
-			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
-				religion = shiite
-				size = 3560
+				size = 28845
 			}
 			create_pop = {
 				culture = bemba
 				religion = animist
-				size = 82
+				pop_type = slaves
+				size = 1279
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
-				religion = shiite
-				size = 157
+				culture = spanish
+				religion = catholic
+				size = 30706
+			}
+			create_pop = {
+				culture = spanish
+				religion = catholic
+				pop_type = slaves
+				size = 1362
 			}
 			create_pop = {
 				culture = bemba
 				religion = animist
-				size = 962
+				size = 26697
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
-				religion = shiite
-				size = 1562
+				culture = bemba
+				religion = animist
+				pop_type = slaves
+				size = 1184
 			}
-		}
-		region_state:LZO = {
+			create_pop = {
+				culture = spanish
+				religion = catholic
+				size = 32854
+			}
+			create_pop = {
+				culture = spanish
+				religion = catholic
+				pop_type = slaves
+				size = 1457
+			}
 			create_pop = {
 				culture = lunda
 				religion = animist
-				size = 24825
+				size = 14373
 			}
 			create_pop = {
 				culture = kavango_bantu
 				religion = animist
-				size = 24744
+				size = 14326
 			}
 			create_pop = {
 				culture = chewa
 				religion = animist
-				size = 8187
+				size = 4740
 			}
 			create_pop = {
 				culture = lunda
 				religion = animist
 				pop_type = slaves
-				size = 3535
+				size = 2047
 			}
 			create_pop = {
 				culture = chewa
 				religion = animist
 				pop_type = slaves
-				size = 2651
+				size = 1535
 			}
 		}
+		region_state:ETH = {
+			create_pop = {
+				culture = bemba
+				religion = animist
+				size = 10020
+			}
+			create_pop = {
+				culture = bemba
+				religion = animist
+				pop_type = slaves
+				size = 444
+			}
+			create_pop = {
+				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				religion = shiite
+				size = 7846
+			}
+			create_pop = {
+				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				religion = shiite
+				pop_type = slaves
+				size = 348
+			}
+			create_pop = {
+				culture = bemba
+				religion = animist
+				size = 441
+			}
+			create_pop = {
+				culture = bemba
+				religion = animist
+				pop_type = slaves
+				size = 20
+			}
+			create_pop = {
+				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				religion = shiite
+				size = 499
+			}
+			create_pop = {
+				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				religion = shiite
+				pop_type = slaves
+				size = 22
+			}
+			create_pop = {
+				culture = bemba
+				religion = animist
+				size = 3863
+			}
+			create_pop = {
+				culture = bemba
+				religion = animist
+				pop_type = slaves
+				size = 171
+			}
+			create_pop = {
+				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				religion = shiite
+				size = 3581
+			}
+			create_pop = {
+				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				religion = shiite
+				pop_type = slaves
+				size = 159
+			}
 	}
 	s:STATE_ZANZIBAR = {
 		region_state:ETH = {
