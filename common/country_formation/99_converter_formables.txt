@@ -803,13 +803,13 @@ MOS = { #Mossi, Mossi People
 	
 	ai_will_do = { always = yes }
 }
-MSI = { #Maasai, Maasai People
-	use_culture_states = yes
+# MSI = { #Maasai, Maasai People 		Formable Removed
+# 	use_culture_states = yes
 
-	required_states_fraction = 0.75
+# 	required_states_fraction = 0.75
 	
-	ai_will_do = { always = yes }
-}
+# 	ai_will_do = { always = yes }
+# }
 MTC = { #Metis, Metis People
 	use_culture_states = yes
 

@@ -6403,204 +6403,43 @@
 		}
 	}
 	s:STATE_BAS_CONGO = {
-		region_state:X61 = {
-			create_pop = {
-				culture = bakongo
-				religion = animist
-				size = 36895
-			}
-			create_pop = {
-				culture = bakongo
-				religion = animist
-				pop_type = slaves
-				size = 1265
-			}
-			create_pop = {
-				culture = bakongo
-				religion = catholic
-				size = 31102
-			}
-			create_pop = {
-				culture = bakongo
-				religion = catholic
-				pop_type = slaves
-				size = 1066
-			}
+		region_state:CAS = {
 			create_pop = {
 				culture = spanish
 				religion = catholic
-				size = 93032
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				pop_type = slaves
-				size = 3189
+				size = 777099
 			}
 			create_pop = {
 				culture = bakongo
 				religion = animist
-				size = 38204
+				size = 69189
 			}
 			create_pop = {
 				culture = bakongo
 				religion = animist
 				pop_type = slaves
-				size = 1309
+				size = 6551
 			}
 			create_pop = {
 				culture = bakongo
 				religion = catholic
-				size = 25513
-			}
-			create_pop = {
-				culture = bakongo
-				religion = catholic
-				pop_type = slaves
-				size = 874
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				size = 111951
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				pop_type = slaves
-				size = 3837
-			}
-			create_pop = {
-				culture = bakongo
-				religion = animist
-				size = 26647
-			}
-			create_pop = {
-				culture = bakongo
-				religion = animist
-				pop_type = slaves
-				size = 913
-			}
-			create_pop = {
-				culture = bakongo
-				religion = catholic
-				size = 32802
-			}
-			create_pop = {
-				culture = bakongo
-				religion = catholic
-				pop_type = slaves
-				size = 1124
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				size = 72302
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				pop_type = slaves
-				size = 2478
+				size = 119417
 			}
 			create_pop = {
 				culture = lunda
 				religion = animist
-				size = 34542
+				size = 133231
 			}
 			create_pop = {
 				culture = lunda
 				religion = animist
 				pop_type = slaves
-				size = 1184
+				size = 10644
 			}
 			create_pop = {
 				culture = lunda
 				religion = catholic
-				size = 35044
-			}
-			create_pop = {
-				culture = lunda
-				religion = catholic
-				pop_type = slaves
-				size = 1201
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				size = 84124
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				pop_type = slaves
-				size = 2883
-			}
-			create_pop = {
-				culture = lunda
-				religion = animist
-				size = 54694
-			}
-			create_pop = {
-				culture = lunda
-				religion = animist
-				pop_type = slaves
-				size = 1875
-			}
-			create_pop = {
-				culture = lunda
-				religion = catholic
-				size = 52276
-			}
-			create_pop = {
-				culture = lunda
-				religion = catholic
-				pop_type = slaves
-				size = 1792
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				size = 127254
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				pop_type = slaves
-				size = 4362
-			}
-			create_pop = {
-				culture = lunda
-				religion = animist
-				size = 63995
-			}
-			create_pop = {
-				culture = lunda
-				religion = animist
-				pop_type = slaves
-				size = 2193
-			}
-			create_pop = {
-				culture = lunda
-				religion = catholic
-				size = 70004
-			}
-			create_pop = {
-				culture = lunda
-				religion = catholic
-				pop_type = slaves
-				size = 2399
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				size = 136823
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				pop_type = slaves
-				size = 4689
+				size = 177324
 			}
 			create_pop = {
 				culture = mongo
@@ -6623,17 +6462,6 @@
 				religion = catholic
 				pop_type = slaves
 				size = 2175
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				size = 125861
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				pop_type = slaves
-				size = 4314
 			}
 		}
 	}
@@ -13780,11 +13608,11 @@
 				size = 2400
 			}
 		}
-		region_state:X61 = {
+		region_state:CAS = {
 			create_pop = {
 				culture = bakongo
 				religion = animist
-				size = 13473
+				size = 31613
 			}
 			create_pop = {
 				culture = bakongo
@@ -13813,11 +13641,6 @@
 				religion = catholic
 				pop_type = slaves
 				size = 2629
-			}
-			create_pop = {
-				culture = bakongo
-				religion = animist
-				size = 18140
 			}
 			create_pop = {
 				culture = bakongo
@@ -13870,7 +13693,7 @@
 				size = 34500
 			}
 		}
-		region_state:X61 = {
+		region_state:CAS = {
 			create_pop = {
 				culture = luba
 				religion = animist
@@ -16577,7 +16400,7 @@
 				size = 3400
 			}
 		}
-		region_state:X61 = {
+		region_state:CAS = {
 			create_pop = {
 				culture = ovimbundu
 				religion = animist
@@ -20226,35 +20049,24 @@
 			create_pop = {
 				culture = spanish
 				religion = catholic
-				size = 14659
+				size = 81810
 			}
 			create_pop = {
 				culture = spanish
 				religion = catholic
 				pop_type = slaves
-				size = 555
+				size = 3095
+			}
+			create_pop = {
+				culture = bakongo
+				religion = catholic
+				size = 29135
 			}
 			create_pop = {
 				culture = bakongo
 				religion = animist
-				size = 17358
-			}
-			create_pop = {
-				culture = bakongo
-				religion = animist
 				pop_type = slaves
-				size = 657
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				size = 43915
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				pop_type = slaves
-				size = 1661
+				size = 1103
 			}
 		}
 		region_state:FNG = {
@@ -20279,41 +20091,6 @@
 				religion = animist
 				pop_type = slaves
 				size = 17073
-			}
-		}
-		region_state:X61 = {
-			create_pop = {
-				culture = bakongo
-				religion = animist
-				size = 7879
-			}
-			create_pop = {
-				culture = bakongo
-				religion = animist
-				pop_type = slaves
-				size = 298
-			}
-			create_pop = {
-				culture = bakongo
-				religion = catholic
-				size = 3898
-			}
-			create_pop = {
-				culture = bakongo
-				religion = catholic
-				pop_type = slaves
-				size = 148
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				size = 23236
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				pop_type = slaves
-				size = 879
 			}
 		}
 	}
@@ -28332,7 +28109,7 @@
 		}
 	}
 	s:STATE_KASAI = {
-		region_state:X61 = {
+		region_state:CAS = {
 			create_pop = {
 				culture = mongo
 				religion = animist
@@ -28563,7 +28340,7 @@
 				size = 468
 			}
 		}
-		region_state:X61 = {
+		region_state:CAS = {
 			create_pop = {
 				culture = lunda
 				religion = animist
@@ -42210,8 +41987,6 @@
 				religion = catholic
 				size = 46288
 			}
-		}
-		region_state:X61 = {
 			create_pop = {
 				culture = ovimbundu
 				religion = animist
@@ -54976,7 +54751,7 @@
 				size = 235197
 			}
 		}
-		region_state:X61 = {
+		region_state:CAS = {
 			create_pop = {
 				culture = ovimbundu
 				religion = animist

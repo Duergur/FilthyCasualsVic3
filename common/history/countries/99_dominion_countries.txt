@@ -1,6 +1,6 @@
 ﻿COUNTRIES = {
 #Dominion Trade Companies
-	c:X61 = { #Dominion Kongo Trade Company
+	c:X61 = { #Dominion Borneo 
 	    #Technology
         effect_starting_technology_tier_3_tech = yes
 
@@ -43,94 +43,7 @@
 			level = 1
 		}
 	}
-	c:W56 = { #South Africa Company
-	    #Technology
-        effect_starting_technology_tier_3_tech = yes
-
-        #PowerStructureLaws
-        activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_wealth_voting
-        activate_law = law_type:law_ethnostate
-        activate_law = law_type:law_state_religion
-		activate_law = law_type:law_appointed_bureaucrats
-        activate_law = law_type:law_professional_army
-        activate_law = law_type:law_no_home_affairs
-        #EconomyLaws
-        activate_law = law_type:law_interventionism
-        activate_law = law_type:law_mercantilism
-        activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_colonial_exploitation
-        activate_law = law_type:law_local_police
-        activate_law = law_type:law_no_schools
-		activate_law = law_type:law_no_health_system
-		#HumanRightsLaws
-        activate_law = law_type:law_censorship
-        activate_law = law_type:law_no_workers_rights
-        #activate_law = law_child_labor_allowed
-        activate_law = law_type:law_no_womens_rights
-        activate_law = law_type:law_no_social_security
-		activate_law = law_type:law_migration_controls
-		activate_law = law_type:law_slave_trade
-		
-		#InterestGroups,Haven't touched these at all yet, just default converter settings
-		ig:ig_armed_forces = {
-			set_ig_bolstering = yes
- 		}
-		ig:ig_trade_unions = {
-			
- 		}
-
-		set_institution_investment_level = {
-			institution = institution_police
-			level = 1
-		}
-	}
-
-	c:W53 = { #Indonesia Company
-	    #Technology
-        effect_starting_technology_tier_3_tech = yes
-
-        #PowerStructureLaws
-        activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_wealth_voting
-        activate_law = law_type:law_ethnostate
-        activate_law = law_type:law_state_religion
-		activate_law = law_type:law_appointed_bureaucrats
-        activate_law = law_type:law_professional_army
-        activate_law = law_type:law_no_home_affairs
-        #EconomyLaws
-        activate_law = law_type:law_interventionism
-        activate_law = law_type:law_mercantilism
-        activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_colonial_exploitation
-        activate_law = law_type:law_local_police
-        activate_law = law_type:law_no_schools
-		activate_law = law_type:law_no_health_system
-		#HumanRightsLaws
-        activate_law = law_type:law_censorship
-        activate_law = law_type:law_no_workers_rights
-        #activate_law = law_child_labor_allowed
-        activate_law = law_type:law_no_womens_rights
-        activate_law = law_type:law_no_social_security
-		activate_law = law_type:law_migration_controls
-		activate_law = law_type:law_slave_trade
-		
-		#InterestGroups,Haven't touched these at all yet, just default converter settings
-		ig:ig_armed_forces = {
-			set_ig_bolstering = yes
- 		}
-		ig:ig_trade_unions = {
-			
- 		}
-
-		set_institution_investment_level = {
-			institution = institution_police
-			level = 1
-		}
-	}
-	c:W54 = { #Moluccas Company
+	c:W56 = { #Dominion Cape Company
 	    #Technology
         effect_starting_technology_tier_3_tech = yes
 
@@ -174,7 +87,183 @@
 		}
 	}
 
-	c:W55 = { #Pacific Company
+	c:W53 = { #Dominion Sumatra
+	    #Technology
+        effect_starting_technology_tier_3_tech = yes
+
+        #PowerStructureLaws
+        activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_wealth_voting
+        activate_law = law_type:law_ethnostate
+        activate_law = law_type:law_state_religion
+		activate_law = law_type:law_appointed_bureaucrats
+        activate_law = law_type:law_professional_army
+        activate_law = law_type:law_no_home_affairs
+        #EconomyLaws
+        activate_law = law_type:law_interventionism
+        activate_law = law_type:law_mercantilism
+        activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_colonial_exploitation
+        activate_law = law_type:law_local_police
+        activate_law = law_type:law_no_schools
+		activate_law = law_type:law_no_health_system
+		#HumanRightsLaws
+        activate_law = law_type:law_censorship
+        activate_law = law_type:law_no_workers_rights
+        #activate_law = law_child_labor_allowed
+        activate_law = law_type:law_no_womens_rights
+        activate_law = law_type:law_no_social_security
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_slave_trade
+		
+		#InterestGroups,Haven't touched these at all yet, just default converter settings
+		ig:ig_armed_forces = {
+			set_ig_bolstering = yes
+ 		}
+		ig:ig_trade_unions = {
+			
+ 		}
+
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 1
+		}
+	}
+
+	c:MSH = { #Dominion Malaysia
+		#Technology
+		effect_starting_technology_tier_3_tech = yes
+
+		#PowerStructureLaws
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_ethnostate
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_no_home_affairs
+		#EconomyLaws
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_no_health_system
+		#HumanRightsLaws
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_no_workers_rights
+		#activate_law = law_child_labor_allowed
+		activate_law = law_type:law_no_womens_rights
+		activate_law = law_type:law_no_social_security
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_slave_trade
+		
+		#InterestGroups,Haven't touched these at all yet, just default converter settings
+		ig:ig_armed_forces = {
+			set_ig_bolstering = yes
+		}
+		ig:ig_trade_unions = {
+			
+		}
+
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 1
+		}
+	}
+
+	c:MSI = { #Dominion Java
+		#Technology
+		effect_starting_technology_tier_3_tech = yes
+
+		#PowerStructureLaws
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_ethnostate
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_no_home_affairs
+		#EconomyLaws
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_no_health_system
+		#HumanRightsLaws
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_no_workers_rights
+		#activate_law = law_child_labor_allowed
+		activate_law = law_type:law_no_womens_rights
+		activate_law = law_type:law_no_social_security
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_slave_trade
+		
+		#InterestGroups,Haven't touched these at all yet, just default converter settings
+		ig:ig_armed_forces = {
+			set_ig_bolstering = yes
+		}
+		ig:ig_trade_unions = {
+			
+		}
+
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 1
+		}
+	}
+
+	c:W54 = { #Dominion Moluccas
+	    #Technology
+        effect_starting_technology_tier_3_tech = yes
+
+        #PowerStructureLaws
+        activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_wealth_voting
+        activate_law = law_type:law_ethnostate
+        activate_law = law_type:law_state_religion
+		activate_law = law_type:law_appointed_bureaucrats
+        activate_law = law_type:law_professional_army
+        activate_law = law_type:law_no_home_affairs
+        #EconomyLaws
+        activate_law = law_type:law_interventionism
+        activate_law = law_type:law_mercantilism
+        activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_colonial_exploitation
+        activate_law = law_type:law_local_police
+        activate_law = law_type:law_no_schools
+		activate_law = law_type:law_no_health_system
+		#HumanRightsLaws
+        activate_law = law_type:law_censorship
+        activate_law = law_type:law_no_workers_rights
+        #activate_law = law_child_labor_allowed
+        activate_law = law_type:law_no_womens_rights
+        activate_law = law_type:law_no_social_security
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_slave_trade
+		
+		#InterestGroups,Haven't touched these at all yet, just default converter settings
+		ig:ig_armed_forces = {
+			set_ig_bolstering = yes
+ 		}
+		ig:ig_trade_unions = {
+			
+ 		}
+
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 1
+		}
+	}
+
+	c:W55 = { #Dominion Pacific
 		    #Technology
         	effect_starting_technology_tier_3_tech = yes
 
@@ -217,8 +306,9 @@
 			level = 1
 		}
 	}
-#Dominion New World subjects and New Zealand
-	c:NZL = { #New Zealand
+
+#Dominion Colonial Subjects
+	c:NZL = { #Dominion New Cordoba
 		#Technology
 		effect_starting_technology_tier_3_tech = yes
 
@@ -261,7 +351,8 @@
 			level = 1
 		}
     }
-	c:PAT = { #Mapuche/Patagonia
+
+	c:X23 = { #Dominion Tasmania
 		#Technology
 		effect_starting_technology_tier_3_tech = yes
 
@@ -304,7 +395,52 @@
 			level = 1
 		}
     }
-	c:SPU = { #South Peru
+
+	c:PAT = { # Dominion Patagonia
+		#Technology
+		effect_starting_technology_tier_3_tech = yes
+
+        #PowerStructureLaws
+        activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_wealth_voting
+        activate_law = law_type:law_national_supremacy
+        activate_law = law_type:law_state_religion
+		activate_law = law_type:law_appointed_bureaucrats
+        activate_law = law_type:law_national_militia
+        activate_law = law_type:law_no_home_affairs
+        #EconomyLaws
+        activate_law = law_type:law_interventionism
+        activate_law = law_type:law_mercantilism
+        activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_no_colonial_affairs
+        activate_law = law_type:law_local_police
+        activate_law = law_type:law_no_schools
+		activate_law = law_type:law_no_health_system
+		#HumanRightsLaws
+        activate_law = law_type:law_censorship
+        activate_law = law_type:law_no_workers_rights
+        #activate_law = law_child_labor_allowed
+        activate_law = law_type:law_no_womens_rights
+        activate_law = law_type:law_no_social_security
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_slave_trade
+		
+		#InterestGroups,Haven't touched these at all yet, just default converter settings
+		ig:ig_armed_forces = {
+			set_ig_bolstering = yes
+ 		}
+		ig:ig_trade_unions = {
+			
+ 		}
+
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 1
+		}
+    }
+
+	c:SPU = { #Dominion Peru
 		#Technology
 		effect_starting_technology_tier_3_tech = yes
 
@@ -347,7 +483,8 @@
 			level = 1
 		}
     }
-	c:X24 = { #Brazil
+
+	c:X24 = { #Dominion Brazil
 		#Technology
 		effect_starting_technology_tier_3_tech = yes
 
@@ -390,7 +527,8 @@
 			level = 1
 		}
     }
-	c:X26 = { #Colombia
+
+	c:X26 = { #Dominion Colombia
 		#Technology
 		effect_starting_technology_tier_3_tech = yes
 

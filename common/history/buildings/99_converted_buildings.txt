@@ -2086,7 +2086,7 @@
 		}
 	}
 	s:STATE_BAS_CONGO = {
-		region_state:X61 = {
+		region_state:CAS = {
 			create_building = {
 				building = "building_fishing_wharf"
 				level = 1
@@ -4488,7 +4488,7 @@
 		}
 	}
 	s:STATE_CONGO = {
-		region_state:X61 = {
+		region_state:CAS = {
 			create_building = {
 				building = "building_barracks"
 				level = 2
@@ -4524,7 +4524,7 @@
 				activate_production_methods = { }
 			}
 		}
-		region_state:X61 = {
+		region_state:CAS = {
 			create_building = {
 				building = "building_cotton_plantation"
 				level = 1
@@ -5774,7 +5774,7 @@
 		}
 	}
 	s:STATE_EAST_ANGOLA = {
-		region_state:X61 = {
+		region_state:CAS = {
 			create_building = {
 				building = "building_barracks"
 				level = 3
@@ -6945,12 +6945,10 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 1
+				level = 2
 				reserves = 1
 				activate_production_methods = { }
 			}
-		}
-		region_state:X61 = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1
@@ -6968,12 +6966,6 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = { "pm_no_organization" }
-			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_basic_port" }
 			}
 		}
 	}
@@ -9944,7 +9936,7 @@
 		}
 	}
 	s:STATE_KASAI = {
-		region_state:X61 = {
+		region_state:CAS = {
 			create_building = {
 				building = "building_logging_camp"
 				level = 1
@@ -10058,7 +10050,7 @@
 		}
 	}
 	s:STATE_KATANGA = {
-		region_state:X61 = {
+		region_state:CAS = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 3
@@ -14702,14 +14694,6 @@
 	s:STATE_NORTH_ANGOLA = {
 		region_state:CAS = {
 			create_building = {
-				building = "building_barracks"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_general_training" }
-			}
-		}
-		region_state:X61 = {
-			create_building = {
 				building = "building_logging_camp"
 				level = 1
 				reserves = 1
@@ -14717,7 +14701,7 @@
 			}
 			create_building = {
 				building = "building_barracks"
-				level = 2
+				level = 3
 				reserves = 1
 				activate_production_methods = { "pm_no_organization" }
 			}
@@ -18992,7 +18976,7 @@
 		}
 	}
 	s:STATE_SOUTH_ANGOLA = {
-		region_state:X61 = {
+		region_state:CAS = {
 			create_building = {
 				building = "building_naval_base"
 				level = 1
