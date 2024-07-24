@@ -23,6 +23,7 @@
 	# Outremer Republic
 	dynamic_country_name = {
 		name = dyn_W03_rep
+		adjective = W03_ADJ
 
 		is_main_tag_only = yes
 		priority = 0
@@ -41,6 +42,7 @@
 	# Empire
 	dynamic_country_name = {
 		name = dyn_W03_emp
+		adjective = W03_ADJ
 		
 		is_main_tag_only = yes
 		priority = 0
@@ -87,6 +89,74 @@
 					has_law = law_type:law_cultural_exclusion
 					has_law = law_type:law_multicultural
 				}
+			}
+		}
+	}
+
+	# Crescent and Cross
+	dynamic_country_name = {
+		name = dyn_W03_crescent_and_cross
+		adjective = dyn_W03_crescent_adj
+
+		is_main_tag_only = yes
+		priority = 30
+
+		trigger = {
+			scope:actor ?= {
+				coa_fascist_trigger = yes
+				NOT = {
+					has_law = law_type:law_council_republic
+				}
+			}
+		}
+	}
+
+	# Sovereign States of the Orient
+	dynamic_country_name = {
+		name = dyn_W03_orient
+		adjective = dyn_W03_orient_adj
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+			scope:actor ?= {
+                NOR = {
+                    has_law = law_type:law_traditionalism
+                    has_law = law_type:law_agrarianism
+                    has_law = law_type:law_industry_banned
+                }
+			}
+		}
+	}
+
+	# Holy State of Sancta-Terre
+	dynamic_country_name = {
+		name = dyn_W03_sancte_terre
+		adjective = dyn_W03_sancte_terre_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+
+	# Free Peoples of the Cradle
+	dynamic_country_name = {
+		name = dyn_W03_cradle
+		adjective = dyn_W03_cradle_adj
+
+		is_main_tag_only = yes
+		priority = 2
+
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_anarchy
 			}
 		}
 	}
@@ -317,64 +387,6 @@ W57 = { # Ceylon
                     }
                     has_diplomatic_pact = {
                         who = c:W57
-                        type = dominion
-                        is_initiator = yes
-                    }
-                }
-			}
-		}
-	}
-}
-
-X29 = { # Crossbell
-	dynamic_country_name = {
-		name = dyn_X29_mandate
-		adjective = dyn_X29_mandate_adj
-		use_overlord_prefix = yes
-
-		is_main_tag_only = yes
-		priority = 1
-
-		trigger = {
-			exists = c:W03
-			c:W03 = {
-                OR = {
-                    has_diplomatic_pact = {
-                        who = c:X29
-                        type = puppet
-                        is_initiator = yes
-                    }
-                    has_diplomatic_pact = {
-                        who = c:X29
-                        type = dominion
-                        is_initiator = yes
-                    }
-                }
-			}
-		}
-	}
-}
-
-X62 = { # Kashmir
-	dynamic_country_name = {
-		name = dyn_X62_mandate
-		adjective = dyn_X62_mandate_adj
-		use_overlord_prefix = yes
-
-		is_main_tag_only = yes
-		priority = 1
-
-		trigger = {
-			exists = c:W03
-			c:W03 = {
-                OR = {
-                    has_diplomatic_pact = {
-                        who = c:X62
-                        type = puppet
-                        is_initiator = yes
-                    }
-                    has_diplomatic_pact = {
-                        who = c:X62
                         type = dominion
                         is_initiator = yes
                     }
