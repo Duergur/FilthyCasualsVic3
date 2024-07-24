@@ -1,0 +1,85 @@
+X98 = { #Imperial Britannia
+	dynamic_country_name = {
+		name = dyn_X98_imperium
+		adjective = X98_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+            coa_def_monarchy_flag_trigger = yes
+		}
+	}
+
+    # Republican Britannia
+	dynamic_country_name = {
+		name = dyn_X98_republic
+		adjective = X98_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+            coa_def_republic_flag_trigger = yes
+		}
+	}
+
+    # Autocratic Britannia
+	dynamic_country_name = {
+		name = dyn_X98_autocratic
+		adjective = X98_ADJ
+
+		is_main_tag_only = yes
+		priority = 5
+
+		trigger = {
+            coa_def_republic_flag_trigger = yes
+		    scope:actor ?= {
+                OR = {
+                    has_law = law_type:law_autocracy
+                    has_law = law_type:law_oligarchy
+                    has_law = law_type:law_single_party_state
+                }
+			}
+		}
+	}
+
+    # Fascist Britannia
+	dynamic_country_name = {
+		name = dyn_X98_autocratic
+		adjective = X98_ADJ
+
+		is_main_tag_only = yes
+		priority = 5
+
+		trigger = {
+            coa_fascist_trigger = yes
+		}
+	}
+
+    # Communist
+	dynamic_country_name = {
+		name = dyn_X98_communist
+		adjective = dyn_X98_communist_adj
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+            coa_def_communist_flag_trigger = yes
+		}
+	}
+
+    # Theocratic
+	dynamic_country_name = {
+		name = dyn_X98_theocratic
+		adjective = dyn_X98_theocratic_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+            coa_def_theocracy_flag_trigger = yes
+		}
+	}
+}
