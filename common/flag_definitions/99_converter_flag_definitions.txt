@@ -8391,14 +8391,6 @@ X89 = {
 		trigger = { coa_def_communist_flag_trigger = yes }
 	}
 }
-X90 = {
-	flag_definition = {
-		coa = X90
-		allow_overlord_canton = yes
-		subject_canton = X90
-		priority = 1
-	}
-}
 X91 = {
 	flag_definition = {
 		coa = X91

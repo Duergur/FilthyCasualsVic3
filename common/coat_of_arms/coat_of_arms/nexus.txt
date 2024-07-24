@@ -1,0 +1,23 @@
+﻿X90 = {
+    textured_emblem = {
+        texture = "custom_export/X90.tga"
+    }
+}
+
+X90_republic = {
+    textured_emblem = {
+        texture = "custom_export/X90_republic.tga"
+    }
+}
+
+X90_communist = {
+    textured_emblem = {
+        texture = "custom_export/X90_communist.tga"
+    }
+}
+
+X90_fascist = {
+    textured_emblem = {
+        texture = "custom_export/X90_fascist.tga"
+    }
+}

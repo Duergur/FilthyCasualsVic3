@@ -112,7 +112,6 @@ X65_communist = { textured_emblem = { texture = "custom_export/X65_communist.tga
 X72 = { textured_emblem = { texture = "custom_export/X72.tga" } }
 X78 = { textured_emblem = { texture = "custom_export/X78.tga" } }
 X86 = { textured_emblem = { texture = "custom_export/X86.tga" } }
-X90 = { textured_emblem = { texture = "custom_export/X90.tga" } }
 X91 = { textured_emblem = { texture = "custom_export/X91.tga" } }
 X95 = { textured_emblem = { texture = "custom_export/X95.tga" } }
 X98 = { textured_emblem = { texture = "custom_export/X98.tga" } }
