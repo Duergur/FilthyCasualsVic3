@@ -3,6 +3,11 @@
         texture = "custom_export/X90.tga"
     }
 }
+X90_areligious = {
+    textured_emblem = {
+        texture = "custom_export/X90_areligious.tga"
+    }
+}
 
 X90_republic = {
     textured_emblem = {

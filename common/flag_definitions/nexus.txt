@@ -5,20 +5,36 @@
 		subject_canton = X90
 		priority = 0
 	}
+	flag_definition = { # aReligious
+		coa = X90_areligious
+		allow_overlord_canton = yes
+		subject_canton = X90
+		priority = 1
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+			scope:actor ?= {
+			    NOT = {
+                    has_law = law_type:law_state_religion
+			    }
+			} 
+		}
+	}
+
 	flag_definition = { # Republic
 		coa = X90_republic
 		allow_overlord_canton = yes
 		subject_canton = X90_republic
-		priority = 1
+		priority = 2
 		trigger = {
 		    coa_def_republic_flag_trigger = yes
 			scope:actor ?= {
 			    NOT = {
                     has_law = law_type:law_state_religion
 			    }
-			}
+			} 
 		}
 	}
+
 	flag_definition = { # Communist
 		coa = X90_communist
 		allow_overlord_canton = yes
@@ -28,6 +44,7 @@
 		    coa_def_communist_flag_trigger = yes
 		}
 	}
+
 	flag_definition = { # Fascist
 		coa = X90_fascist
 		allow_overlord_canton = yes
