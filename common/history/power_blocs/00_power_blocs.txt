@@ -98,8 +98,8 @@
 			name = HOLY_ROMAN_EMPIRE_BLOC
 			map_color = { 158 14 62 }
 			founding_date = 962.2.2
-			identity = identity_sovereign_empire
-			principle = principle_vassalization_2
+			identity = identity_ideological_union
+			principle = principle_ideological_truth_1
 			
 			member = c:GBR
 			member = c:IRE
