@@ -74,7 +74,7 @@
 		adjective = dyn_W03_nihilist_adj
 		
 		is_main_tag_only = yes
-		priority = 10
+		priority = 31
 		
 		trigger = {
 			scope:actor ?= {
@@ -102,12 +102,27 @@
 		priority = 30
 
 		trigger = {
-			scope:actor ?= {
-				coa_fascist_trigger = yes
-				NOT = {
-					has_law = law_type:law_council_republic
-				}
-			}
+            scope:actor ?= {
+                ruler = {
+                    OR = {
+                        interest_group = {
+                            is_interest_group_type = ig_rural_folk
+                        }
+                        has_ideology = ideology:ideology_fascist
+                        has_ideology = ideology:ideology_integralist
+                    }
+                }
+                OR = {
+                    has_law = law_type:law_autocracy
+                    has_law = law_type:law_technocracy
+                    has_law = law_type:law_oligarchy
+                    has_law = law_type:law_single_party_state
+                }
+                OR = {
+                    has_law = law_type:law_parliamentary_republic
+                    has_law = law_type:law_presidential_republic
+                }
+            }
 		}
 	}
 

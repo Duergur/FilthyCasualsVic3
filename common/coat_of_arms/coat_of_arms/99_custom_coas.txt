@@ -37,7 +37,6 @@ T29 = { textured_emblem = { texture = "custom_export/T29.tga" } }
 TWT = { textured_emblem = { texture = "custom_export/TWT.tga" } }
 V11 = { textured_emblem = { texture = "custom_export/V11.tga" } }
 W01 = { textured_emblem = { texture = "custom_export/W01.tga" } }
-W03 = { textured_emblem = { texture = "custom_export/W03.tga" } }
 W25 = { textured_emblem = { texture = "custom_export/W25.tga" } }
 W38 = { textured_emblem = { texture = "custom_export/W38.tga" } }
 W46 = { textured_emblem = { texture = "custom_export/W46.tga" } }
