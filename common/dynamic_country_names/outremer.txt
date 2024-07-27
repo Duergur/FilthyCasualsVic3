@@ -380,32 +380,3 @@ X74 = { # Madras
 		}
 	}
 }
-
-W57 = { # Ceylon
-	dynamic_country_name = {
-		name = dyn_W57_mandate
-		adjective = dyn_W57_mandate_adj
-		use_overlord_prefix = yes
-
-		is_main_tag_only = yes
-		priority = 1
-
-		trigger = {
-			exists = c:W03
-			c:W03 = {
-                OR = {
-                    has_diplomatic_pact = {
-                        who = c:W57
-                        type = puppet
-                        is_initiator = yes
-                    }
-                    has_diplomatic_pact = {
-                        who = c:W57
-                        type = dominion
-                        is_initiator = yes
-                    }
-                }
-			}
-		}
-	}
-}
