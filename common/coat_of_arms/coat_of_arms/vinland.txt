@@ -1,0 +1,13 @@
+﻿VIN = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "white"
+	color3 = hsv360 { 180 50 60 }
+
+	colored_emblem = {
+		texture = "ce_cross_norway.dds"
+		color1 = color2
+		color2 = color3
+		instance = { position = { 0.57 0.5 } scale = { 1.4 1.4 } }
+	}
+}

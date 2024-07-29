@@ -4983,42 +4983,6 @@ W46 = {
 		priority = 1
 	}
 }
-W47 = {
-	flag_definition = {
-		coa = legacy_vinland
-		allow_overlord_canton = yes
-		subject_canton = legacy_vinland
-		priority = 1
-	}
-	flag_definition = {
-		coa = legacy_vinland_republic
-		allow_overlord_canton = yes
-		priority = 10
-		subject_canton = legacy_vinland_republic
-		trigger = { coa_def_republic_flag_trigger = yes }
-	}
-	flag_definition = {
-		coa = legacy_vinland_monarchy
-		allow_overlord_canton = yes
-		priority = 20
-		subject_canton = legacy_vinland_monarchy
-		overlord_canton_scale = { 0.337 0.337 }
-		trigger = { coa_def_absolute_monarchy_flag_trigger = yes }
-	}
-	flag_definition = {
-		coa = legacy_vinland_fascist
-		allow_overlord_canton = yes
-		priority = 1500
-		subject_canton = legacy_vinland_fascist
-		trigger = { coa_def_fascist_flag_trigger = yes }
-	}
-	flag_definition = {
-		coa = legacy_vinland_communist
-		allow_overlord_canton = yes
-		priority = 1500
-		trigger = { coa_def_communist_flag_trigger = yes }
-	}
-}
 W48 = {
 	flag_definition = {
 		coa = legacy_FJW
