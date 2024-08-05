@@ -20187,7 +20187,7 @@
 	}
 	
 	s:STATE_WEST_JAVA = {
-		region_state:W54 = {
+		region_state:MSI = {
 			create_building = {
 				building = "building_naval_base"
 				level = 1

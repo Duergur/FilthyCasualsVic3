@@ -65071,7 +65071,7 @@
 		}
 	}
 	s:STATE_WEST_JAVA = {
-		region_state:W54 = {
+		region_state:MSI = {
 			create_pop = {
 				culture = javan
 				religion = hindu
