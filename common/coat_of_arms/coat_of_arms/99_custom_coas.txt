@@ -37,7 +37,6 @@ T29 = { textured_emblem = { texture = "custom_export/T29.tga" } }
 TWT = { textured_emblem = { texture = "custom_export/TWT.tga" } }
 V11 = { textured_emblem = { texture = "custom_export/V11.tga" } }
 W01 = { textured_emblem = { texture = "custom_export/W01.tga" } }
-W03 = { textured_emblem = { texture = "custom_export/W03.tga" } }
 W25 = { textured_emblem = { texture = "custom_export/W25.tga" } }
 W38 = { textured_emblem = { texture = "custom_export/W38.tga" } }
 W46 = { textured_emblem = { texture = "custom_export/W46.tga" } }
@@ -112,7 +111,6 @@ X65_communist = { textured_emblem = { texture = "custom_export/X65_communist.tga
 X72 = { textured_emblem = { texture = "custom_export/X72.tga" } }
 X78 = { textured_emblem = { texture = "custom_export/X78.tga" } }
 X86 = { textured_emblem = { texture = "custom_export/X86.tga" } }
-X90 = { textured_emblem = { texture = "custom_export/X90.tga" } }
 X91 = { textured_emblem = { texture = "custom_export/X91.tga" } }
 X95 = { textured_emblem = { texture = "custom_export/X95.tga" } }
 X98 = { textured_emblem = { texture = "custom_export/X98.tga" } }

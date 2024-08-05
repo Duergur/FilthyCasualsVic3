@@ -11261,7 +11261,7 @@ turkish={
 
 azerbaijani={
 	color= hsv{ 0.67 0.38 0.41 }
-	religion = shiite
+	religion = "vidilist"
 	traits = { caucasus_group turkic middle_eastern_heritage }
 	male_common_first_names={
 		tr_Abaza tr_Adil tr_Adnan tr_Agah tr_Ahmet tr_Akif tr_Alaeddin tr_Ali tr_Alim tr_Ali_Ziya
@@ -12569,7 +12569,7 @@ persian={
 
 uzbek={
 	color= hsv{ 0.01 0.46 0.59 }
-	religion = sunni
+	religion = "vidilist"
 	traits = { iranian_turanian_culture_group central_asian_heritage }
 	male_common_first_names={
 		uz_Abdul uz_Abdulla uz_Abdullo uz_Alisher uz_Azamat uz_Aziz uz_Bahrom uz_Baxtiyor
@@ -13017,7 +13017,7 @@ hazara={
 
 turkmen={
 	color= hsv{ 0.84 0.21 0.75 }
-	religion = sunni
+	religion = "vidilist"
 	traits = { iranian_turanian_culture_group central_asian_heritage }
 	male_common_first_names={
 		tk_Alty tk_Aly tk_Aman tk_Arslanbek tk_Atajan tk_Basim tk_Baymuhammet tk_Begenc

@@ -1,0 +1,36 @@
+﻿W47 = {
+	flag_definition = {
+		coa = VIN
+		allow_overlord_canton = yes
+		subject_canton = VIN
+		priority = 1
+	}
+	flag_definition = {
+		coa = VIN
+		allow_overlord_canton = yes
+		priority = 10
+		subject_canton = VIN
+		trigger = { coa_def_republic_flag_trigger = yes }
+	}
+	flag_definition = {
+		coa = VIN
+		allow_overlord_canton = yes
+		priority = 20
+		subject_canton = VIN
+		overlord_canton_scale = { 0.337 0.337 }
+		trigger = { coa_def_absolute_monarchy_flag_trigger = yes }
+	}
+	flag_definition = {
+		coa = VIN
+		allow_overlord_canton = yes
+		priority = 1500
+		subject_canton = VIN
+		trigger = { coa_def_fascist_flag_trigger = yes }
+	}
+	flag_definition = {
+		coa = VIN
+		allow_overlord_canton = yes
+		priority = 1500
+		trigger = { coa_def_communist_flag_trigger = yes }
+	}
+}

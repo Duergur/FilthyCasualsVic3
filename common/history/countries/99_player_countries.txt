@@ -269,7 +269,7 @@
         activate_law = law_type:law_censorship
         activate_law = law_type:law_no_workers_rights
         #activate_law = law_child_labor_allowed
-        activate_law = law_type:law_women_in_the_workplace
+        activate_law = law_type:law_women_own_property
         activate_law = law_type:law_no_social_security
 		activate_law = law_type:law_migration_controls
 		activate_law = law_type:law_slavery_banned
@@ -345,10 +345,10 @@
         activate_law = law_type:law_no_home_affairs
         #EconomyLaws
         activate_law = law_type:law_traditionalism
-        activate_law = law_type:law_protectionism
+        activate_law = law_type:law_mercantilism
         activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_no_colonial_affairs
         activate_law = law_type:law_local_police
         activate_law = law_type:law_no_schools
 		activate_law = law_type:law_public_health_insurance
@@ -365,10 +365,6 @@
 		ig:ig_trade_unions = {
 			set_ig_bolstering = yes
  		}
-		set_institution_investment_level = {
-			institution = institution_colonial_affairs
-			level = 1
-		}
 	}
 
     c:CAS = { #CastilianDominion

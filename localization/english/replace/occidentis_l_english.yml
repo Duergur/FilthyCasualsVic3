@@ -1,0 +1,11 @@
+﻿l_english:
+ GBR: "Romanum Occidentis"
+ GBR_ADJ: "Occidental"
+
+ #Dynamic Country names
+ dyn_GBR_britannia: "Imperium Romanum Occidentis"
+ dyn_GBR_republic: "Roma Occidentis"
+ dyn_GBR_communist: "Res Publica Populi"
+ dyn_GBR_autocratic: "Autocratia Civitatis Romanae Occidentalis"
+ dyn_GBR_theocratic: "Patriarchatus Sanctus Petrus"
+ dyn_GBR_theocratic_adj: "Petrus"

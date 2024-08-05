@@ -1,0 +1,242 @@
+ETH = {
+    # Fatamid Caliphate
+	dynamic_country_name = {
+		name = dyn_ETH_caliphate
+		adjective = dyn_ETH_caliphate_adj
+
+		is_main_tag_only = yes
+		priority = 3
+
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
+			scope:actor ?= {
+			    country_has_state_religion = rel:shiite
+			    OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+			    }
+			}
+		}
+	}
+
+    # Emirate
+	dynamic_country_name = {
+		name = dyn_ETH_emirate
+		adjective = dyn_ETH_emirate_adj
+
+		is_main_tag_only = yes
+		priority = 2
+
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
+			scope:actor ?= {
+			    country_has_state_religion = rel:shiite
+			}
+		}
+	}
+
+    # Solomonic
+	dynamic_country_name = {
+		name = dyn_ETH_solomonic
+		adjective = dyn_ETH_eth_adj
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
+			scope:actor ?= {
+			    OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+			    }
+			}
+		}
+	}
+
+    # Eden
+	dynamic_country_name = {
+		name = dyn_ETH_eden
+		adjective = dyn_ETH_eden_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+
+    # Empire
+	dynamic_country_name = {
+		name = dyn_ETH_fatamid_empire
+		adjective = dyn_ETH_fatamid_empire_adj
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+			scope:actor ?= {
+			    OR = {
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+			    }
+			}
+		}
+	}
+
+    # East African UK
+	dynamic_country_name = {
+		name = dyn_ETH_sahara
+		adjective = dyn_ETH_sahara_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+
+    # Ethno
+	dynamic_country_name = {
+		name = dyn_ETH_ethno
+		adjective = dyn_ETH_ethno_adj
+
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			scope:actor ?= {
+                has_law = law_type:law_ethnostate
+                OR = {
+                    has_law = law_type:law_autocracy
+                    has_law = law_type:law_oligarchy
+                    has_law = law_type:law_single_party_state
+                    has_law = law_type:law_technocracy
+                }
+			}
+		}
+	}
+
+    # Presidential
+	dynamic_country_name = {
+		name = dyn_ETH_presidential
+		adjective = dyn_ETH_presidential_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			scope:actor ?= {
+			    has_law = law_type:law_presidential_republic
+			}
+		}
+	}
+
+    # Parliamentary
+	dynamic_country_name = {
+		name = dyn_ETH_parliament
+		adjective = dyn_ETH_parliament_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			scope:actor ?= {
+			    has_law = law_type:law_parliamentary_republic
+			}
+		}
+	}
+
+    # Communist
+	dynamic_country_name = {
+		name = dyn_ETH_communist
+		adjective = dyn_ETH_communist_adj
+
+		is_main_tag_only = yes
+		priority = 5
+
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+    # Cairo
+	dynamic_country_name = {
+		name = dyn_ETH_cairo
+		adjective = dyn_ETH_cairo_adj
+
+		is_main_tag_only = yes
+		priority = 30
+
+		trigger = {
+			scope:actor ?= {
+			    NOT = {
+                    country_rank >= rank_value:major_power
+			    }
+			    capital = { state_region = s:STATE_LOWER_EGYPT }
+			}
+		}
+	}
+}
+
+# Subjects
+
+W57 = { # Ceylon
+	dynamic_country_name = {
+		name = dyn_W57_company
+		adjective = dyn_W57_company_adj
+		use_overlord_prefix = yes
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			coa_def_subject_trigger = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_W57_mandate
+		adjective = dyn_W57_mandate_adj
+		use_overlord_prefix = yes
+
+		is_main_tag_only = yes
+		priority = 1
+
+		trigger = {
+			exists = c:W03
+			c:W03 = {
+                OR = {
+                    has_diplomatic_pact = {
+                        who = c:W57
+                        type = puppet
+                        is_initiator = yes
+                    }
+                    has_diplomatic_pact = {
+                        who = c:W57
+                        type = dominion
+                        is_initiator = yes
+                    }
+                }
+			}
+		}
+	}
+}
+
+W58 = { # New Guinea
+	dynamic_country_name = {
+		name = W58
+		adjective = W58_ADJ
+		use_overlord_prefix = yes
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			coa_def_subject_trigger = yes
+		}
+	}
+}

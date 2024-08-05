@@ -9683,7 +9683,7 @@ X28 = {
 
 X29 = {
 	color = { 60 154 135 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { nepali }
 	religion = vidilist
@@ -9980,7 +9980,7 @@ X61 = {
 
 X62 = {
 	color = { 220 178 155 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { hindustani_proper }
 	religion = vidilist

@@ -1,0 +1,12 @@
+﻿l_english:
+ X98: "Romanum Orientis"
+ X98_ADJ: "Orientis"
+
+ #Dynamic Country names
+ dyn_X98_imperium: "Imperium Romanum Orientis"
+ dyn_X98_republic: "Replublica Orientis"
+ dyn_X98_communist: "People's Republic of Constantinople"
+ dyn_X98_communist_adj: "Constantinoplian"
+ dyn_X98_autocratic: "Autocratia Civitatis Romanae Orientalis"
+ dyn_X98_theocratic: "Latin Patriarchate"
+ dyn_X98_theocratic_adj: "Latin"

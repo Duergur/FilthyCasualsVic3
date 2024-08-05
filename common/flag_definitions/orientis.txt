@@ -1,0 +1,16 @@
+﻿X98 = {
+	flag_definition = {
+		coa = X98
+		allow_overlord_canton = yes
+		subject_canton = X98
+		priority = 0
+	}
+
+	flag_definition = {
+		coa = ORT_theocracy
+		allow_overlord_canton = yes
+		priority = 1
+		subject_canton = ORT_theocracy
+		trigger = { coa_def_theocracy_flag_trigger = yes }
+	}
+}

@@ -1,0 +1,10 @@
+﻿ORT_theocracy = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_chi_rho.dds"
+		color1 = color2
+	}
+}
