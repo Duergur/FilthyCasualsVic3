@@ -1,13 +1,13 @@
 ﻿COUNTRIES = {
-#Dominion Trade Companies
+#Dominion Provinces and Companies
 	c:X61 = { #Dominion Borneo
 	    #Technology
         effect_starting_technology_tier_3_tech = yes
 
         #PowerStructureLaws
         activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_wealth_voting
-        activate_law = law_type:law_ethnostate
+		activate_law = law_type:law_landed_voting
+        activate_law = law_type:law_national_supremacy
         activate_law = law_type:law_state_religion
 		activate_law = law_type:law_appointed_bureaucrats
         activate_law = law_type:law_professional_army
@@ -17,7 +17,7 @@
         activate_law = law_type:law_mercantilism
         activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_frontier_colonization
         activate_law = law_type:law_local_police
         activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_health_system
@@ -60,7 +60,7 @@
         activate_law = law_type:law_mercantilism
         activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_frontier_colonization
         activate_law = law_type:law_local_police
         activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_health_system
@@ -93,8 +93,8 @@
 
         #PowerStructureLaws
         activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_wealth_voting
-        activate_law = law_type:law_ethnostate
+		activate_law = law_type:law_landed_voting
+        activate_law = law_type:law_national_supremacy
         activate_law = law_type:law_state_religion
 		activate_law = law_type:law_appointed_bureaucrats
         activate_law = law_type:law_professional_army
@@ -104,7 +104,7 @@
         activate_law = law_type:law_mercantilism
         activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_frontier_colonization
         activate_law = law_type:law_local_police
         activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_health_system
@@ -136,28 +136,28 @@
 		effect_starting_technology_tier_3_tech = yes
 
 		#PowerStructureLaws
-		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_wealth_voting
-		activate_law = law_type:law_ethnostate
-		activate_law = law_type:law_state_religion
+        activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_landed_voting
+        activate_law = law_type:law_national_supremacy
+        activate_law = law_type:law_state_religion
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_professional_army
-		activate_law = law_type:law_no_home_affairs
-		#EconomyLaws
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_land_based_taxation
+        activate_law = law_type:law_professional_army
+        activate_law = law_type:law_no_home_affairs
+        #EconomyLaws
+        activate_law = law_type:law_interventionism
+        activate_law = law_type:law_mercantilism
+        activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_colonial_exploitation
-		activate_law = law_type:law_local_police
-		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_frontier_colonization
+        activate_law = law_type:law_local_police
+        activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_health_system
 		#HumanRightsLaws
-		activate_law = law_type:law_censorship
-		activate_law = law_type:law_no_workers_rights
-		#activate_law = law_child_labor_allowed
-		activate_law = law_type:law_no_womens_rights
-		activate_law = law_type:law_no_social_security
+        activate_law = law_type:law_censorship
+        activate_law = law_type:law_no_workers_rights
+        #activate_law = law_child_labor_allowed
+        activate_law = law_type:law_no_womens_rights
+        activate_law = law_type:law_no_social_security
 		activate_law = law_type:law_migration_controls
 		activate_law = law_type:law_slave_trade
 		
@@ -180,28 +180,28 @@
 		effect_starting_technology_tier_3_tech = yes
 
 		#PowerStructureLaws
-		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_wealth_voting
-		activate_law = law_type:law_ethnostate
-		activate_law = law_type:law_state_religion
+        activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_landed_voting
+        activate_law = law_type:law_national_supremacy
+        activate_law = law_type:law_state_religion
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_professional_army
-		activate_law = law_type:law_no_home_affairs
-		#EconomyLaws
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_land_based_taxation
+        activate_law = law_type:law_professional_army
+        activate_law = law_type:law_no_home_affairs
+        #EconomyLaws
+        activate_law = law_type:law_interventionism
+        activate_law = law_type:law_mercantilism
+        activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_colonial_exploitation
-		activate_law = law_type:law_local_police
-		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_frontier_colonization
+        activate_law = law_type:law_local_police
+        activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_health_system
 		#HumanRightsLaws
-		activate_law = law_type:law_censorship
-		activate_law = law_type:law_no_workers_rights
-		#activate_law = law_child_labor_allowed
-		activate_law = law_type:law_no_womens_rights
-		activate_law = law_type:law_no_social_security
+        activate_law = law_type:law_censorship
+        activate_law = law_type:law_no_workers_rights
+        #activate_law = law_child_labor_allowed
+        activate_law = law_type:law_no_womens_rights
+        activate_law = law_type:law_no_social_security
 		activate_law = law_type:law_migration_controls
 		activate_law = law_type:law_slave_trade
 		
@@ -225,8 +225,8 @@
 
         #PowerStructureLaws
         activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_wealth_voting
-        activate_law = law_type:law_ethnostate
+		activate_law = law_type:law_landed_voting
+        activate_law = law_type:law_national_supremacy
         activate_law = law_type:law_state_religion
 		activate_law = law_type:law_appointed_bureaucrats
         activate_law = law_type:law_professional_army
@@ -236,7 +236,7 @@
         activate_law = law_type:law_mercantilism
         activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_frontier_colonization
         activate_law = law_type:law_local_police
         activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_health_system
@@ -269,8 +269,8 @@
 
         #PowerStructureLaws
         activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_wealth_voting
-        activate_law = law_type:law_ethnostate
+		activate_law = law_type:law_landed_voting
+        activate_law = law_type:law_national_supremacy
         activate_law = law_type:law_state_religion
 		activate_law = law_type:law_appointed_bureaucrats
         activate_law = law_type:law_professional_army
@@ -280,7 +280,7 @@
         activate_law = law_type:law_mercantilism
         activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_frontier_colonization
         activate_law = law_type:law_local_police
         activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_health_system
@@ -313,19 +313,19 @@
 		effect_starting_technology_tier_3_tech = yes
 
         #PowerStructureLaws
-        activate_law = law_type:law_parliamentary_republic
-		activate_law = law_type:law_wealth_voting
+        activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_landed_voting
         activate_law = law_type:law_national_supremacy
         activate_law = law_type:law_state_religion
 		activate_law = law_type:law_appointed_bureaucrats
-        activate_law = law_type:law_national_militia
+        activate_law = law_type:law_professional_army
         activate_law = law_type:law_no_home_affairs
         #EconomyLaws
         activate_law = law_type:law_interventionism
         activate_law = law_type:law_mercantilism
-        activate_law = law_type:law_per_capita_based_taxation
+        activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_frontier_colonization
         activate_law = law_type:law_local_police
         activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_health_system
@@ -357,19 +357,19 @@
 		effect_starting_technology_tier_3_tech = yes
 
         #PowerStructureLaws
-        activate_law = law_type:law_parliamentary_republic
-		activate_law = law_type:law_wealth_voting
+        activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_landed_voting
         activate_law = law_type:law_national_supremacy
         activate_law = law_type:law_state_religion
 		activate_law = law_type:law_appointed_bureaucrats
-        activate_law = law_type:law_national_militia
+        activate_law = law_type:law_professional_army
         activate_law = law_type:law_no_home_affairs
         #EconomyLaws
         activate_law = law_type:law_interventionism
         activate_law = law_type:law_mercantilism
-        activate_law = law_type:law_per_capita_based_taxation
+        activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_frontier_colonization
         activate_law = law_type:law_local_police
         activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_health_system
@@ -403,17 +403,17 @@
         #PowerStructureLaws
         activate_law = law_type:law_parliamentary_republic
 		activate_law = law_type:law_wealth_voting
-        activate_law = law_type:law_national_supremacy
+        activate_law = law_type:law_racial_segregation
         activate_law = law_type:law_state_religion
 		activate_law = law_type:law_appointed_bureaucrats
-        activate_law = law_type:law_national_militia
+        activate_law = law_type:law_professional_army
         activate_law = law_type:law_no_home_affairs
         #EconomyLaws
         activate_law = law_type:law_interventionism
         activate_law = law_type:law_mercantilism
         activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_frontier_colonization
         activate_law = law_type:law_local_police
         activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_health_system
@@ -447,17 +447,17 @@
         #PowerStructureLaws
         activate_law = law_type:law_parliamentary_republic
 		activate_law = law_type:law_wealth_voting
-        activate_law = law_type:law_national_supremacy
+        activate_law = law_type:law_racial_segregation
         activate_law = law_type:law_state_religion
 		activate_law = law_type:law_appointed_bureaucrats
-        activate_law = law_type:law_national_militia
+        activate_law = law_type:law_professional_army
         activate_law = law_type:law_no_home_affairs
         #EconomyLaws
         activate_law = law_type:law_interventionism
         activate_law = law_type:law_mercantilism
         activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_frontier_colonization
         activate_law = law_type:law_local_police
         activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_health_system
@@ -491,17 +491,17 @@
         #PowerStructureLaws
         activate_law = law_type:law_parliamentary_republic
 		activate_law = law_type:law_wealth_voting
-        activate_law = law_type:law_national_supremacy
+        activate_law = law_type:law_racial_segregation
         activate_law = law_type:law_state_religion
 		activate_law = law_type:law_appointed_bureaucrats
-        activate_law = law_type:law_national_militia
+        activate_law = law_type:law_professional_army
         activate_law = law_type:law_no_home_affairs
         #EconomyLaws
         activate_law = law_type:law_interventionism
         activate_law = law_type:law_mercantilism
         activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_frontier_colonization
         activate_law = law_type:law_local_police
         activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_health_system
@@ -535,17 +535,17 @@
         #PowerStructureLaws
         activate_law = law_type:law_parliamentary_republic
 		activate_law = law_type:law_wealth_voting
-        activate_law = law_type:law_national_supremacy
+        activate_law = law_type:law_racial_segregation
         activate_law = law_type:law_state_religion
 		activate_law = law_type:law_appointed_bureaucrats
-        activate_law = law_type:law_national_militia
+        activate_law = law_type:law_professional_army
         activate_law = law_type:law_no_home_affairs
         #EconomyLaws
         activate_law = law_type:law_interventionism
         activate_law = law_type:law_mercantilism
         activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_frontier_colonization
         activate_law = law_type:law_local_police
         activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_health_system

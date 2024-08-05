@@ -4,7 +4,6 @@
 		set_relations = { country = c:W25 value = 10 }
 	}
 	c:BOH = {
-		set_relations = { country = c:CAS value = -200 }
 		set_relations = { country = c:W03 value = -100 }
 		set_relations = { country = c:W47 value = 50 }
 		set_relations = { country = c:X90 value = -200 }

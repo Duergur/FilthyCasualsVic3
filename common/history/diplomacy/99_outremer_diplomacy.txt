@@ -41,7 +41,6 @@ c:W03 = {
 #Relations
 	c:W03 = {
 		set_relations = { country = c:BOH value = -100 }
-		set_relations = { country = c:CAS value = -100 }
 		set_relations = { country = c:GBR value = -200 }
 		set_relations = { country = c:W25 value = -200 }
 		set_relations = { country = c:X56 value = 35 }

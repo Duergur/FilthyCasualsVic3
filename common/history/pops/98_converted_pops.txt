@@ -34837,7 +34837,93 @@
 				size = 15647
 			}
 		}
-		region_state:PAT = {
+		region_state:R05 = {
+			create_pop = {
+				culture = je
+				religion = animist
+				size = 30875
+			}
+		}
+		region_state:SPU = {
+			create_pop = {
+				culture = amazonian
+				religion = animist
+				size = 6256
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				pop_type = slaves
+				size = 238
+			}
+			create_pop = {
+				culture = guarani
+				religion = animist
+				size = 8773
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				pop_type = slaves
+				size = 334
+			}
+			create_pop = {
+				culture = guarani
+				religion = catholic
+				size = 6422
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = catholic
+				pop_type = slaves
+				size = 245
+			}
+			create_pop = {
+				culture = platinean
+				religion = catholic
+				size = 20994
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = catholic
+				pop_type = slaves
+				size = 800
+			}
+			create_pop = {
+				culture = amazonian
+				religion = animist
+				size = 3670
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				pop_type = slaves
+				size = 140
+			}
+			create_pop = {
+				culture = guarani
+				religion = animist
+				size = 960
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = animist
+				pop_type = slaves
+				size = 37
+			}
+			create_pop = {
+				culture = platinean
+				religion = catholic
+				size = 13056
+			}
+			create_pop = {
+				culture = afro_caribeno
+				religion = catholic
+				pop_type = slaves
+				size = 498
+			}
+		}
+		region_state:X24 = {
 			create_pop = {
 				culture = guarani
 				religion = animist
@@ -35025,94 +35111,6 @@
 				pop_type = slaves
 				size = 501
 			}
-		}
-		region_state:R05 = {
-			create_pop = {
-				culture = je
-				religion = animist
-				size = 30875
-			}
-		}
-		region_state:SPU = {
-			create_pop = {
-				culture = amazonian
-				religion = animist
-				size = 6256
-			}
-			create_pop = {
-				culture = afro_caribeno
-				religion = animist
-				pop_type = slaves
-				size = 238
-			}
-			create_pop = {
-				culture = guarani
-				religion = animist
-				size = 8773
-			}
-			create_pop = {
-				culture = afro_caribeno
-				religion = animist
-				pop_type = slaves
-				size = 334
-			}
-			create_pop = {
-				culture = guarani
-				religion = catholic
-				size = 6422
-			}
-			create_pop = {
-				culture = afro_caribeno
-				religion = catholic
-				pop_type = slaves
-				size = 245
-			}
-			create_pop = {
-				culture = platinean
-				religion = catholic
-				size = 20994
-			}
-			create_pop = {
-				culture = afro_caribeno
-				religion = catholic
-				pop_type = slaves
-				size = 800
-			}
-			create_pop = {
-				culture = amazonian
-				religion = animist
-				size = 3670
-			}
-			create_pop = {
-				culture = afro_caribeno
-				religion = animist
-				pop_type = slaves
-				size = 140
-			}
-			create_pop = {
-				culture = guarani
-				religion = animist
-				size = 960
-			}
-			create_pop = {
-				culture = afro_caribeno
-				religion = animist
-				pop_type = slaves
-				size = 37
-			}
-			create_pop = {
-				culture = platinean
-				religion = catholic
-				size = 13056
-			}
-			create_pop = {
-				culture = afro_caribeno
-				religion = catholic
-				pop_type = slaves
-				size = 498
-			}
-		}
-		region_state:X24 = {
 			create_pop = {
 				culture = je
 				religion = animist

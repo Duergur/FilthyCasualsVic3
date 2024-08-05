@@ -27,7 +27,6 @@
 
 #Relations
 	c:GBR = {
-		set_relations = { country = c:CAS value = -200 }
 		set_relations = { country = c:CLM value = 25 }
 		set_relations = { country = c:IRE value = 10 }
 		set_relations = { country = c:SCO value = 10 }

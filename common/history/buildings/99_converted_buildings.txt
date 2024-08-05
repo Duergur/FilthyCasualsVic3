@@ -12422,7 +12422,21 @@
 		}
 	}
 	s:STATE_MATO_GROSSO = {
-		region_state:PAT = {
+		region_state:SPU = {
+			create_building = {
+				building = "building_logging_camp"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+			}
+		}
+		region_state:X24 = {
+			create_building = {
+				building = "building_maize_farm"
+				level = 1
+				reserves = 1
+				activate_production_methods = { }
+			}
 			create_building = {
 				building = "building_construction_sector"
 				level = 1
@@ -12435,22 +12449,6 @@
 				reserves = 1
 				activate_production_methods = { "pm_no_organization" }
 			}
-			create_building = {
-				building = "building_maize_farm"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-		}
-		region_state:SPU = {
-			create_building = {
-				building = "building_logging_camp"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
-			}
-		}
-		region_state:X24 = {
 			create_building = {
 				building = "building_maize_farm"
 				level = 1
