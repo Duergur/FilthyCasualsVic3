@@ -30633,6 +30633,8 @@
 				religion = shinto
 				size = 1134458
 			}
+		}
+		region_state:W55 = {
 			create_pop = {
 				culture = micronesian
 				religion = animist
@@ -41930,7 +41932,7 @@
 		}
 	}
 	s:STATE_NORTH_ANGOLA = {
-		region_state:X61 = {
+		region_state:CAS = {
 			create_pop = {
 				culture = yoruba
 				religion = animist
