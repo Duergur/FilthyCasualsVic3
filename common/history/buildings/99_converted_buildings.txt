@@ -2089,13 +2089,13 @@
 			}
 			create_building = {
 				building = "building_dye_plantation"
-				level = 1
+				level = 2
 				reserves = 1
 				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_paper_mills"
-				level = 1
+				level = 2
 				reserves = 1
 				activate_production_methods = { "pm_sulfite_pulping" }
 			}
@@ -2105,16 +2105,8 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
-		}
-		region_state:ETH = {
 			create_building = {
 				building = "building_construction_sector"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_dye_plantation"
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
@@ -2124,12 +2116,6 @@
 				level = 4
 				reserves = 1
 				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
-			}
-			create_building = {
-				building = "building_paper_mills"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_sulfite_pulping" }
 			}
 		}
 	}
@@ -4139,14 +4125,6 @@
 		}
 	}
 	s:STATE_CONGO_ORIENTALE = {
-		region_state:ETH = {
-			create_building = {
-				building = "building_dye_plantation"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-		}
 		region_state:CAS = {
 			create_building = {
 				building = "building_cotton_plantation"
@@ -4156,7 +4134,7 @@
 			}
 			create_building = {
 				building = "building_dye_plantation"
-				level = 2
+				level = 3
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -5031,7 +5009,7 @@
 		}
 	}
 	s:STATE_EASTERN_NEW_GUINEA = {
-		region_state:ETH = {
+		region_state:W55 = {
 			create_building = {
 				building = "building_logging_camp"
 				level = 1
@@ -9212,23 +9190,15 @@
 			}
 			create_building = {
 				building = "building_barracks"
-				level = 7
+				level = 8
 				reserves = 1
 				activate_production_methods = { "pm_no_organization" }
 			}
-		}
-		region_state:CAS = {
 			create_building = {
 				building = "building_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
-			}
-			create_building = {
-				building = "building_barracks"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_millet_farm"
@@ -10626,19 +10596,11 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
-		}
-		region_state:CAS = {
 			create_building = {
 				building = "building_naval_base"
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_no_naval_theory" }
-			}
-			create_building = {
-				building = "building_barracks"
-				level = 10
-				reserves = 1
-				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_logging_camp"
@@ -11267,6 +11229,12 @@
 				level = 4
 				reserves = 1
 				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+			create_building = {
+				building = "building_barracks"
+				level = 10
+				reserves = 1
+				activate_production_methods = { "pm_no_organization" }
 			}
 		}
 	}
@@ -12672,7 +12640,7 @@
 		region_state:CAS = {
 			create_building = {
 				building = "building_dye_plantation"
-				level = 2
+				level = 3
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -12684,7 +12652,7 @@
 			}
 			create_building = {
 				building = "building_millet_farm"
-				level = 4
+				level = 6
 				reserves = 1
 				activate_production_methods = { "pm_simple_farming" }
 			}
@@ -12694,27 +12662,12 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
-		}
-		region_state:ETH = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
 			}
-			create_building = {
-				building = "building_dye_plantation"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_millet_farm"
-				level = 2
-				reserves = 1
-				activate_production_methods = { "pm_simple_farming" }
-			}
-		}
 	}
 	s:STATE_NINGXIA = {
 		region_state:W25 = {
@@ -17129,20 +17082,6 @@
 		}
 	}
 	s:STATE_SOUTH_SUMATRA = {
-		region_state:ETH = {
-			create_building = {
-				building = "building_livestock_ranch"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_port"
-				level = 4
-				reserves = 1
-				activate_production_methods = { }
-			}
-		}
 		region_state:W53 = {
 			create_building = {
 				building = "building_construction_sector"
@@ -17176,7 +17115,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 1
+				level = 5
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -17188,7 +17127,7 @@
 			}
 			create_building = {
 				building = "building_livestock_ranch"
-				level = 2
+				level = 3
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -18042,7 +17981,7 @@
 		region_state:CAS = {
 			create_building = {
 				building = "building_construction_sector"
-				level = 1
+				level = 2
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -18087,14 +18026,6 @@
 				level = 4
 				reserves = 1
 				activate_production_methods = { "pm_vertical_filing_cabinets" }
-			}
-		}
-		region_state:ETH = {
-			create_building = {
-				building = "building_construction_sector"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
 			}
 		}
 	}

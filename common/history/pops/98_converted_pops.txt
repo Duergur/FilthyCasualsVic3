@@ -6864,8 +6864,6 @@
 				religion = catholic
 				size = 176945
 			}
-		}
-		region_state:ETH = {
 			create_pop = {
 				culture = dynamic-aka-yorumba-culture-num1
 				religion = aladura
@@ -13669,13 +13667,6 @@
 		}
 	}
 	s:STATE_CONGO_ORIENTALE = {
-		region_state:ETH = {
-			create_pop = {
-				culture = ruanda
-				religion = animist
-				size = 37447
-			}
-		}
 		region_state:MNB = {
 			create_pop = {
 				culture = fluvian_bantu
@@ -13690,6 +13681,11 @@
 			}
 		}
 		region_state:CAS = {
+			create_pop = {
+				culture = ruanda
+				religion = animist
+				size = 37447
+			}
 			create_pop = {
 				culture = luba
 				religion = animist
@@ -16026,7 +16022,7 @@
 		}
 	}
 	s:STATE_EASTERN_NEW_GUINEA = {
-		region_state:ETH = {
+		region_state:W55 = {
 			create_pop = {
 				culture = melanesian
 				religion = animist
@@ -17613,6 +17609,8 @@
 				pop_type = slaves
 				size = 1840
 			}
+		}
+		region_state:ETH = {
 			create_pop = {
 				culture = berber
 				religion = sunni
@@ -23369,6 +23367,13 @@
 		}
 	}
 	s:STATE_HAUSALAND = {
+		region_state:CAS = {
+			create_pop = {
+				culture = hausa
+				religion = aladura
+				size = 219541
+			}
+		}
 		region_state:ETH = {
 			create_pop = {
 				culture = dynamic-aka-yorumba-culture-num1
@@ -23395,11 +23400,7 @@
 				religion = sunni
 				size = 219541
 			}
-			create_pop = {
-				culture = hausa
-				religion = aladura
-				size = 219541
-			}
+			
 		}
 	}
 	s:STATE_HAWAIIAN_ISLANDS = {
@@ -28329,6 +28330,17 @@
 				pop_type = slaves
 				size = 468
 			}
+			create_pop = {
+				culture = luba
+				religion = animist
+				size = 21220
+			}
+			create_pop = {
+				culture = luba
+				religion = animist
+				pop_type = slaves
+				size = 949
+			}
 		}
 		region_state:CAS = {
 			create_pop = {
@@ -28363,17 +28375,6 @@
 				religion = catholic
 				pop_type = slaves
 				size = 8119
-			}
-			create_pop = {
-				culture = luba
-				religion = animist
-				size = 21220
-			}
-			create_pop = {
-				culture = luba
-				religion = animist
-				pop_type = slaves
-				size = 949
 			}
 			create_pop = {
 				culture = luba
@@ -28806,8 +28807,6 @@
 				pop_type = slaves
 				size = 172
 			}
-		}
-		region_state:CAS = {
 			create_pop = {
 				culture = luba
 				religion = animist
@@ -32735,8 +32734,6 @@
 				religion = shiite
 				size = 16992
 			}
-		}
-		region_state:CAS = {
 			create_pop = {
 				culture = tonga
 				religion = animist
@@ -40821,8 +40818,6 @@
 				religion = catholic
 				size = 192279
 			}
-		}
-		region_state:ETH = {
 			create_pop = {
 				culture = dynamic-aka-nupe-culture-num1
 				religion = sunni
@@ -55466,7 +55461,7 @@
 		}
 	}
 	s:STATE_SOUTH_SUMATRA = {
-		region_state:ETH = {
+		region_state:W53 = {
 			create_pop = {
 				culture = sumatran
 				religion = hindu
@@ -55489,8 +55484,6 @@
 				pop_type = slaves
 				size = 30600
 			}
-		}
-		region_state:W53 = {
 			create_pop = {
 				culture = sumatran
 				religion = hindu
@@ -58930,8 +58923,6 @@
 				pop_type = slaves
 				size = 4401
 			}
-		}
-		region_state:ETH = {
 			create_pop = {
 				culture = songhai
 				religion = sunni
@@ -67434,17 +67425,6 @@
 			}
 			create_pop = {
 				culture = sena
-				religion = animist
-				size = 37641
-			}
-			create_pop = {
-				culture = sena
-				religion = animist
-				pop_type = slaves
-				size = 1114
-			}
-			create_pop = {
-				culture = sena
 				religion = catholic
 				size = 21282
 			}
@@ -67464,17 +67444,6 @@
 				religion = catholic
 				pop_type = slaves
 				size = 1586
-			}
-			create_pop = {
-				culture = sena
-				religion = animist
-				size = 37946
-			}
-			create_pop = {
-				culture = sena
-				religion = animist
-				pop_type = slaves
-				size = 1123
 			}
 			create_pop = {
 				culture = sena
@@ -67500,6 +67469,28 @@
 			}
 		}
 		region_state:ETH = {
+			create_pop = {
+				culture = sena
+				religion = animist
+				size = 37946
+			}
+			create_pop = {
+				culture = sena
+				religion = animist
+				pop_type = slaves
+				size = 1123
+			}
+			create_pop = {
+				culture = sena
+				religion = animist
+				size = 37641
+			}
+			create_pop = {
+				culture = sena
+				religion = animist
+				pop_type = slaves
+				size = 1114
+			}
 			create_pop = {
 				culture = sena
 				religion = animist
@@ -67738,6 +67729,20 @@
 			create_pop = {
 				culture = lunda
 				religion = animist
+				pop_type = slaves
+				size = 2047
+			}
+			create_pop = {
+				culture = chewa
+				religion = animist
+				pop_type = slaves
+				size = 1535
+			}
+		}
+		region_state:ETH = {
+			create_pop = {
+				culture = lunda
+				religion = animist
 				size = 14373
 			}
 			create_pop = {
@@ -67750,20 +67755,6 @@
 				religion = animist
 				size = 4740
 			}
-			create_pop = {
-				culture = lunda
-				religion = animist
-				pop_type = slaves
-				size = 2047
-			}
-			create_pop = {
-				culture = chewa
-				religion = animist
-				pop_type = slaves
-				size = 1535
-			}
-		}
-		region_state:ETH = {
 			create_pop = {
 				culture = bemba
 				religion = animist
