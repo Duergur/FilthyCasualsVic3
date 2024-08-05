@@ -3812,7 +3812,7 @@
 		}
 	}
 	s:STATE_CENTRAL_JAVA = {
-		region_state:W54 = {
+		region_state:MSI = {
 			create_building = {
 				building = "building_university"
 				level = 1
@@ -5808,7 +5808,7 @@
 		}
 	}
 	s:STATE_EAST_BORNEO = {
-		region_state:W53 = {
+		region_state:X61 = {
 			create_building = {
 				building = "building_logging_camp"
 				level = 1
@@ -5916,27 +5916,7 @@
 		}
 	}
 	s:STATE_EAST_JAVA = {
-		region_state:CAS = {
-			create_building = {
-				building = "building_paper_mills"
-				level = 2
-				reserves = 1
-				activate_production_methods = { "pm_sulfite_pulping" }
-			}
-			create_building = {
-				building = "building_dye_plantation"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-		}
-		region_state:W54 = {
+		region_state:MSI = {
 			create_building = {
 				building = "building_naval_base"
 				level = 2
@@ -5957,6 +5937,18 @@
 			}
 			create_building = {
 				building = "building_port"
+				level = 2
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_paper_mills"
+				level = 2
+				reserves = 1
+				activate_production_methods = { "pm_sulfite_pulping" }
+			}
+			create_building = {
+				building = "building_dye_plantation"
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
@@ -10190,7 +10182,7 @@
 				activate_production_methods = { "pm_no_organization" }
 			}
 		}
-		region_state:X61 = {
+		region_state:CAS = {
 			create_building = {
 				building = "building_logging_camp"
 				level = 1
@@ -10836,6 +10828,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_no_organization" }
+			}
+			create_building = {
+				building = "building_port"
+				level = 1
+				reserves = 1
+				activate_production_methods = { }
 			}
 		}
 	}
@@ -11674,7 +11672,7 @@
 				activate_production_methods = { }
 			}
 		}
-		region_state:W56 = {
+		region_state:CAS = {
 			create_building = {
 				building = "building_naval_base"
 				level = 1
@@ -11880,7 +11878,7 @@
 		}
 	}
 	s:STATE_LUZON = {
-		region_state:CAS = {
+		region_state:X61 = {
 			create_building = {
 				building = "building_barracks"
 				level = 1
@@ -12186,7 +12184,7 @@
 		}
 	}
 	s:STATE_MALAYA = {
-		region_state:W53 = {
+		region_state:MSH = {
 			create_building = {
 				building = "building_naval_base"
 				level = 1
@@ -14454,7 +14452,7 @@
 		}
 	}
 	s:STATE_NORTHERN_CAPE = {
-		region_state:W56 = {
+		region_state:CAS = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1
@@ -15024,42 +15022,10 @@
 		}
 	}
 	s:STATE_NORTH_SUMATRA = {
-		region_state:KOR = {
-			create_building = {
-				building = "building_logging_camp"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
-			}
-			create_building = {
-				building = "building_naval_base"
-				level = 3
-				reserves = 1
-				activate_production_methods = { "pm_no_naval_theory" }
-			}
-			create_building = {
-				building = "building_barracks"
-				level = 10
-				reserves = 1
-				activate_production_methods = { "pm_no_organization" }
-			}
-			create_building = {
-				building = "building_banana_plantation"
-				level = 2
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-		}
 		region_state:W53 = {
 			create_building = {
 				building = "building_logging_camp"
-				level = 4
+				level = 5
 				reserves = 1
 				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
 			}
@@ -15089,6 +15055,24 @@
 			}
 			create_building = {
 				building = "building_port"
+				level = 3
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_naval_base"
+				level = 3
+				reserves = 1
+				activate_production_methods = { "pm_no_naval_theory" }
+			}
+			create_building = {
+				building = "building_barracks"
+				level = 10
+				reserves = 1
+				activate_production_methods = { "pm_no_organization" }
+			}
+			create_building = {
+				building = "building_banana_plantation"
 				level = 2
 				reserves = 1
 				activate_production_methods = { }
@@ -15992,12 +15976,18 @@
 		}
 	}
 	s:STATE_PEGU = {
-		region_state:CAS = {
+		region_state:W53 = {
 			create_building = {
 				building = "building_opium_plantation"
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_port"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
 			}
 		}
 		region_state:HTH = {
@@ -19306,26 +19296,6 @@
 				activate_production_methods = { }
 			}
 		}
-		region_state:KOR = {
-			create_building = {
-				building = "building_coal_mine"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_picks_and_shovels_building_coal_mine" }
-			}
-			create_building = {
-				building = "building_livestock_ranch"
-				level = 2
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_banana_plantation"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-		}
 		region_state:W53 = {
 			create_building = {
 				building = "building_construction_sector"
@@ -19359,6 +19329,24 @@
 			}
 			create_building = {
 				building = "building_port"
+				level = 1
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_coal_mine"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_picks_and_shovels_building_coal_mine" }
+			}
+			create_building = {
+				building = "building_livestock_ranch"
+				level = 2
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_banana_plantation"
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
@@ -19446,7 +19434,7 @@
 		}
 	}
 	s:STATE_SUNDA_ISLANDS = {
-		region_state:W54 = {
+		region_state:MSI = {
 			create_building = {
 				building = "building_logging_camp"
 				level = 1
@@ -19978,7 +19966,13 @@
 		}
 	}
 	s:STATE_TASMANIA = {
-		region_state:NZL = {
+		region_state:X23 = {
+			create_building = {
+				building = "building_port"
+				level = 3
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
 			create_building = {
 				building = "building_fishing_wharf"
 				level = 1
@@ -19990,26 +19984,6 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_no_naval_theory" }
-			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_basic_port" }
-			}
-		}
-		region_state:X23 = {
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_basic_port" }
-			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
 			}
 		}
 	}
@@ -20106,7 +20080,7 @@
 				activate_production_methods = { }
 			}
 		}
-		region_state:W53 = {
+		region_state:MSH = {
 			create_building = {
 				building = "building_logging_camp"
 				level = 2
@@ -20734,7 +20708,7 @@
 		}
 	}
 	s:STATE_TRANSVAAL = {
-		region_state:W56 = {
+		region_state:CAS = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 2
@@ -22056,7 +22030,7 @@
 		}
 	}
 	s:STATE_VRYSTAAT = {
-		region_state:W56 = {
+		region_state:CAS = {
 			create_building = {
 				building = "building_coal_mine"
 				level = 1
@@ -22494,7 +22468,7 @@
 		}
 	}
 	s:STATE_WEST_BORNEO = {
-		region_state:W53 = {
+		region_state:X61 = {
 			create_building = {
 				building = "building_barracks"
 				level = 1
@@ -23782,7 +23756,7 @@
 		}
 	}
 	s:STATE_ZULULAND = {
-		region_state:W56 = {
+		region_state:CAS = {
 			create_building = {
 				building = "building_naval_base"
 				level = 1

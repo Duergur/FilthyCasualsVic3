@@ -1,6 +1,6 @@
 ﻿COUNTRIES = {
 #Dominion Trade Companies
-	c:X61 = { #Dominion Borneo 
+	c:X61 = { #Dominion Borneo
 	    #Technology
         effect_starting_technology_tier_3_tech = yes
 
@@ -396,7 +396,7 @@
 		}
     }
 
-	c:PAT = { # Dominion Patagonia
+	c:PAT = { #Dominion Patagonia
 		#Technology
 		effect_starting_technology_tier_3_tech = yes
 

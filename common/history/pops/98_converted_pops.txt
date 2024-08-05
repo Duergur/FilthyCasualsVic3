@@ -11872,7 +11872,7 @@
 		}
 	}
 	s:STATE_CENTRAL_JAVA = {
-		region_state:W54 = {
+		region_state:MSI = {
 			create_pop = {
 				culture = javan
 				religion = hindu
@@ -16701,7 +16701,7 @@
 		}
 	}
 	s:STATE_EAST_BORNEO = {
-		region_state:W53 = {
+		region_state:X61 = {
 			create_pop = {
 				culture = bornean
 				religion = hindu
@@ -17128,7 +17128,7 @@
 		}
 	}
 	s:STATE_EAST_JAVA = {
-		region_state:CAS = {
+		region_state:MSI = {
 			create_pop = {
 				culture = korean
 				religion = confucian
@@ -17184,8 +17184,6 @@
 				pop_type = slaves
 				size = 3610
 			}
-		}
-		region_state:W54 = {
 			create_pop = {
 				culture = javan
 				religion = hindu
@@ -28817,7 +28815,7 @@
 				size = 172
 			}
 		}
-		region_state:X61 = {
+		region_state:CAS = {
 			create_pop = {
 				culture = luba
 				religion = animist
@@ -32760,7 +32758,7 @@
 				size = 16992
 			}
 		}
-		region_state:W56 = {
+		region_state:CAS = {
 			create_pop = {
 				culture = tonga
 				religion = animist
@@ -33210,7 +33208,7 @@
 		}
 	}
 	s:STATE_LUZON = {
-		region_state:CAS = {
+		region_state:X61 = {
 			create_pop = {
 				culture = moro
 				religion = sunni
@@ -33717,7 +33715,7 @@
 		}
 	}
 	s:STATE_MALAYA = {
-		region_state:W53 = {
+		region_state:MSH = {
 			create_pop = {
 				culture = malay
 				religion = sunni
@@ -41206,7 +41204,7 @@
 				size = 2143
 			}
 		}
-		region_state:W56 = {
+		region_state:CAS = {
 			create_pop = {
 				culture = sotho
 				religion = animist
@@ -42166,7 +42164,7 @@
 		}
 	}
 	s:STATE_NORTH_BORNEO = {
-		region_state:W53 = {
+		region_state:X61 = {
 			create_pop = {
 				culture = bornean
 				religion = sunni
@@ -43094,48 +43092,6 @@
 		}
 	}
 	s:STATE_NORTH_SUMATRA = {
-		region_state:KOR = {
-			create_pop = {
-				culture = sumatran
-				religion = hindu
-				size = 604511
-			}
-			create_pop = {
-				culture = sumatran
-				religion = hindu
-				size = 37702
-			}
-			create_pop = {
-				culture = korean
-				religion = confucian
-				size = 970580
-			}
-			create_pop = {
-				culture = korean
-				religion = confucian
-				size = 60532
-			}
-			create_pop = {
-				culture = sumatran
-				religion = hindu
-				size = 574083
-			}
-			create_pop = {
-				culture = sumatran
-				religion = hindu
-				size = 35804
-			}
-			create_pop = {
-				culture = korean
-				religion = confucian
-				size = 894223
-			}
-			create_pop = {
-				culture = korean
-				religion = confucian
-				size = 55770
-			}
-		}
 		region_state:W53 = {
 			create_pop = {
 				culture = sumatran
@@ -43609,6 +43565,46 @@
 				religion = catholic
 				pop_type = slaves
 				size = 17868
+			}
+			create_pop = {
+				culture = sumatran
+				religion = hindu
+				size = 604511
+			}
+			create_pop = {
+				culture = sumatran
+				religion = hindu
+				size = 37702
+			}
+			create_pop = {
+				culture = korean
+				religion = confucian
+				size = 970580
+			}
+			create_pop = {
+				culture = korean
+				religion = confucian
+				size = 60532
+			}
+			create_pop = {
+				culture = sumatran
+				religion = hindu
+				size = 574083
+			}
+			create_pop = {
+				culture = sumatran
+				religion = hindu
+				size = 35804
+			}
+			create_pop = {
+				culture = korean
+				religion = confucian
+				size = 894223
+			}
+			create_pop = {
+				culture = korean
+				religion = confucian
+				size = 55770
 			}
 		}
 	}
@@ -47081,7 +47077,7 @@
 		}
 	}
 	s:STATE_PEGU = {
-		region_state:CAS = {
+		region_state:W53 = {
 			create_pop = {
 				culture = filipino
 				religion = animist
@@ -55534,7 +55530,7 @@
 				size = 30600
 			}
 		}
-		region_state:KOR = {
+		region_state:W53 = {
 			create_pop = {
 				culture = sumatran
 				religion = hindu
@@ -55565,8 +55561,6 @@
 				religion = confucian
 				size = 120553
 			}
-		}
-		region_state:W53 = {
 			create_pop = {
 				culture = sumatran
 				religion = hindu
@@ -55935,7 +55929,7 @@
 		}
 	}
 	s:STATE_SUNDA_ISLANDS = {
-		region_state:W54 = {
+		region_state:MSI = {
 			create_pop = {
 				culture = moluccan
 				religion = hindu
@@ -57288,7 +57282,22 @@
 		}
 	}
 	s:STATE_TASMANIA = {
-		region_state:NZL = {
+		region_state:X23 = {
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 174166
+			}
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 31262
+			}
+			create_pop = {
+				culture = korean
+				religion = confucian
+				size = 673777
+			}
 			create_pop = {
 				culture = aborigine
 				religion = animist
@@ -57328,23 +57337,6 @@
 				culture = spanish
 				religion = catholic
 				size = 197267
-			}
-		}
-		region_state:X23 = {
-			create_pop = {
-				culture = aborigine
-				religion = animist
-				size = 174166
-			}
-			create_pop = {
-				culture = aborigine
-				religion = animist
-				size = 31262
-			}
-			create_pop = {
-				culture = korean
-				religion = confucian
-				size = 673777
 			}
 		}
 	}
@@ -57657,7 +57649,7 @@
 				size = 23461
 			}
 		}
-		region_state:W53 = {
+		region_state:MSH = {
 			create_pop = {
 				culture = malay
 				religion = sunni
@@ -59758,7 +59750,7 @@
 		}
 	}
 	s:STATE_TRANSVAAL = {
-		region_state:W56 = {
+		region_state:CAS = {
 			create_pop = {
 				culture = sotho
 				religion = animist
@@ -63473,7 +63465,7 @@
 		}
 	}
 	s:STATE_VRYSTAAT = {
-		region_state:W56 = {
+		region_state:CAS = {
 			create_pop = {
 				culture = sotho
 				religion = animist
@@ -64630,7 +64622,7 @@
 		}
 	}
 	s:STATE_WEST_BORNEO = {
-		region_state:W53 = {
+		region_state:X61 = {
 			create_pop = {
 				culture = bornean
 				religion = hindu
@@ -68479,7 +68471,7 @@
 		}
 	}
 	s:STATE_ZULULAND = {
-		region_state:W56 = {
+		region_state:CAS = {
 			create_pop = {
 				culture = zulu
 				religion = animist

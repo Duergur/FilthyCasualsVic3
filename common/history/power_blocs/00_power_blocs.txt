@@ -7,16 +7,20 @@
 			identity = identity_sovereign_empire
 			principle = principle_vassalization_1
 			
-			member = c:NZL
-			member = c:PAT
-			member = c:SPU
+			member = c:PAP
+			member = c:X61
+			member = c:W56
 			member = c:W53
+			member = c:MSH
+			member = c:MSI
 			member = c:W54
 			member = c:W55
-			member = c:W56
+			member = c:NZL
+			member = c:X23
+			member = c:PAT
+			member = c:SPU
 			member = c:X24
 			member = c:X26
-			member = c:X61
 		}
 	}
 

@@ -347,6 +347,10 @@
 		effect_starting_pop_literacy_very_high = yes
 		effect_starting_pop_wealth_medium = yes
 	}
+	c:MSI = {
+		effect_starting_pop_literacy_very_high = yes
+		effect_starting_pop_wealth_medium = yes
+	}
 	c:MTB = {
 		effect_starting_pop_literacy_baseline = yes
 		effect_starting_pop_wealth_low = yes
@@ -412,7 +416,7 @@
 		effect_starting_pop_wealth_low = yes
 	}
 	c:NZL = {
-		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_literacy_very_high = yes
 		effect_starting_pop_wealth_medium = yes
 	}
 	c:NZP = {
@@ -456,7 +460,7 @@
 		effect_starting_pop_wealth_very_high = yes
 	}
 	c:PAT = {
-		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_literacy_very_high = yes
 		effect_starting_pop_wealth_low = yes
 	}
 	c:PPU = {
@@ -512,7 +516,7 @@
 		effect_starting_pop_wealth_low = yes
 	}
 	c:SPU = {
-		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_literacy_very_high = yes
 		effect_starting_pop_wealth_low = yes
 	}
 	c:T01 = {
@@ -629,7 +633,7 @@
 	}
 	c:W55 = {
 		effect_starting_pop_literacy_very_high = yes
-		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_wealth_medium = yes
 	}
 	c:W56 = {
 		effect_starting_pop_literacy_very_high = yes
@@ -684,15 +688,15 @@
 		effect_starting_pop_wealth_medium = yes
 	}
 	c:X23 = {
-		effect_starting_pop_literacy_middling = yes
-		effect_starting_pop_wealth_high = yes
+		effect_starting_pop_literacy_very_high = yes
+		effect_starting_pop_wealth_medium = yes
 	}
 	c:X24 = {
-		effect_starting_pop_literacy_high = yes
-		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_very_high = yes
+		effect_starting_pop_wealth_medium = yes
 	}
 	c:X26 = {
-		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_literacy_very_high = yes
 		effect_starting_pop_wealth_low = yes
 	}
 	c:X29 = {
@@ -712,7 +716,7 @@
 		effect_starting_pop_wealth_low = yes
 	}
 	c:X56 = {
-		effect_starting_pop_literacy_middling = yes
+		effect_starting_pop_literacy_very_high = yes
 		effect_starting_pop_wealth_high = yes
 	}
 	c:X57 = {
@@ -732,7 +736,7 @@
 		effect_starting_pop_wealth_medium = yes
 	}
 	c:X61 = {
-		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_literacy_very_high = yes
 		effect_starting_pop_wealth_medium = yes
 	}
 	c:X62 = {

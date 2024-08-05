@@ -5357,20 +5357,22 @@ MSC = {
 }
 
 MSH = {
-	color = { 193 189 151 }
-	country_type = decentralized
+	color = { 193 171 8 }
+	country_type = recognized
 	tier = principality
-	cultures = { shona }
-	capital = STATE_ZAMBEZI
+	cultures = { spanish }
+	religion = catholic
+	capital = STATE_MALAYA
 }
 
-# MSI = { Reperposed tag
-# 	color = { 190 103 84 }
-# 	country_type = decentralized
-# 	tier = principality
-# 	cultures = { maasai }
-# 	capital = STATE_RIFT_VALLEY
-# }
+MSI = {
+	color = { 193 171 8 }
+	country_type = recognized
+	tier = principality
+	cultures = { spanish }
+	religion = catholic
+	capital = STATE_CENTRAL_JAVA
+}
 
 MSK = {
 	color = { 75 75 148 }
@@ -9021,21 +9023,21 @@ W52 = {
 }
 
 W53 = {
-	color = { 0 240 0 }
+	color = { 193 171 8 }
 	country_type = recognized
 	tier = principality
 	cultures = { spanish }
 	religion = catholic
-	capital = STATE_TENASSERIM
+	capital = STATE_NORTH_SUMATRA
 }
 
 W54 = {
-	color = { 196 191 61 }
+	color = { 193 171 8 }
 	country_type = recognized
 	tier = principality
 	cultures = { spanish }
 	religion = catholic
-	capital = STATE_WEST_JAVA
+	capital = STATE_MOLUCCAS
 }
 
 W55 = {
@@ -9048,12 +9050,12 @@ W55 = {
 }
 
 W56 = {
-	color = { 0 175 0 }
+	color = { 193 171 8 }
 	country_type = recognized
 	tier = principality
 	cultures = { spanish }
 	religion = catholic
-	capital = STATE_ZULULAND
+	capital = STATE_CAPE_COLONY
 }
 
 W57 = {
@@ -9968,12 +9970,12 @@ X60 = {
 }
 
 X61 = {
-	color = { 97 12 12 }
+	color = { 193 171 8 }
 	country_type = recognized
 	tier = principality
 	cultures = { spanish }
 	religion = catholic
-	capital = STATE_BAS_CONGO
+	capital = STATE_WEST_BORNEO
 }
 
 X62 = {

@@ -15,86 +15,192 @@
 #Rivalries
 
 #Trade Agreements
+	c:CAS = { #Trade with Papal State
+		create_diplomatic_pact = {
+			country = c:PAP
+			type = trade_agreement
+		}
+	}
+	c:PAP = { #Trade with Papal State
+		create_diplomatic_pact = {
+			country = c:CAS
+			type = trade_agreement
+		}
+	}
 
 #Subjects
 	c:CAS = {
 		create_diplomatic_pact = {
-			country = c:PAT #Mapuche/Patagonia
-			type = dominion
+			country = c:X61 #Dominion Borneo
+			type = puppet
 		}
 	}
 	c:CAS = {
 		create_diplomatic_pact = {
-			country = c:SPU #South Peru
-			type = dominion
+			country = c:W56 #Dominion Cape Company
+			type = puppet
 		}
 	}
 	c:CAS = {
 		create_diplomatic_pact = {
-			country = c:X24 #Brazil
-			type = dominion
+			country = c:W53 #Dominion Sumatra
+			type = puppet
 		}
 	}
 	c:CAS = {
 		create_diplomatic_pact = {
-			country = c:NZL #New Zealand
-			type = dominion
+			country = c:MSH #Dominion Malaysia
+			type = puppet
 		}
 	}
 	c:CAS = {
 		create_diplomatic_pact = {
-			country = c:X26 #Colombia
-			type = dominion
+			country = c:MSI #Dominion Java
+			type = puppet
 		}
 	}
 	c:CAS = {
 		create_diplomatic_pact = {
-			country = c:X61 #Kongo
-			type = dominion
+			country = c:W54 #Dominion Moluccas
+			type = puppet
 		}
 	}
     c:CAS = {
 		create_diplomatic_pact = {
-			country = c:W53 #Indonesia Company
-			type = dominion
-		}
-	}
-	c:CAS = {
-		create_diplomatic_pact = {
-			country = c:W54 #Moluccas Company
-			type = dominion
-		}
-	}
-	c:CAS = {
-		create_diplomatic_pact = {
-			country = c:W55 #Pacific Company
-			type = dominion
-		}
-	}
-	c:CAS = {
-		create_diplomatic_pact = {
-			country = c:W56 #South Africa
+			country = c:W55 #Dominion Pacific
 			type = puppet
+		}
+	}
+	c:CAS = {
+		create_diplomatic_pact = {
+			country = c:NZL #Dominion New Cordoba
+			type = puppet
+		}
+	}
+	c:CAS = {
+		create_diplomatic_pact = {
+			country = c:X23 #Dominion Tasmania
+			type = puppet
+		}
+	}
+	c:CAS = {
+		create_diplomatic_pact = {
+			country = c:PAT #Dominion Patagonia
+			type = dominion
+		}
+	}
+	c:CAS = {
+		create_diplomatic_pact = {
+			country = c:SPU #Dominion Peru
+			type = dominion
+		}
+	}
+	c:CAS = {
+		create_diplomatic_pact = {
+			country = c:X24 #Dominion Brazil
+			type = dominion
+		}
+	}
+	c:CAS = {
+		create_diplomatic_pact = {
+			country = c:X26 #Dominion Colombia
+			type = dominion
 		}
 	}
 #Truces
 
 #Relations
 	c:CAS = {
-		set_relations = { country = c:BOH value = -200 }
-		set_relations = { country = c:GBR value = -200 }
-		set_relations = { country = c:NZL value = 35 }
-		set_relations = { country = c:PAP value = 75 }
-		set_relations = { country = c:PAT value = 35 }
-		set_relations = { country = c:SPU value = 35 }
-		set_relations = { country = c:W03 value = -100 }
+		#Players
+		set_relations = { country = c:BOH value = -25 }
+		set_relations = { country = c:GBR value = -50 }
+		set_relations = { country = c:W47 value = -50 }
+		set_relations = { country = c:X98 value = -50 }
+		set_relations = { country = c:W25 value = -25 }
+		set_relations = { country = c:W03 value = 50 }
+		set_relations = { country = c:ETH value = 75 }
+		#Power Block
+		set_relations = { country = c:PAP value = 150 }
+		set_relations = { country = c:X61 value = 50 }
+		set_relations = { country = c:W56 value = 50 }
+		set_relations = { country = c:W53 value = 50 }
+		set_relations = { country = c:MSH value = 50 }
+		set_relations = { country = c:MSI value = 50 }
+		set_relations = { country = c:W54 value = 50 }
+		set_relations = { country = c:W55 value = 50 }
+		set_relations = { country = c:NZL value = 50 }
+		set_relations = { country = c:X23 value = 50 }
+		set_relations = { country = c:PAT value = 10 }
+		set_relations = { country = c:SPU value = 10 }
+		set_relations = { country = c:X24 value = 10 }
+		set_relations = { country = c:X26 value = 10 }
+	}
+	c:PAP = {
+		set_relations = { country = c:CAS value = 150 }
+	}
+	c:X61 = {
+		set_relations = { country = c:CAS value = 100 }
+		set_relations = { country = c:GBR value = -50 }
+		set_relations = { country = c:W47 value = -50 }
+	}
+	c:W56 = {
+		set_relations = { country = c:CAS value = 100 }
+		set_relations = { country = c:GBR value = -50 }
+		set_relations = { country = c:W47 value = -50 }
+	}
+	c:W53 = {
+		set_relations = { country = c:CAS value = 100 }
+		set_relations = { country = c:GBR value = -50 }
+		set_relations = { country = c:W47 value = -50 }
+	}
+	c:MSH = {
+		set_relations = { country = c:CAS value = 100 }
+		set_relations = { country = c:GBR value = -50 }
+		set_relations = { country = c:W47 value = -50 }
+	}
+	c:MSI = {
+		set_relations = { country = c:CAS value = 100 }
+		set_relations = { country = c:GBR value = -50 }
+		set_relations = { country = c:W47 value = -50 }
+	}
+	c:W54 = {
+		set_relations = { country = c:CAS value = 100 }
+		set_relations = { country = c:GBR value = -50 }
+		set_relations = { country = c:W47 value = -50 }
+	}
+	c:W55 = {
+		set_relations = { country = c:CAS value = 100 }
+		set_relations = { country = c:GBR value = -50 }
+		set_relations = { country = c:W47 value = -50 }
+	}
+	c:NZL = {
+		set_relations = { country = c:CAS value = 100 }
+		set_relations = { country = c:GBR value = -50 }
+		set_relations = { country = c:W47 value = -50 }
+	}
+	c:X23 = {
+		set_relations = { country = c:CAS value = 100 }
+		set_relations = { country = c:GBR value = -50 }
+		set_relations = { country = c:W47 value = -50 }
+	}
+	c:PAT = {
+		set_relations = { country = c:CAS value = 50 }
+		set_relations = { country = c:GBR value = -100 }
 		set_relations = { country = c:W47 value = -100 }
-		set_relations = { country = c:W53 value = 10 }
-		set_relations = { country = c:W54 value = 10 }
-		set_relations = { country = c:W55 value = 10 }
-		set_relations = { country = c:W56 value = 10 }
-		set_relations = { country = c:X24 value = 35 }
-		set_relations = { country = c:X26 value = 35 }
-		set_relations = { country = c:X61 value = 10 }
+	}
+	c:SPU = {
+		set_relations = { country = c:CAS value = 50 }
+		set_relations = { country = c:GBR value = -100 }
+		set_relations = { country = c:W47 value = -100 }
+	}
+	c:X24 = {
+		set_relations = { country = c:CAS value = 50 }
+		set_relations = { country = c:GBR value = -100 }
+		set_relations = { country = c:W47 value = -100 }
+	}
+	c:X26 = {
+		set_relations = { country = c:CAS value = 50 }
+		set_relations = { country = c:GBR value = -100 }
+		set_relations = { country = c:W47 value = -100 }
 	}
 }
