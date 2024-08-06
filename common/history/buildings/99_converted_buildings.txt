@@ -82,7 +82,7 @@
 				activate_production_methods = { }
 			}
 			create_building = {
-				building = "building_dye_plantation"
+				building = "building_rice_farm"
 				level = 4
 				reserves = 1
 				activate_production_methods = { }
@@ -546,7 +546,7 @@
 				building = "building_government_administration"
 				level = 2
 				reserves = 1
-				activate_production_methods = { "pm_vertical_filing_cabinets" }
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
 	}
@@ -1029,12 +1029,6 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = { "pm_no_naval_theory" }
-			}
-			create_building = {
-				building = "building_port"
-				level = 2
-				reserves = 1
-				activate_production_methods = { }
 			}
 		}
 	}
@@ -1889,13 +1883,13 @@
 			}
 			create_building = {
 				building = "building_millet_farm"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_simple_farming" }
 			}
 			create_building = {
-				building = "building_dye_plantation"
-				level = 1
+				building = "building_tea_plantation"
+				level = 2
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -3341,7 +3335,7 @@
 				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
 			}
 			create_building = {
-				building = "building_dye_plantation"
+				building = "building_rice_farm"
 				level = 4
 				reserves = 1
 				activate_production_methods = { }
@@ -3372,7 +3366,7 @@
 			}
 			create_building = {
 				building = "building_government_administration"
-				level = 28
+				level = 15
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
@@ -3509,6 +3503,12 @@
 	s:STATE_CENTRAL_JAVA = {
 		region_state:MSI = {
 			create_building = {
+				building = "building_government_administration"
+				level = 18
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
 				building = "building_university"
 				level = 1
 				reserves = 1
@@ -3533,7 +3533,7 @@
 				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
-				building = "building_dye_plantation"
+				building = "building_rice_farm"
 				level = 2
 				reserves = 1
 				activate_production_methods = { }
@@ -4130,12 +4130,6 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
-			create_building = {
-				building = "building_port"
-				level = 4
-				reserves = 1
-				activate_production_methods = { }
-			}
 		}
 	}
 	s:STATE_CONGO_ORIENTALE = {
@@ -4230,16 +4224,10 @@
 				activate_production_methods = { "pm_picks_and_shovels_building_iron_mine" }
 			}
 			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
 				building = "building_government_administration"
 				level = 2
 				reserves = 1
-				activate_production_methods = { "pm_vertical_filing_cabinets" }
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
 	}
@@ -4919,6 +4907,12 @@
 	s:STATE_EASTERN_CAPE = {
 		region_state:W56 = {
 			create_building = {
+				building = "building_government_administration"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
 				building = "building_construction_sector"
 				level = 1
 				reserves = 1
@@ -4944,7 +4938,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 6
+				level = 1
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -5024,9 +5018,9 @@
 			}
 			create_building = {
 				building = "building_government_administration"
-				level = 4
+				level = 10
 				reserves = 1
-				activate_production_methods = { "pm_vertical_filing_cabinets" }
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
 	}
@@ -5267,7 +5261,7 @@
 				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
 			}
 			create_building = {
-				building = "building_cotton_plantation"
+				building = "building_coffee_plantation"
 				level = 2
 				reserves = 1
 				activate_production_methods = { }
@@ -5427,7 +5421,7 @@
 				activate_production_methods = { "pm_sulfite_pulping" }
 			}
 			create_building = {
-				building = "building_dye_plantation"
+				building = "building_rice_farm"
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
@@ -5490,7 +5484,7 @@
 			}
 			create_building = {
 				building = "building_government_administration"
-				level = 2
+				level = 3
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
@@ -6017,7 +6011,7 @@
 				building = "building_government_administration"
 				level = 1
 				reserves = 1
-				activate_production_methods = { "pm_vertical_filing_cabinets" }
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
 	}
@@ -6061,7 +6055,7 @@
 			}
 			create_building = {
 				building = "building_government_administration"
-				level = 4
+				level = 10
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
@@ -6365,12 +6359,6 @@
 				activate_production_methods = { "pm_pulp_pressing" }
 			}
 			create_building = {
-				building = "building_port"
-				level = 2
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
 				building = "building_construction_sector"
 				level = 1
 				reserves = 1
@@ -6479,22 +6467,10 @@
 				activate_production_methods = { }
 			}
 			create_building = {
-				building = "building_port"
-				level = 3
-				reserves = 1
-				activate_production_methods = { "pm_basic_port" }
-			}
-			create_building = {
 				building = "building_furniture_manufacturies"
 				level = 2
 				reserves = 1
 				activate_production_methods = { "pm_lathe" "pm_luxury_furniture" }
-			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
 			}
 		}
 	}
@@ -6597,7 +6573,7 @@
 				building = "building_government_administration"
 				level = 2
 				reserves = 1
-				activate_production_methods = { "pm_vertical_filing_cabinets" }
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
 	}
@@ -7571,7 +7547,7 @@
 		region_state:CAS = {
 			create_building = {
 				building = "building_port"
-				level = 3
+				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
@@ -8086,7 +8062,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 8
+				level = 1
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -8265,16 +8241,10 @@
 				activate_production_methods = { "pm_muskets" }
 			}
 			create_building = {
-				building = "building_port"
-				level = 4
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
 				building = "building_government_administration"
-				level = 4
+				level = 6
 				reserves = 1
-				activate_production_methods = { "pm_vertical_filing_cabinets" }
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
 	}
@@ -8819,7 +8789,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 5
+				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
@@ -10138,7 +10108,7 @@
 		}
 	}
 	s:STATE_LA_PAZ = {
-		region_state:PAT = {
+		region_state:SPU = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1
@@ -10157,8 +10127,6 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
-		}
-		region_state:SPU = {
 			create_building = {
 				building = "building_rice_farm"
 				level = 1
@@ -10602,12 +10570,6 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
-			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_basic_port" }
 			}
 		}
 	}
@@ -11155,7 +11117,7 @@
 			}
 			create_building = {
 				building = "building_government_administration"
-				level = 20
+				level = 12
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
@@ -11263,10 +11225,16 @@
 				activate_production_methods = { }
 			}
 			create_building = {
+				building = "building_military_shipyards"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_military_shipbuilding_wooden" }
+			}
+			create_building = {
 				building = "building_government_administration"
 				level = 4
 				reserves = 1
-				activate_production_methods = { "pm_vertical_filing_cabinets" }
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
 	}
@@ -11394,18 +11362,6 @@
 			}
 			create_building = {
 				building = "building_livestock_ranch"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_port"
-				level = 2
-				reserves = 1
-				activate_production_methods = { "pm_basic_port" }
-			}
-			create_building = {
-				building = "building_port"
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
@@ -11969,13 +11925,19 @@
 	s:STATE_MOLUCCAS = {
 		region_state:W54 = {
 			create_building = {
+				building = "building_government_administration"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
 				building = "building_university"
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
 			}
 			create_building = {
-				building = "building_dye_plantation"
+				building = "building_rice_farm"
 				level = 3
 				reserves = 1
 				activate_production_methods = { }
@@ -12000,7 +11962,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 6
+				level = 1
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -12671,14 +12633,8 @@
 	s:STATE_NIGER_DELTA = {
 		region_state:CAS = {
 			create_building = {
-				building = "building_dye_plantation"
-				level = 2
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_cotton_plantation"
-				level = 1
+				building = "building_coffee_plantation"
+				level = 3
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -13173,7 +13129,7 @@
 				activate_production_methods = { "pm_simple_farming" }
 			}
 			create_building = {
-				building = "building_dye_plantation"
+				building = "building_tobacco_plantation"
 				level = 2
 				reserves = 1
 				activate_production_methods = { }
@@ -13241,7 +13197,13 @@
 		}
 	}
 	s:STATE_NORTH_BORNEO = {
-		region_state:W53 = {
+		region_state:X61 = {
+			create_building = {
+				building = "building_government_administration"
+				level = 15
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
 			create_building = {
 				building = "building_logging_camp"
 				level = 2
@@ -13350,15 +13312,9 @@
 			}
 			create_building = {
 				building = "building_government_administration"
-				level = 9
+				level = 5
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
-			}
-			create_building = {
-				building = "building_port"
-				level = 3
-				reserves = 1
-				activate_production_methods = { }
 			}
 		}
 	}
@@ -13427,13 +13383,19 @@
 	s:STATE_NORTH_SUMATRA = {
 		region_state:W53 = {
 			create_building = {
+				building = "building_government_administration"
+				level = 20
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
 				building = "building_logging_camp"
 				level = 5
 				reserves = 1
 				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
 			}
 			create_building = {
-				building = "building_dye_plantation"
+				building = "building_rice_farm"
 				level = 3
 				reserves = 1
 				activate_production_methods = { }
@@ -13458,7 +13420,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 3
+				level = 1
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -13649,7 +13611,7 @@
 				building = "building_government_administration"
 				level = 2
 				reserves = 1
-				activate_production_methods = { "pm_vertical_filing_cabinets" }
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 			create_building = {
 				building = "building_port"
@@ -13997,12 +13959,6 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
-			create_building = {
-				building = "building_port"
-				level = 4
-				reserves = 1
-				activate_production_methods = { }
-			}
 		}
 	}
 	s:STATE_PARAIBA = {
@@ -14037,12 +13993,6 @@
 			}
 			create_building = {
 				building = "building_livestock_ranch"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_port"
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
@@ -14156,12 +14106,6 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
-			}
-			create_building = {
-				building = "building_port"
-				level = 4
-				reserves = 1
-				activate_production_methods = { }
 			}
 		}
 	}
@@ -15590,12 +15534,6 @@
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
-			create_building = {
-				building = "building_port"
-				level = 4
-				reserves = 1
-				activate_production_methods = { }
-			}
 		}
 	}
 	s:STATE_SANTIAGO = {
@@ -15633,12 +15571,6 @@
 			create_building = {
 				building = "building_dye_plantation"
 				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_port"
-				level = 4
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -15988,12 +15920,6 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_pot_stills" }
-			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
 			}
 		}
 	}
@@ -17164,13 +17090,7 @@
 			}
 			create_building = {
 				building = "building_rice_farm"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_dye_plantation"
-				level = 5
+				level = 6
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -17816,9 +17736,15 @@
 		region_state:X23 = {
 			create_building = {
 				building = "building_port"
-				level = 3
+				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_government_administration"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -17935,7 +17861,7 @@
 				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
 			}
 			create_building = {
-				building = "building_dye_plantation"
+				building = "building_opium_plantation"
 				level = 2
 				reserves = 1
 				activate_production_methods = { }
@@ -18084,9 +18010,9 @@
 			}
 			create_building = {
 				building = "building_government_administration"
-				level = 4
+				level = 10
 				reserves = 1
-				activate_production_methods = { "pm_vertical_filing_cabinets" }
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
 		region_state:ETH = {
@@ -18141,16 +18067,22 @@
 				activate_production_methods = { "pm_simple_farming" }
 			}
 			create_building = {
-				building = "building_dye_plantation"
+				building = "building_coffee_plantation"
 				level = 3
 				reserves = 1
 				activate_production_methods = { }
 			}
 			create_building = {
-				building = "building_port"
-				level = 1
+				building = "building_government_administration"
+				level = 9
 				reserves = 1
-				activate_production_methods = { }
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				level = 4
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
 			}
 		}
 	}
@@ -19640,7 +19572,7 @@
 				building = "building_government_administration"
 				level = 2
 				reserves = 1
-				activate_production_methods = { "pm_vertical_filing_cabinets" }
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
 	}
@@ -20082,7 +20014,7 @@
 				activate_production_methods = { }
 			}
 			create_building = {
-				building = "building_dye_plantation"
+				building = "building_rice_farm"
 				level = 4
 				reserves = 1
 				activate_production_methods = { }
@@ -20209,7 +20141,7 @@
 				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
 			}
 			create_building = {
-				building = "building_dye_plantation"
+				building = "building_rice_farm"
 				level = 2
 				reserves = 1
 				activate_production_methods = { }
@@ -20278,7 +20210,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = { }
 			}

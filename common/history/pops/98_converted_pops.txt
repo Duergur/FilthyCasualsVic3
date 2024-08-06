@@ -31404,7 +31404,7 @@
 		}
 	}
 	s:STATE_LA_PAZ = {
-		region_state:PAT = {
+		region_state:SPU = {
 			create_pop = {
 				culture = aimara
 				religion = animist
@@ -31415,8 +31415,6 @@
 				religion = catholic
 				size = 63200
 			}
-		}
-		region_state:SPU = {
 			create_pop = {
 				culture = guarani
 				religion = animist
