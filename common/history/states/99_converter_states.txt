@@ -6320,7 +6320,7 @@
 		create_state = {
 			country = c:CAS
 			owned_provinces = { x606CE0 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		create_state = {
 			country = c:ETH

@@ -12272,12 +12272,7 @@
 			create_pop = {
 				culture = korean
 				religion = confucian
-				size = 431710
-			}
-			create_pop = {
-				culture = korean
-				religion = catholic
-				size = 247583
+				size = 331710
 			}
 		}
 		region_state:W57 = {
@@ -13690,6 +13685,22 @@
 			}
 		}
 		region_state:CAS = {
+			create_pop = {
+				culture = malay
+				religion = catholic
+				size = 230075
+			}
+			create_pop = {
+				culture = malay
+				religion = catholic
+				pop_type = slaves
+				size = 17722
+			}
+			create_pop = {
+				culture = spanish
+				religion = catholic
+				size = 230034
+			}
 			create_pop = {
 				culture = luba
 				religion = animist
@@ -20029,6 +20040,23 @@
 	}
 	s:STATE_GABON = {
 		region_state:CAS = {
+			create_pop = {
+				culture = malay
+				religion = sunni
+				pop_type = slaves
+				size = 26814
+			}
+			create_pop = {
+				culture = malay
+				religion = ibadi
+				size = 45003
+			}
+			create_pop = {
+				culture = malay
+				religion = ibadi
+				pop_type = slaves
+				size = 3466
+			}
 			create_pop = {
 				culture = fang
 				religion = animist
@@ -31888,6 +31916,16 @@
 	s:STATE_LIBERIA = {
 		region_state:CAS = {
 			create_pop = {
+				culture = malay
+				religion = sunni
+				size = 348107
+			}
+			create_pop = {
+				culture = spanish
+				religion = catholic
+				size = 200104
+			}
+			create_pop = {
 				culture = kru
 				religion = sunni
 				size = 71574
@@ -33208,22 +33246,6 @@
 				size = 1583
 			}
 			create_pop = {
-				culture = filipino
-				religion = catholic
-				size = 107982
-			}
-			create_pop = {
-				culture = filipino
-				religion = catholic
-				pop_type = slaves
-				size = 1882
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				size = 204070
-			}
-			create_pop = {
 				culture = spanish
 				religion = catholic
 				pop_type = slaves
@@ -33691,6 +33713,11 @@
 	s:STATE_MALAYA = {
 		region_state:MSH = {
 			create_pop = {
+				culture = korean
+				religion = catholic
+				size = 347583
+			}
+			create_pop = {
 				culture = malay
 				religion = sunni
 				size = 458022
@@ -33711,11 +33738,6 @@
 				religion = catholic
 				pop_type = slaves
 				size = 3953
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				size = 465168
 			}
 			create_pop = {
 				culture = spanish
@@ -47045,17 +47067,6 @@
 	s:STATE_PEGU = {
 		region_state:W53 = {
 			create_pop = {
-				culture = filipino
-				religion = animist
-				size = 142075
-			}
-			create_pop = {
-				culture = filipino
-				religion = animist
-				pop_type = slaves
-				size = 4417
-			}
-			create_pop = {
 				culture = burmese
 				religion = mahayana
 				size = 98977
@@ -47080,7 +47091,7 @@
 			create_pop = {
 				culture = spanish
 				religion = catholic
-				size = 182386
+				size = 82003
 			}
 			create_pop = {
 				culture = spanish
@@ -54890,6 +54901,16 @@
 	s:STATE_SOUTH_CAMEROON = {
 		region_state:CAS = {
 			create_pop = {
+				culture = malagasy
+				religion = sunni
+				size = 46812
+			}
+			create_pop = {
+				culture = spanish
+				religion = catholic
+				size = 20102
+			}
+			create_pop = {
 				culture = yoruba
 				religion = animist
 				size = 14564
@@ -55356,18 +55377,13 @@
 		region_state:CAS = {
 			create_pop = {
 				culture = malagasy
-				religion = sunni
-				size = 46812
-			}
-			create_pop = {
-				culture = malagasy
 				religion = catholic
 				size = 21628
 			}
 			create_pop = {
 				culture = spanish
 				religion = catholic
-				size = 45117
+				size = 25015
 			}
 		}
 		region_state:ETH = {
@@ -57609,44 +57625,6 @@
 		}
 		region_state:MSH = {
 			create_pop = {
-				culture = malay
-				religion = sunni
-				size = 348107
-			}
-			create_pop = {
-				culture = malay
-				religion = sunni
-				pop_type = slaves
-				size = 26814
-			}
-			create_pop = {
-				culture = malay
-				religion = ibadi
-				size = 45003
-			}
-			create_pop = {
-				culture = malay
-				religion = ibadi
-				pop_type = slaves
-				size = 3466
-			}
-			create_pop = {
-				culture = malay
-				religion = catholic
-				size = 230075
-			}
-			create_pop = {
-				culture = malay
-				religion = catholic
-				pop_type = slaves
-				size = 17722
-			}
-			create_pop = {
-				culture = spanish
-				religion = catholic
-				size = 430138
-			}
-			create_pop = {
 				culture = spanish
 				religion = catholic
 				pop_type = slaves
@@ -59090,6 +59068,33 @@
 	s:STATE_TOGO = {
 		region_state:CAS = {
 			create_pop = {
+				culture = filipino
+				religion = animist
+				size = 142075
+			}
+			create_pop = {
+				culture = filipino
+				religion = animist
+				pop_type = slaves
+				size = 4417
+			}
+			create_pop = {
+				culture = filipino
+				religion = catholic
+				size = 107982
+			}
+			create_pop = {
+				culture = filipino
+				religion = catholic
+				pop_type = slaves
+				size = 1882
+			}
+			create_pop = {
+				culture = spanish
+				religion = catholic
+				size = 204070
+			}
+			create_pop = {
 				culture = akan
 				religion = aladura
 				size = 25413
@@ -59103,6 +59108,11 @@
 				culture = spanish
 				religion = catholic
 				size = 66289
+			}
+			create_pop = {
+				culture = spanish
+				religion = catholic
+				size = 100383
 			}
 			create_pop = {
 				culture = dynamic-mali-culture-num1
@@ -59705,6 +59715,11 @@
 	}
 	s:STATE_TRANSVAAL = {
 		region_state:CAS = {
+			create_pop = {
+				culture = spanish
+				religion = catholic
+				size = 465168
+			}
 			create_pop = {
 				culture = sotho
 				religion = animist
