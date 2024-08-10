@@ -3016,8 +3016,8 @@ HAR = {
 }
 
 HAU = {
-	color = { 48 169 96 }
-	country_type = decentralized
+	color = { 130 40 0 }
+	country_type = unrecognized
 	tier = grand_principality
 	cultures = { hausa }
 	religion = sunni

@@ -2409,7 +2409,7 @@
 		}
 	}
 	s:STATE_BORNU = {
-		region_state:ETH = {
+		region_state:HAU = {
 			create_building = {
 				building = "building_paper_mills"
 				level = 1
@@ -5333,7 +5333,7 @@
 		}
 	}
 	s:STATE_EAST_HAUSALAND = {
-		region_state:ETH = {
+		region_state:HAU = {
 			create_building = {
 				building = "building_coal_mine"
 				level = 1
@@ -7334,7 +7334,7 @@
 		}
 	}
 	s:STATE_HAUSALAND = {
-		region_state:ETH = {
+		region_state:HAU = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1
@@ -12603,7 +12603,7 @@
 		}
 	}
 	s:STATE_NIGERIA = {
-		region_state:ETH = {
+		region_state:HAU = {
 			create_building = {
 				building = "building_paper_mills"
 				level = 1
@@ -13822,7 +13822,7 @@
 				activate_production_methods = { }
 			}
 		}
-		region_state:ETH = {
+		region_state:HAU = {
 			create_building = {
 				building = "building_coal_mine"
 				level = 1

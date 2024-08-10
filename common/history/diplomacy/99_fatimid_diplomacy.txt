@@ -12,6 +12,12 @@
 			country = c:TUN #Tunis
 			type = puppet
 		}
+	}	
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:HAU #Tunis
+			type = protectorate
+		}
 	}
 	c:ETH = {
 		create_diplomatic_pact = {
@@ -42,7 +48,8 @@
 #Relations
 	c:ETH = {
 		set_relations = { country = c:P13 value = 75 }
-		set_relations = { country = c:TUN value = 10 }
+		set_relations = { country = c:TUN value = 25 }
+		set_relations = { country = c:HAU value = 5 }
 		set_relations = { country = c:W25 value = 75 }
 		set_relations = { country = c:W57 value = 10 }
 		set_relations = { country = c:W58 value = 10 }

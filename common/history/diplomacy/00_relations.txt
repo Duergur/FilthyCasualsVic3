@@ -89,6 +89,9 @@
 	}
 	c:TUN = {
 		set_relations = { country = c:ETH value = 10 }
+	}	
+	c:HAU = {
+		set_relations = { country = c:ETH value = -20 }
 	}
 	c:UCA = {
 		set_relations = { country = c:W47 value = 10 }

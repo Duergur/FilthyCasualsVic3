@@ -36,6 +36,7 @@
 			member = c:W57
 			member = c:W58
 			member = c:WAS
+			member = c:HAU
 		}
 	}
 

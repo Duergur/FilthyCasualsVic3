@@ -909,9 +909,9 @@
 	}
 	s:STATE_BORNU = {
 		create_state = {
-			country = c:ETH
+			country = c:HAU
 			owned_provinces = { x02DF23 x19A1FF x3DEBFB x44E47D x509060 x63F753 x6848B4 x68E691 x7A78DD x8286BF x8A30C1 x8C19CF x9F6B9E xAA28B4 xABDBF1 xAEED3D xB76263 xBCD146 xCFD021 xD01120 xD3869A xD79AA9 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:dynamic-zaghawa-culture-num1
 		add_homeland = cu:kanuri
@@ -1952,9 +1952,9 @@
 	}
 	s:STATE_EAST_HAUSALAND = {
 		create_state = {
-			country = c:ETH
+			country = c:HAU
 			owned_provinces = { x1090E0 x18BCE8 x1DC6EF x3CA7DC x41DF90 x436974 x4673BA x47577A x49D423 x5095EC x51D020 x52057E x63D6E9 x773FBF x803692 x827ADE x8E01B6 x8F3133 x933DAA xAADBE3 xACB5CC xB7F026 xC92C8F xCBCB87 xD01160 xE738D0 xECD153 xF6F846 xF70F67 xFECA58 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:dynamic-zaghawa-culture-num1
 		add_homeland = cu:hausa
@@ -2608,9 +2608,9 @@
 			state_type = incorporated
 		}
 		create_state = {
-			country = c:ETH
+			country = c:HAU
 			owned_provinces = { x00E669 x0384A9 x0DF31F x347C9D x34871E x40DF11 x50FF61 x510816 x569FF1 x61CC39 x6D072E x71EDC6 x81A7FC x858543 x8E8AC1 x90F068 x96C7B6 x9DD8E1 xA15613 xA2E6F9 xB0475D xB44A59 xBCB447 xC76E76 xC9FC2D xCA0FEB xCAC7F9 xE04A46 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:dynamic-aka-yorumba-culture-num1
 		add_homeland = cu:hausa
@@ -4497,9 +4497,9 @@
 	}
 	s:STATE_NIGERIA = {
 		create_state = {
-			country = c:ETH
+			country = c:HAU
 			owned_provinces = { x0031D6 x07034A x143779 x1873FD x2601BC x324153 x3DD80C x40F92C x573ACD x582803 x598F55 x6ABA17 x6CB8C2 x7892A0 x7AE469 x842780 x88CF46 x8E79E2 x9011E0 x9090E0 xA2698C xA41E3B xA591CC xADFC7B xB6B564 xB6CC2E xB99D24 xC06090 xC0E011 xC89CB8 xD0E560 xD98B12 xD99196 xE43BE6 xE58343 xEB4453 xF4C138 xF8AD48 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		create_state = {
 			country = c:W85
@@ -5084,9 +5084,9 @@
 			state_type = incorporated
 		}
 		create_state = {
-			country = c:ETH
+			country = c:HAU
 			owned_provinces = { x064C0C x081330 x0A6F02 x1110E0 x1622C1 x1659B8 x281C77 x291801 x2AD7EB x37C83B x3921D3 x3D2745 x477B47 x48B5C1 x4E40D7 x50D09F x51E372 x531EE3 x583B5E x59CF4B x6C8962 x6E2718 x7C3FD8 x7EB3BB x80D945 x8B7291 x91CA6F x91E205 x93455F x95B3FC x96E7A9 x98907F xA42F37 xA6FB18 xAD963A xADFCBB xAEAED9 xB03D4B xB354F7 xB42598 xB4574B xB5CA43 xB5EEFE xB6B510 xB78BE4 xC438ED xC9BC55 xD1320A xD28E66 xD36F0B xE373B7 xECC181 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:dynamic-aka-bozo-culture-num1
 		add_homeland = cu:dynamic-mali-bozo-culture-num1
@@ -7151,7 +7151,7 @@
 	}
 	s:STATE_WADDAI = {
 		create_state = {
-			country = c:ETH
+			country = c:WAD
 			owned_provinces = { x0E95EA x0FFA6D x105589 x112BBD x1134A4 x12A660 x169BFB x16B5EB x1732C7 x179616 x1AFE6B x203F1F x26D9BF x2A283A x2A6299 x2E1718 x393BE5 x3A28C0 x3A3469 x3AA356 x3BBEEC x3FA17F x4F577D x5090A0 x50E9F2 x625A6A x6D3421 x700354 x736C1E x75371E x76617A x7892B1 x7B31F9 x7C4D25 x80A0D0 x822F93 x85433C x89620D x8AAAC8 x905160 x907D63 x915193 x93DC26 x955141 x9B7EB0 x9CA808 xA04F86 xAC0CAC xADEC7A xB2CF76 xB48161 xB50BBC xB53F51 xB8433D xBA95F2 xBAE52C xBBFD2F xBCB4F7 xBECAFF xC08646 xC0A050 xC2903A xC4A492 xC948EE xCFFFA7 xD090A0 xD11858 xD17974 xD28614 xD2CB1C xD62009 xD7D808 xD96611 xDDEE90 xE0D9F6 xE86570 xEC3C28 xF1EDE4 xF236EA xF42410 xF6377D }
 			state_type = incorporated
 		}

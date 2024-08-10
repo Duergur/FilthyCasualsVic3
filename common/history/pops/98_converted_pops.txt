@@ -7873,7 +7873,7 @@
 		}
 	}
 	s:STATE_BORNU = {
-		region_state:ETH = {
+		region_state:HAU = {
 			create_pop = {
 				culture = kanuri
 				religion = sunni
@@ -17081,7 +17081,7 @@
 		}
 	}
 	s:STATE_EAST_HAUSALAND = {
-		region_state:ETH = {
+		region_state:HAU = {
 			create_pop = {
 				culture = hausa
 				religion = sunni
@@ -23374,7 +23374,7 @@
 				size = 219541
 			}
 		}
-		region_state:ETH = {
+		region_state:HAU = {
 			create_pop = {
 				culture = dynamic-aka-yorumba-culture-num1
 				religion = aladura
@@ -40667,7 +40667,7 @@
 		}
 	}
 	s:STATE_NIGERIA = {
-		region_state:ETH = {
+		region_state:HAU = {
 			create_pop = {
 				culture = ibo
 				religion = sunni
@@ -45775,7 +45775,7 @@
 				size = 1902
 			}
 		}
-		region_state:ETH = {
+		region_state:HAU = {
 			create_pop = {
 				culture = dynamic-aka-bozo-culture-num1
 				religion = sunni
@@ -63508,7 +63508,7 @@
 		}
 	}
 	s:STATE_WADDAI = {
-		region_state:ETH = {
+		region_state:HAU = {
 			create_pop = {
 				culture = dynamic-zaghawa-culture-num1
 				religion = sunni
