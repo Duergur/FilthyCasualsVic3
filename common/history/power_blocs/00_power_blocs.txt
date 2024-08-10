@@ -38,6 +38,7 @@
 			member = c:WAS
 			member = c:HAU
 			member = c:WAD
+			member = c:ZIM
 		}
 	}
 

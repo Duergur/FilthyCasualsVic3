@@ -18,6 +18,12 @@
 			country = c:HAU #Hausaland
 			type = dominion
 		}
+	}	
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:ZIM #Zambezi
+			type = puppet
+		}
 	}
 	c:ETH = {
 		create_diplomatic_pact = {

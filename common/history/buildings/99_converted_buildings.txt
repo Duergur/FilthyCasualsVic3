@@ -10583,7 +10583,7 @@
 	}
 	
 	s:STATE_LOURENCO_MARQUES = {
-		region_state:ETH = {
+		region_state:ZIM = {
 			create_building = {
 				building = "building_millet_farm"
 				level = 2
@@ -20774,7 +20774,7 @@
 				activate_production_methods = { }
 			}
 		}
-		region_state:ETH = {
+		region_state:ZIM = {
 			create_building = {
 				building = "building_millet_farm"
 				level = 1
@@ -20790,7 +20790,7 @@
 		}
 	}
 	s:STATE_ZAMBEZIA = {
-		region_state:ETH = {
+		region_state:ZIM = {
 			create_building = {
 				building = "building_fishing_wharf"
 				level = 1

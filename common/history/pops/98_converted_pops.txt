@@ -32713,7 +32713,7 @@
 		}
 	}
 	s:STATE_LOURENCO_MARQUES = {
-		region_state:ETH = {
+		region_state:ZIM = {
 			create_pop = {
 				culture = tonga
 				religion = animist
@@ -67468,7 +67468,7 @@
 				size = 1418
 			}
 		}
-		region_state:ETH = {
+		region_state:ZIM = {
 			create_pop = {
 				culture = sena
 				religion = animist
@@ -67593,7 +67593,7 @@
 		}
 	}
 	s:STATE_ZAMBEZIA = {
-		region_state:ETH = {
+		region_state:ZIM = {
 			create_pop = {
 				culture = nguni
 				religion = sunni
