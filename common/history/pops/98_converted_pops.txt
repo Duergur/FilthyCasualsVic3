@@ -67810,7 +67810,7 @@
 			}
 	}
 	s:STATE_ZANZIBAR = {
-		region_state:ETH = {
+		region_state:ZAN = {
 			create_pop = {
 				culture = swahili
 				religion = sunni

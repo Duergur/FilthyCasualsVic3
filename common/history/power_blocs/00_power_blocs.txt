@@ -42,6 +42,7 @@
 			member = c:MAD
 			member = c:MOC
 			member = c:KZM
+			member = c:ZAN
 		}
 	}
 

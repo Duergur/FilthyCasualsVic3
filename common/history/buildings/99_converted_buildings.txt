@@ -20860,7 +20860,7 @@
 		}
 	}
 	s:STATE_ZANZIBAR = {
-		region_state:ETH = {
+		region_state:ZAN = {
 			create_building = {
 				building = "building_port"
 				level = 1
