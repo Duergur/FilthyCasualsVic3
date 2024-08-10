@@ -107,6 +107,12 @@
 	}	
 	c:KKY = {
 		set_relations = { country = c:ETH value = 95 }
+	}		
+	c:RWD = {
+		set_relations = { country = c:ETH value = 76 }
+	}	
+	c:BUG = {
+		set_relations = { country = c:ETH value = 55 }
 	}
 	c:KZM = {
 		set_relations = { country = c:ETH value = 84 }

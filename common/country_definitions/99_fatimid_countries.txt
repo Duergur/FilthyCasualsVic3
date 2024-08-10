@@ -32,3 +32,22 @@ KKY = {
 	capital = STATE_KENYA
 	religion = shiite
 }
+BUG = {
+	color = { 21 21 227 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { baganda }
+	religion = shiite
+	capital = STATE_UGANDA
+}
+
+RWD = {
+	color = { 213 160 18 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	religion = animist
+	cultures = { ruanda dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1}
+	capital = STATE_TANGANYIKA
+}

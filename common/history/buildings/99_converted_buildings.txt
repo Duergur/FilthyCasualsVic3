@@ -10458,7 +10458,7 @@
 		}
 	}
 	s:STATE_LINDI = {
-		region_state:ETH = {
+		region_state:RWD = {
 			create_building = {
 				building = "building_dye_plantation"
 				level = 1
@@ -17628,7 +17628,7 @@
 		}
 	}
 	s:STATE_TANGANYIKA = {
-		region_state:ETH = {
+		region_state:RWD = {
 			create_building = {
 				building = "building_livestock_ranch"
 				level = 1
@@ -18772,7 +18772,7 @@
 		}
 	}
 	s:STATE_UGANDA = {
-		region_state:ETH = {
+		region_state:BUG = {
 			create_building = {
 				building = "building_arts_academy"
 				level = 1
