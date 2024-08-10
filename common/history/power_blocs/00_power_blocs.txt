@@ -41,6 +41,7 @@
 			member = c:ZIM
 			member = c:MAD
 			member = c:MOC
+			member = c:KZM
 		}
 	}
 

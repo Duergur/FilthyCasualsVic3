@@ -102,6 +102,9 @@
 	c:MOC = {
 		set_relations = { country = c:ETH value = 95 }
 	}
+	c:KZM = {
+		set_relations = { country = c:ETH value = 84 }
+	}
 	c:WAD = {
 		set_relations = { country = c:ETH value = 0 }
 	}

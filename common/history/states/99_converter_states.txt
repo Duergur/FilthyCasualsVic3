@@ -3229,7 +3229,7 @@
 	}
 	s:STATE_KATANGA = {
 		create_state = {
-			country = c:ETH
+			country = c:KZM
 			owned_provinces = { x78528D xB8CA50 xD4C5CC x3141F5 x4575FD x86D0DF }
 			state_type = incorporated
 		}
@@ -3240,6 +3240,7 @@
 		}
 		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
 		add_homeland = cu:spanish
+		add_homeland = cu:luba
 	}
 	s:STATE_KAUNAS = {
 		create_state = {
@@ -3261,7 +3262,7 @@
 	}
 	s:STATE_KAZEMBE = {
 		create_state = {
-			country = c:ETH
+			country = c:KZM
 			owned_provinces = { x525175 x99BE2B x9BBF16 xA99CF3 xBE2801 xC46105 xF94CAC x194501 x2160B0 x224E12 x23CB5A x276350 x2AFF3B x340195 x35B380 x3B7CF3 x3D5129 x3EEA34 x434520 x4E5483 x52BDB8 x541B6A x596FF5 x5C7C1D x64393D x644F6A x701744 x71C5D6 x74BC07 x773C55 x795579 x7CA3C6 x7DA49F x806329 x82E9A5 x83B741 x872195 x8D8AA7 x8EF620 x9625E6 x9898C5 x99B828 x9C00BD xA0E030 xA1E594 xA8795C xAA2629 xB6C420 xB98531 xBE2516 xBF5420 xC03E0B xCF3A49 xD2E030 xD97719 xDE3A4D xEC5E35 xEFAC92 xF294D4 xF2A85D }
 			state_type = incorporated
 		}
@@ -7662,7 +7663,7 @@
 			state_type = incorporated
 		}
 		create_state = {
-			country = c:ETH
+			country = c:KZM
 			owned_provinces = { x01DAF2 xC5FD71 xCC2E4C x6D48F8 x28ECB2 x04EE2A x076DB2 x0EB967 x137E0F x31BEE9 x361062 x4A5DD9 x5B459D x778391 x79A426 x8866AE x8BDDAB x8D6CA6 x931020 xB54AA9 xC8E1C9 xDC956A xF9EA9A x9C721A xA02031}
 			state_type = incorporated
 		}

@@ -28307,7 +28307,7 @@
 		}
 	}
 	s:STATE_KATANGA = {
-		region_state:ETH = {
+		region_state:KZM = {
 			create_pop = {
 				culture = bemba
 				religion = animist
@@ -28323,12 +28323,6 @@
 				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
 				religion = shiite
 				size = 10461
-			}
-			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
-				religion = shiite
-				pop_type = slaves
-				size = 468
 			}
 			create_pop = {
 				culture = luba
@@ -28674,7 +28668,7 @@
 		}
 	}
 	s:STATE_KAZEMBE = {
-		region_state:ETH = {
+		region_state:KZM = {
 			create_pop = {
 				culture = chewa
 				religion = animist
@@ -67732,7 +67726,7 @@
 				size = 1535
 			}
 		}
-		region_state:ETH = {
+		region_state:KZM = {
 			create_pop = {
 				culture = lunda
 				religion = animist
