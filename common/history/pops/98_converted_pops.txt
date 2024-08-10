@@ -42837,7 +42837,7 @@
 		}
 	}
 	s:STATE_NORTH_MADAGASCAR = {
-		region_state:ETH = {
+		region_state:MAD = {
 			create_pop = {
 				culture = malagasy
 				religion = animist
@@ -55350,12 +55350,7 @@
 		}
 	}
 	s:STATE_SOUTH_MADAGASCAR = {
-		region_state:CAS = {
-			create_pop = {
-				culture = malagasy
-				religion = sunni
-				size = 46812
-			}
+		region_state:MAD = {
 			create_pop = {
 				culture = malagasy
 				religion = catholic
@@ -55366,8 +55361,6 @@
 				religion = catholic
 				size = 45117
 			}
-		}
-		region_state:ETH = {
 			create_pop = {
 				culture = malagasy
 				religion = animist
@@ -55391,7 +55384,7 @@
 			create_pop = {
 				culture = malagasy
 				religion = sunni
-				size = 96901
+				size = 136901
 			}
 			create_pop = {
 				culture = malagasy
