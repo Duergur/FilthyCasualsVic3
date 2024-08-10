@@ -28969,104 +28969,66 @@
 		}
 	}
 	s:STATE_KENYA = {
-		region_state:ETH = {
-			create_pop = {
-				culture = swahili
-				religion = sunni
-				size = 20932
-			}
-			create_pop = {
-				culture = swahili
-				religion = shiite
-				size = 74501
-			}
-			create_pop = {
-				culture = swahili
-				religion = sunni
-				size = 12256
-			}
-			create_pop = {
-				culture = swahili
-				religion = shiite
-				size = 41425
-			}
-			create_pop = {
-				culture = kikuyu
-				religion = animist
-				size = 8498
-			}
-			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
-				religion = shiite
-				size = 15360
-			}
-			create_pop = {
-				culture = swahili
-				religion = sunni
-				size = 113326
-			}
-			create_pop = {
-				culture = somali
-				religion = sunni
-				size = 7590
-			}
-			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
-				religion = shiite
-				size = 16268
-			}
-			create_pop = {
-				culture = somali
-				religion = shiite
-				size = 83503
-			}
-			create_pop = {
-				culture = kikuyu
-				religion = animist
-				size = 5586
-			}
-			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
-				religion = shiite
-				size = 10681
-			}
-		}
 		region_state:KKY = {
 			create_pop = {
-				culture = lacustrine_bantu
-				religion = animist
-				size = 59945
+				culture = swahili
+				religion = sunni
+				size = 32932
+			}
+			create_pop = {
+				culture = swahili
+				religion = shiite
+				size = 85501
 			}
 			create_pop = {
 				culture = swahili
 				religion = sunni
-				size = 9333
+				size = 23256
+			}
+			create_pop = {
+				culture = swahili
+				religion = shiite
+				size = 52425
 			}
 			create_pop = {
 				culture = kikuyu
 				religion = animist
-				size = 40727
+				size = 18498
+			}
+			create_pop = {
+				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				religion = shiite
+				size = 25360
+			}
+			create_pop = {
+				culture = swahili
+				religion = sunni
+				size = 123326
 			}
 			create_pop = {
 				culture = somali
 				religion = sunni
-				size = 19430
+				size = 17590
 			}
 			create_pop = {
-				culture = oromo
-				religion = animist
-				size = 4242
+				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				religion = shiite
+				size = 26268
 			}
 			create_pop = {
-				culture = maasai
-				religion = animist
-				size = 3395
+				culture = somali
+				religion = shiite
+				size = 93503
 			}
 			create_pop = {
-				culture = lacustrine_bantu
+				culture = kikuyu
 				religion = animist
-				pop_type = slaves
-				size = 6364
+				size = 15586
+			}
+			create_pop = {
+				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				religion = shiite
+				size = 25681
 			}
 		}
 	}
@@ -50002,7 +49964,7 @@
 		}
 	}
 	s:STATE_RIFT_VALLEY = {
-		region_state:ETH = {
+		region_state:KKY = {
 			create_pop = {
 				culture = kikuyu
 				religion = animist

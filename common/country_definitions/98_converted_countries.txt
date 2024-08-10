@@ -4080,14 +4080,6 @@ KK1 = {
 	capital = STATE_INDIAN_OCEAN_TERRITORY
 }
 
-KKY = {
-	color = { 169 52 90 }
-	country_type = decentralized
-	tier = principality
-	cultures = { kikuyu }
-	capital = STATE_KENYA
-}
-
 KLM = {
 	color = { 238 220 89 }
 	country_type = unrecognized

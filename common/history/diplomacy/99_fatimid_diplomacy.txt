@@ -48,6 +48,12 @@
 			country = c:ZAN #Kazambe
 			type = puppet
 		}
+	}	
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:KKY #Kazambe
+			type = puppet
+		}
 	}
 	c:ETH = {
 		create_diplomatic_pact = {

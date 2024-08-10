@@ -24,3 +24,11 @@ ZAN = {
 	is_named_from_capital = yes
 	religion = shiite
 }
+KKY = {
+	color = { 169 52 90 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { swahili somali dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1}
+	capital = STATE_KENYA
+	religion = shiite
+}

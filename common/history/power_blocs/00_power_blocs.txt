@@ -43,6 +43,7 @@
 			member = c:MOC
 			member = c:KZM
 			member = c:ZAN
+			member = c:KKY
 		}
 	}
 

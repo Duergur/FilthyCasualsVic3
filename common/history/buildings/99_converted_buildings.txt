@@ -9210,7 +9210,7 @@
 	}
 	
 	s:STATE_KENYA = {
-		region_state:ETH = {
+		region_state:KKY = {
 			create_building = {
 				building = "building_barracks"
 				level = 1
