@@ -19614,7 +19614,7 @@
 		}
 	}
 	s:STATE_WADDAI = {
-		region_state:ETH = {
+		region_state:WAD = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1

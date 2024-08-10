@@ -10,13 +10,19 @@
 	c:ETH = {
 		create_diplomatic_pact = {
 			country = c:TUN #Tunis
-			type = puppet
+			type = protectorate
 		}
 	}	
 	c:ETH = {
 		create_diplomatic_pact = {
-			country = c:HAU #Tunis
-			type = protectorate
+			country = c:HAU #Hausaland
+			type = dominion
+		}
+	}
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:WAD #Waddai
+			type = dominion
 		}
 	}
 	c:ETH = {

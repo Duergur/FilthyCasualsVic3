@@ -92,6 +92,9 @@
 	}	
 	c:HAU = {
 		set_relations = { country = c:ETH value = -20 }
+	}	
+	c:WAD = {
+		set_relations = { country = c:ETH value = 0 }
 	}
 	c:UCA = {
 		set_relations = { country = c:W47 value = 10 }

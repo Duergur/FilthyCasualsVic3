@@ -63508,7 +63508,7 @@
 		}
 	}
 	s:STATE_WADDAI = {
-		region_state:HAU = {
+		region_state:WAD = {
 			create_pop = {
 				culture = dynamic-zaghawa-culture-num1
 				religion = sunni

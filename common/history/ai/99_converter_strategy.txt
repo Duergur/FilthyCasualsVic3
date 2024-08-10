@@ -433,6 +433,15 @@
 		}
 		set_strategy = ai_strategy_conservative_agenda
 	}
+	c:WAD = {
+		set_strategy = ai_strategy_resource_expansion
+		random_list = {
+			50 = { set_strategy = ai_strategy_armed_isolationism }
+			25 = { set_strategy = ai_strategy_resource_expansion }
+			50 = { set_strategy = ai_strategy_anti_imperialism }
+		}
+		set_strategy = ai_strategy_conservative_agenda
+	}
 	c:UCA = {
 		random_list = {
 			25 = { set_strategy = ai_strategy_plantation_economy }
