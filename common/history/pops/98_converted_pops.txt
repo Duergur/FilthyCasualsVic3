@@ -37293,7 +37293,7 @@
 		}
 	}
 	s:STATE_MOCAMBIQUE = {
-		region_state:ETH = {
+		region_state:MOC = {
 			create_pop = {
 				culture = swahili
 				religion = sunni

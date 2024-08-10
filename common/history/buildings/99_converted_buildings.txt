@@ -11857,7 +11857,7 @@
 	}
 	
 	s:STATE_MOCAMBIQUE = {
-		region_state:ETH = {
+		region_state:MOC = {
 			create_building = {
 				building = "building_food_industry"
 				level = 1

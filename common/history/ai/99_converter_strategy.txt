@@ -452,6 +452,17 @@
 		}		
 		set_strategy = ai_strategy_nationalist_agenda
 	}
+	
+	c:MOC = {
+		set_strategy = ai_strategy_agricultural_expansion
+		random_list = {
+			75 = { set_strategy = ai_strategy_subject_overlord_compliance }
+			60 = { set_strategy = ai_strategy_resource_expansion }
+			25 = { set_strategy = ai_strategy_placate_population }
+			50 = { set_strategy = ai_strategy_industrial_expansion }
+		}		
+		set_strategy = ai_strategy_nationalist_agenda
+	}
 	c:UCA = {
 		random_list = {
 			25 = { set_strategy = ai_strategy_plantation_economy }

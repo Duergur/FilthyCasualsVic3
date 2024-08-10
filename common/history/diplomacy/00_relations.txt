@@ -88,16 +88,19 @@
 		set_relations = { country = c:W25 value = 10 }
 	}
 	c:TUN = {
-		set_relations = { country = c:ETH value = 10 }
+		set_relations = { country = c:ETH value = 20 }
 	}	
 	c:HAU = {
 		set_relations = { country = c:ETH value = -20 }
 	}		
 	c:ZIM = {
-		set_relations = { country = c:ETH value = 30 }
+		set_relations = { country = c:ETH value = 80 }
 	}		
 	c:MAD = {
-		set_relations = { country = c:ETH value = 15 }
+		set_relations = { country = c:ETH value = 75 }
+	}	
+	c:MOC = {
+		set_relations = { country = c:ETH value = 95 }
 	}
 	c:WAD = {
 		set_relations = { country = c:ETH value = 0 }
