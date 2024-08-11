@@ -32,10 +32,10 @@
 		
 		#InterestGroups,Haven't touched these at all yet, just default converter settings
 		ig:ig_armed_forces = {
-			set_ig_bolstering = yes
+		
  		}
 		ig:ig_trade_unions = {
-			
+		
  		}
 
 		set_institution_investment_level = {
@@ -75,10 +75,10 @@
 		
 		#InterestGroups,Haven't touched these at all yet, just default converter settings
 		ig:ig_armed_forces = {
-			set_ig_bolstering = yes
+		
  		}
 		ig:ig_trade_unions = {
-			
+		
  		}
 
 		set_institution_investment_level = {
@@ -119,10 +119,10 @@
 		
 		#InterestGroups,Haven't touched these at all yet, just default converter settings
 		ig:ig_armed_forces = {
-			set_ig_bolstering = yes
+		
  		}
 		ig:ig_trade_unions = {
-			
+		
  		}
 
 		set_institution_investment_level = {
@@ -163,10 +163,10 @@
 		
 		#InterestGroups,Haven't touched these at all yet, just default converter settings
 		ig:ig_armed_forces = {
-			set_ig_bolstering = yes
+		
 		}
 		ig:ig_trade_unions = {
-			
+		
 		}
 
 		set_institution_investment_level = {
@@ -207,10 +207,10 @@
 		
 		#InterestGroups,Haven't touched these at all yet, just default converter settings
 		ig:ig_armed_forces = {
-			set_ig_bolstering = yes
+		
 		}
 		ig:ig_trade_unions = {
-			
+		
 		}
 
 		set_institution_investment_level = {
@@ -251,10 +251,10 @@
 		
 		#InterestGroups,Haven't touched these at all yet, just default converter settings
 		ig:ig_armed_forces = {
-			set_ig_bolstering = yes
+		
  		}
 		ig:ig_trade_unions = {
-			
+		
  		}
 
 		set_institution_investment_level = {
@@ -295,10 +295,10 @@
 		
 		#InterestGroups,Haven't touched these at all yet, just default converter settings
 		ig:ig_armed_forces = {
-			set_ig_bolstering = yes
+		
  		}
 		ig:ig_trade_unions = {
-			
+		
  		}
 
 		set_institution_investment_level = {
@@ -340,10 +340,10 @@
 		
 		#InterestGroups,Haven't touched these at all yet, just default converter settings
 		ig:ig_armed_forces = {
-			set_ig_bolstering = yes
+		
  		}
 		ig:ig_trade_unions = {
-			
+		
  		}
 
 		set_institution_investment_level = {
@@ -384,10 +384,10 @@
 		
 		#InterestGroups,Haven't touched these at all yet, just default converter settings
 		ig:ig_armed_forces = {
-			set_ig_bolstering = yes
+		
  		}
 		ig:ig_trade_unions = {
-			
+		
  		}
 
 		set_institution_investment_level = {
@@ -428,10 +428,10 @@
 		
 		#InterestGroups,Haven't touched these at all yet, just default converter settings
 		ig:ig_armed_forces = {
-			set_ig_bolstering = yes
+		
  		}
 		ig:ig_trade_unions = {
-			
+		
  		}
 
 		set_institution_investment_level = {
@@ -472,10 +472,10 @@
 		
 		#InterestGroups,Haven't touched these at all yet, just default converter settings
 		ig:ig_armed_forces = {
-			set_ig_bolstering = yes
+		
  		}
 		ig:ig_trade_unions = {
-			
+		
  		}
 
 		set_institution_investment_level = {
@@ -516,10 +516,10 @@
 		
 		#InterestGroups,Haven't touched these at all yet, just default converter settings
 		ig:ig_armed_forces = {
-			set_ig_bolstering = yes
+		
  		}
 		ig:ig_trade_unions = {
-			
+		
  		}
 
 		set_institution_investment_level = {
@@ -560,10 +560,10 @@
 		
 		#InterestGroups,Haven't touched these at all yet, just default converter settings
 		ig:ig_armed_forces = {
-			set_ig_bolstering = yes
+		
  		}
 		ig:ig_trade_unions = {
-			
+		
  		}
 
 		set_institution_investment_level = {
