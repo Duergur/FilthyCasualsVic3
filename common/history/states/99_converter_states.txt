@@ -622,7 +622,7 @@
 		create_state = {
 			country = c:CAS
 			owned_provinces = { x769456 x90A080 x9B6D87 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:berber
 	}
@@ -1214,7 +1214,7 @@
 		create_state = {
 			country = c:CAS
 			owned_provinces = { x4B7FA5 xA2C3E8 xA2E8C5 xE8E7A2 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:halendingur
 		add_claim = c:SCO
@@ -3735,7 +3735,7 @@
 		create_state = {
 			country = c:CAS
 			owned_provinces = { x385719 x4D5156 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:berber
 	}
@@ -5089,7 +5089,7 @@
 		create_state = {
 			country = c:CAS
 			owned_provinces = { x34A317 x505ABF x6516B9 xAAB357 xD4E488 xD5B946 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		create_state = {
 			country = c:ETH
@@ -7420,7 +7420,7 @@
 		create_state = {
 			country = c:CAS
 			owned_provinces = { x24BC7F x6BCF19 x85E930 x8D740C xB322E7 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		create_state = {
 			country = c:KBD
