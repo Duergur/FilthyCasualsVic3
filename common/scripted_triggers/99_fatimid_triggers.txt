@@ -1,0 +1,18 @@
+trigger_state_is_in_alwatan = {
+	OR = {
+		state_region = s:STATE_UGANDA
+		state_region = s:STATE_KENYA
+		state_region = s:STATE_RIFT_VALLEY
+		state_region = s:STATE_TANGANYIKA
+		state_region = s:STATE_LINDI
+		state_region = s:STATE_ZANZIBAR
+		state_region = s:STATE_MOCAMBIQUE
+		state_region = s:STATE_KAZEMBE
+		state_region = s:STATE_ZAMBEZI
+		state_region = s:STATE_ZAMBIA
+		state_region = s:STATE_ZAMBEZIA
+		state_region = s:STATE_LOURENCO_MARQUES
+		state_region = s:STATE_NORTH_MADAGASCAR
+		state_region = s:STATE_SOUTH_MADAGASCAR
+	}
+}

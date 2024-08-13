@@ -13316,7 +13316,18 @@
 		}
 	}
 	s:STATE_NORTH_MADAGASCAR = {
-		region_state:ETH = {
+		region_state:MAD = {
+			create_building = {
+				building = "building_barracks"
+				level = 1
+				reserves = 1
+			}			
+			create_building = {
+				building = "building_logging_camp"
+				level = 2
+				reserves = 1
+				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+			}
 			create_building = {
 				building = "building_shipyards"
 				level = 1
@@ -17034,7 +17045,7 @@
 		}
 	}
 	s:STATE_SOUTH_MADAGASCAR = {
-		region_state:CAS = {
+		region_state:MAD = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1
@@ -17049,15 +17060,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_basic_port" }
-			}
-		}
-		region_state:ETH = {
-			create_building = {
-				building = "building_port"
-				level = 1
+				level = 3
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
@@ -17066,18 +17069,18 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_atmospheric_engine_pump_building_coal_mine" }
+			}			
+			create_building = {
+				building = "building_logging_camp"
+				level = 2
+				reserves = 1
+				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
 			}
 			create_building = {
 				building = "building_shipyards"
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_complex_shipbuilding" }
-			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
 			}
 		}
 	}

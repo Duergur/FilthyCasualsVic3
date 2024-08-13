@@ -2,7 +2,7 @@ MOC = { # Mocambique
 	color = { 227 5 60 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { chewa swahili makua dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1}
+	cultures = { chewa swahili makua}
 	capital = STATE_MOCAMBIQUE
 }
 
@@ -10,7 +10,7 @@ KZM = {
 	color = { 202 217 170 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { chewa luba}
+	cultures = { luba chewa }
 	religion = shiite
 	capital = STATE_KAZEMBE
 }
@@ -28,7 +28,7 @@ KKY = {
 	color = { 169 52 90 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { swahili somali dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1}
+	cultures = { swahili somali}
 	capital = STATE_KENYA
 	religion = shiite
 }
@@ -48,6 +48,16 @@ RWD = {
 	
 	tier = principality
 	religion = animist
-	cultures = { ruanda dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1}
+	cultures = { ruanda }
 	capital = STATE_TANGANYIKA
+}
+ 
+AWT = {
+	country_type = unrecognized
+	religion = animist
+	cultures = { ruanda }
+	color = {160 0 0}
+	capital = STATE_TANGANYIKA
+	tier = kingdom
+
 }

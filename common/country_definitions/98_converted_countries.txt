@@ -10663,8 +10663,8 @@ ZHI = {
 ZIM = {
 	color = { 0 173 112 }
 	country_type = unrecognized
-	tier = kingdom
-	cultures = { nguni shona }
+	tier = principality
+	cultures = { sena chewa tonga }
 	capital = STATE_ZAMBEZIA
 }
 

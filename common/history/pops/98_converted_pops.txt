@@ -32791,7 +32791,7 @@
 			create_pop = {
 				culture = shona
 				religion = animist
-				size = 13289
+				size = 113289
 			}
 			create_pop = {
 				culture = shona
@@ -32801,7 +32801,7 @@
 			create_pop = {
 				culture = tonga
 				religion = animist
-				size = 60667
+				size = 160667
 			}
 			create_pop = {
 				culture = tonga
@@ -32811,7 +32811,7 @@
 			create_pop = {
 				culture = spanish
 				religion = catholic
-				size = 178909
+				size = 78909
 			}
 			create_pop = {
 				culture = tonga
@@ -32826,7 +32826,7 @@
 			create_pop = {
 				culture = spanish
 				religion = catholic
-				size = 179522
+				size = 79522
 			}
 		}
 	}
