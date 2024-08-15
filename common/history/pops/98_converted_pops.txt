@@ -7128,7 +7128,7 @@
 				size = 33102
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 19891
 			}
@@ -7138,7 +7138,7 @@
 				size = 62131
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 36284
 			}
@@ -7148,7 +7148,7 @@
 				size = 28369
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 17053
 			}
@@ -7158,7 +7158,7 @@
 				size = 97380
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 54027
 			}
@@ -12458,12 +12458,12 @@
 				size = 13
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 18541
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 51
@@ -15358,12 +15358,12 @@
 				size = 7840
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 152159
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 23147
@@ -15380,12 +15380,12 @@
 				size = 13545
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 48947
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 7446
@@ -15402,12 +15402,12 @@
 				size = 2692
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 54585
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 8303
@@ -15424,12 +15424,12 @@
 				size = 3228
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 64202
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 9767
@@ -15446,12 +15446,12 @@
 				size = 4137
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 45082
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 6858
@@ -15468,12 +15468,12 @@
 				size = 3785
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 40829
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 6211
@@ -15490,12 +15490,12 @@
 				size = 2936
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 59548
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 9059
@@ -16098,7 +16098,7 @@
 				size = 67503
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 93028
 			}
@@ -16113,7 +16113,7 @@
 				size = 43821
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 58600
 			}
@@ -17980,23 +17980,23 @@
 	s:STATE_EGYPTIAN_DESERT = {
 		region_state:ETH = {
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 16169
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 654
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 72760
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 2944
@@ -18013,34 +18013,34 @@
 				size = 1883
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 77150
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 3121
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 10914
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 442
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 70486
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 2852
@@ -18481,12 +18481,12 @@
 				size = 777
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 25969
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 415
@@ -18503,12 +18503,12 @@
 				size = 1137
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 40677
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 651
@@ -18525,12 +18525,12 @@
 				size = 745
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 27971
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 447
@@ -18547,12 +18547,12 @@
 				size = 849
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 28900
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 462
@@ -18569,12 +18569,12 @@
 				size = 744
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 27981
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 448
@@ -21225,7 +21225,7 @@
 				size = 66823
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 34261
 			}
@@ -21245,7 +21245,7 @@
 				size = 102917
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 52597
 			}
@@ -21265,7 +21265,7 @@
 				size = 49982
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 27775
 			}
@@ -21315,7 +21315,7 @@
 				size = 61233
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 32075
 			}
@@ -28320,7 +28320,7 @@
 				size = 288
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 10461
 			}
@@ -28769,12 +28769,12 @@
 				size = 134
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 19035
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 235
@@ -28791,12 +28791,12 @@
 				size = 90
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 13919
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 172
@@ -28996,7 +28996,7 @@
 				size = 18498
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 25360
 			}
@@ -29011,7 +29011,7 @@
 				size = 17590
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 26268
 			}
@@ -29026,7 +29026,7 @@
 				size = 15586
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 25681
 			}
@@ -31880,12 +31880,12 @@
 				size = 1
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 74059
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 2
@@ -31907,12 +31907,12 @@
 				size = 1
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 66189
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 2
@@ -31934,12 +31934,12 @@
 				size = 2
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 79969
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 2
@@ -31950,7 +31950,7 @@
 				size = 901
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 11647
 			}
@@ -31971,12 +31971,12 @@
 				size = 1
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 62889
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 2
@@ -31991,12 +31991,12 @@
 	s:STATE_LIBYAN_DESERT = {
 		region_state:ETH = {
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 58146
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 5911
@@ -32013,12 +32013,12 @@
 				size = 2067
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 62129
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 6315
@@ -32035,12 +32035,12 @@
 				size = 663
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 19293
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 1961
@@ -32216,7 +32216,7 @@
 				size = 840
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 1430
 			}
@@ -32226,7 +32226,7 @@
 				size = 1681
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 2860
 			}
@@ -32236,7 +32236,7 @@
 				size = 775
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 1496
 			}
@@ -32246,7 +32246,7 @@
 				size = 1934
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 4879
 			}
@@ -32256,7 +32256,7 @@
 				size = 2455
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 5872
 			}
@@ -32266,7 +32266,7 @@
 				size = 1009
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 2018
 			}
@@ -32324,7 +32324,7 @@
 				size = 7808
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 13303
 			}
@@ -32334,7 +32334,7 @@
 				size = 14818
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 26604
 			}
@@ -32344,7 +32344,7 @@
 				size = 7051
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 13960
 			}
@@ -32354,7 +32354,7 @@
 				size = 17342
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 44791
 			}
@@ -32364,7 +32364,7 @@
 				size = 22552
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 54722
 			}
@@ -32374,7 +32374,7 @@
 				size = 9097
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 18184
 			}
@@ -32784,7 +32784,7 @@
 				size = 31999
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 81557
 			}
@@ -32833,7 +32833,7 @@
 	s:STATE_LOWER_EGYPT = {
 		region_state:ETH = {
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 341699
 			}
@@ -32843,12 +32843,12 @@
 				size = 4402
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = sunni
 				size = 162476
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 346276
 			}
@@ -32858,7 +32858,7 @@
 				size = 6554
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 288546
 			}
@@ -32868,7 +32868,7 @@
 				size = 3717
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 250579
 			}
@@ -32878,7 +32878,7 @@
 				size = 3228
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 250579
 			}
@@ -32888,7 +32888,7 @@
 				size = 3228
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 159460
 			}
@@ -32900,12 +32900,12 @@
 		}
 		region_state:W03 = {
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 146775
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = golden_path
 				size = 103804
 			}
@@ -35307,17 +35307,17 @@
 	s:STATE_MATRUH = {
 		region_state:ETH = {
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 109771
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 113556
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 2366
 			}
@@ -36139,7 +36139,7 @@
 	s:STATE_MIDDLE_EGYPT = {
 		region_state:ETH = {
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 212068
 			}
@@ -36149,7 +36149,7 @@
 				size = 574
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 249937
 			}
@@ -36159,7 +36159,7 @@
 				size = 676
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 249937
 			}
@@ -36169,7 +36169,7 @@
 				size = 676
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 249937
 			}
@@ -37384,7 +37384,7 @@
 				size = 20565
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 62709
 			}
@@ -37394,7 +37394,7 @@
 				size = 10021
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 20260
 			}
@@ -49513,7 +49513,7 @@
 				size = 5706
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 170347
 			}
@@ -50079,7 +50079,7 @@
 				size = 3709
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 9749
 			}
@@ -50089,7 +50089,7 @@
 				size = 10971
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 19310
 			}
@@ -50099,7 +50099,7 @@
 				size = 16496
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 28926
 			}
@@ -50109,7 +50109,7 @@
 				size = 709
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 1356
 			}
@@ -53479,32 +53479,32 @@
 				size = 1431
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = sunni
 				size = 66772
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = sunni
 				size = 319
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 96561
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 462
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = golden_path
 				size = 115438
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = golden_path
 				size = 552
 			}
@@ -54068,12 +54068,12 @@
 				size = 1736
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 14487
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 889
@@ -54354,12 +54354,12 @@
 				size = 2033
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 16782
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 1030
@@ -57063,7 +57063,7 @@
 				size = 4636
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 12187
 			}
@@ -57073,7 +57073,7 @@
 				size = 14070
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 46493
 			}
@@ -57083,7 +57083,7 @@
 				size = 9695
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 20586
 			}
@@ -57093,7 +57093,7 @@
 				size = 16083
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 29339
 			}
@@ -57188,7 +57188,7 @@
 				size = 28777
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 46927
 			}
@@ -59941,7 +59941,7 @@
 				size = 77257
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 44017
 			}
@@ -59956,7 +59956,7 @@
 				size = 38066
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 22571
 			}
@@ -59971,7 +59971,7 @@
 				size = 34084
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 18974
 			}
@@ -59986,7 +59986,7 @@
 				size = 77547
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 43727
 			}
@@ -60001,7 +60001,7 @@
 				size = 6209
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 18379
 			}
@@ -60016,7 +60016,7 @@
 				size = 52346
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 31030
 			}
@@ -60252,12 +60252,12 @@
 				size = 75
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 29115
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 41
@@ -60279,12 +60279,12 @@
 				size = 39
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 16964
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 24
@@ -60306,12 +60306,12 @@
 				size = 68
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 26820
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 37
@@ -60349,12 +60349,12 @@
 				size = 82
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 31974
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 44
 			}
@@ -60374,12 +60374,12 @@
 				size = 104
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 38598
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 54
 			}
@@ -60409,12 +60409,12 @@
 				size = 78
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 39687
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 55
 			}
@@ -60444,12 +60444,12 @@
 				size = 101
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 48906
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 68
 			}
@@ -60979,7 +60979,7 @@
 				size = 10475
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 12236
 			}
@@ -61315,67 +61315,67 @@
 	s:STATE_UPPER_EGYPT = {
 		region_state:ETH = {
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 271453
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 1080
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 58648
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 233
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 41472
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 165
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 30161
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 120
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 75404
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 300
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 150807
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 600
@@ -63622,12 +63622,12 @@
 				size = 57
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 6704
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 218
@@ -64095,7 +64095,7 @@
 				size = 7325
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 238286
 			}
@@ -64130,7 +64130,7 @@
 				size = 6795
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 190053
 			}
@@ -64372,12 +64372,12 @@
 				size = 133
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 58022
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 182
@@ -64405,12 +64405,12 @@
 				size = 97
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 46768
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 146
@@ -67824,12 +67824,12 @@
 				size = 444
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 7846
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 348
@@ -67846,12 +67846,12 @@
 				size = 20
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 499
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 22
@@ -67868,12 +67868,12 @@
 				size = 171
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				size = 3581
 			}
 			create_pop = {
-				culture = dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+				culture = dynamic_east_african
 				religion = shiite
 				pop_type = slaves
 				size = 159

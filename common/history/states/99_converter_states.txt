@@ -1349,7 +1349,7 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:bedouin
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:dynamic-daju-culture-num1
 		add_homeland = cu:teda
 	}
@@ -1800,7 +1800,7 @@
 			owned_provinces = { x007E00 x04CAF0 x054B09 x0BFED1 x0DF96C x1090F8 x10DCE6 x11C147 x150E1A x161776 x1766AF x1A8ACE x1CF8E6 x1EA562 x2093F8 x20F9A6 x222DE0 x225A59 x2550D2 x266C2B x27F228 x283C56 x2BFA5C x2F0B7E x31A8AF x3231D7 x324CD5 x32DB72 x36EACA x3795A7 x3B5DB2 x3B8BED x3CE268 x3E717B x3FB182 x42F208 x44C39B x455297 x484F69 x4B0B6D x4D1F29 x4E155E x4E37E0 x4E6485 x51D68A x550B5E x5532D7 x56EB87 x58DC7E x59CB2E x5C4782 x5C9678 x5D63E5 x660662 x6846D2 x6D0641 x6F53E7 x7011A0 x71CE61 x746936 x76A5E2 x77680E x77814B x799DA6 x7A81FC x7B8083 x7B85E1 x7F40DC x851A9F x856C77 x86281A x8C56D8 x8C708E x8CCFBA x8EBBA0 x8FB172 x9030E0 x911D8A x957D19 x9D7E6E x9DD70D x9E053B xA09909 xA32C94 xA62EDD xA7E315 xA86A12 xAADC57 xB060C3 xB1A5A5 xB4CFDD xB89427 xB911BF xBC0905 xBF4351 xBFE20B xC1B811 xCC661D xCED49F xCF32AB xD09060 xD14C83 xD1DBCB xD6CE98 xD77A80 xD781FF xDA9F36 xDE20CA xDF3230 xE43B56 xE4A226 xE53B02 xE5D4C9 xE5DB69 xE7E845 xEAC7A6 xECB353 xEEA896 xF011A0 xF09021 xF16CDA xF1B993 xF4022B xF51BB4 xF53975 xF6E39D xFAA9A3 xFBB239 xFD501A xFE44B7 xFF331C xFF4AEC xFF4E48 xFFC1F5 }
 			state_type = incorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:nilotic
 	}
 	s:STATE_DURANGO = {
@@ -1867,7 +1867,7 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:melanesian
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:spanish
 	}
 	s:STATE_EASTERN_NORWAY = {
@@ -2071,7 +2071,7 @@
 			owned_provinces = { x03534F x1106F7 x1403CE x150086 x1741F9 x1B8AFB x1C0C7D x1CDFF0 x1DF813 x1F1C45 x20FBA0 x221888 x22B654 x2578C4 x27571E x27C39D x2B6F28 x2FA8B3 x331A56 x36E64E x3940DA x3C21A0 x3FFE56 x448F8B x46C8F9 x48152A x4B8A20 x54C854 x54D103 x559DD9 x581E1A x5D6A34 x66AEE5 x6AF576 x6C5890 x6D12E3 x741E9E x7514D7 x7CEEDA x807EFF x811823 x83E020 x88E19F x8BEC52 x8D6726 x8F31B0 x9130F8 x91BF54 x941E53 x99610C x9A6DB5 x9D3831 x9D6B88 xA14C64 xA8FA0A xAA1826 xACEBEA xB01121 xB05020 xB23CCA xB2E150 xB32C4A xB5BED4 xB9EBE6 xBA5529 xBBEAA1 xBCE332 xBD1C16 xBD5993 xC48A06 xC87A53 xC943B1 xCA855F xCAE0D2 xCC0432 xCE519C xD03CB6 xD0D0E0 xD91602 xE03FA1 xE12C26 xE18FD5 xE1F55D xE21A78 xE565E4 xE853CA xE95AD6 xF0B8A3 xF21A84 xF3B9CD xF55182 xF63E3C xF87E36 xFA5382 xFA85DD xFF4484 }
 			state_type = incorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 	}
 	s:STATE_ELBE = {
 		create_state = {
@@ -3238,7 +3238,7 @@
 			owned_provinces = { x024FB7 xA586BD xE5F496 x07301D x093D6D x105E7E x1481BC x15E223 x186E7B x187692 x1C670A x1D29C2 x1EE911 x2A2A05 x2C1E9F x2F00E6 x3057A4 x36A0BB x3788AD x3B104F x3C9DE6 x3FB184 x403F31 x47E812 x4C5E63 x4E9500 x5361C6 x54A236 x58502C x620629 x6268B1 x645FCD x6C2C7C x6C9580 x6CFB58 x71F6F2 x73B1B6 x750DF0 x75FDD0 x786C0E x7962AB x7AF180 x7CD240 x7F1BED x87771C x880D71 x8833BD x885EAA x8FC2E6 x90CE04 x93B1F8 x99E339 x9B45C3 x9D5FE0 xA936E2 xAC4151 xAD062C xAD40C0 xAF4E64 xB02110 xB2F68E xB843E4 xB982CA xBC39DE xBD2B47 xC302BC xCDD8FC xD794FA xD9B170 xE1BDDB xE1ECF8 xE7A782 xEB5598 xEC29A0 xEDCDD6 xF4CEE0 xF51848 xF8E616 xFA1564 }
 			state_type = incorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:spanish
 		add_homeland = cu:luba
 	}
@@ -3267,7 +3267,7 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:chewa
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:spanish
 	}
 	s:STATE_KENTUCKY = {
@@ -3287,7 +3287,7 @@
 			owned_provinces = { x005C29 x03C8B4 x08B945 x19CFEC x28843B x2F7464 x30D3AC x33566A x356777 x405F8E x40DE9B x4168F3 x46B3F6 x47F824 x4816E8 x58526D x5C1ADA x5CB34D x5EA4B6 x6B52F1 x6C071A x6CCF4B x77319E x8079E2 x88F1D5 x89BA83 x8FF25F x95C403 x996D62 x9A78B7 x9BA0B4 x9FDE2D xA02190 xA0A011 xA0A090 xA40CF9 xA7A757 xADF3C8 xB5BCCC xB97349 xBD067F xBFCF3E xC2118A xC80CAC xC8B790 xC95AAB xD0A631 xD8A2A3 xE5F986 xECA4C0 xF59538 xFE3967 x089446 x0AF9FB x4E4C18 x63DAA0 x65632F x834AD2 x90F646 x9AE44A xA2D8EF xB0DB1C xD775AC xE007A1 xF89944 xFE3DAB }
 			state_type = incorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:kikuyu
 		add_homeland = cu:somali
 		add_homeland = cu:swahili
@@ -3582,7 +3582,7 @@
 			owned_provinces = { x025170 x04DAA1 x13063D x188727 x1898D8 x1E8A25 x209020 x2B40DE x34A20C x40CFA0 x40D0E0 x4C7050 x4FB39B x505BF8 x55361C x574B81 x77D1BA x800FBB x8D408F x8E70B1 x96B6AF x97E206 x99D6C9 xA01020 xA645B8 xAD6337 xB0EEAE xBCB1A5 xBDFE7F xC0D0A0 xC74D58 xD7040F xDF191B xE0D870 xE123F5 xE2D391 xFAB002 }
 			state_type = incorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 	}
 	s:STATE_LIBYAN_DESERT = {
 		create_state = {
@@ -3590,7 +3590,7 @@
 			owned_provinces = { x0008B1 x017863 x0198EA x057978 x093E94 x099FFF x0A58C9 x0BD882 x0BD921 x0CA694 x0ECBC0 x0F16C7 x0F6CA8 x1189D2 x11A0DD x1425EF x144435 x148330 x14A3E1 x14F1BF x152867 x155988 x164ED1 x165542 x180269 x194AE7 x1A8994 x1BE626 x1EDF65 x2129BE x229F5B x231277 x23AE97 x24837D x27737E x281051 x281F7D x28A6A1 x29E247 x29E30B x2A53E1 x2B96BF x2C08E8 x2EB0FE x3066D1 x31EA8A x33B3DE x34CD9D x3572F7 x371B26 x372EB1 x395873 x39A829 x3A9EC5 x3B68A8 x3BF817 x3D9D25 x3E00B9 x3E5E19 x4588F1 x475810 x477A67 x47B014 x47B6FA x48316F x485A40 x4BC650 x4E6542 x4EF9F0 x4F29FF x51AB2C x522D29 x524EEC x5272B1 x53ECCE x550DB9 x56AEEC x5816E1 x592D88 x5B2B26 x5B3233 x5E16B6 x60A81D x60D659 x61A415 x61F166 x650312 x662644 x671156 x6794AD x683423 x68430F x6890D4 x6A6A85 x6B2BEF x6B945A x6C635A x6ED70F x6F8DE9 x72A54B x731E96 x735D47 x738052 x73B161 x76EA2F x77A44D x78D114 x799B7E x79DCF4 x7B0D2E x7CED48 x7DEA64 x7F2FCD x81B59F x827DC0 x827E73 x83E15C x874CD9 x87B84F x87E9E0 x8967B5 x8A160E x8B21BC x8C8E28 x8D5F6C x8DAD0A x8F71C6 x90D060 x91EB7D x92D93F x950042 x95E863 x991766 x9953AB x9D205C x9F22F2 x9F6FBD xA09020 xA17BD6 xA247FB xA519D6 xA5C57A xA79085 xAA6BA0 xAAA267 xAB9F90 xACA5B1 xAD3D64 xAD746A xAF2968 xAFD438 xB10316 xB24990 xB46A16 xB93A62 xBCDCC0 xBFB9A9 xC0E7D7 xC11122 xC1CA86 xC5601C xC5B660 xC63569 xC6DA6A xC75D31 xC88B2A xCA9364 xCC14A4 xCD6775 xCF807F xCFEDA1 xD1395D xD3A4B1 xD3CCA8 xD5C61D xD61033 xDAC20A xDB1CEA xDBD075 xDC498E xDCBC26 xDEF5CF xDEFE00 xE19FB8 xE32053 xE39CED xE51BCB xE5E228 xE6081F xE6E84C xE799AA xE7AF8B xEBD8DF xECDEFD xEE1748 xEEE9E6 xF00DCD xF1D2C1 xF1DFCE xF2B6E0 xF46E3D xF8A389 xF8B255 xF9980E xF9D0BC xFA182C xFA3335 xFA4247 xFAB14C }
 			state_type = incorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 	}
 	s:STATE_LIMA = {
 		create_state = {
@@ -3620,7 +3620,7 @@
 			owned_provinces = { xD1524C x2D3397 x70B6A7 x72D563 0x65d237 x294144 x2C40BD xD98109 x7CC813 xFC6EA6 x0EA082}
 			state_type = incorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:yao
 	}
 	s:STATE_LOMBARDY = {
@@ -3665,7 +3665,7 @@
 			owned_provinces = { x00BE56 x0D2E92 x17DAE2 x1DAC75 x3040D0 x3083D0 x361897 x4D5FD5 x54CDC5 x61DA05 x6A3989 x6E7B6C x6FB160 x778C50 x77C219 x7A8148 x7D5F16 x93BF4B xB6C38B xBC9845 xBD1A31 xD07030 xF67484 x195AAF x040DB6 x2C2C46 x31033A x3F9512 x51ECCC x588497 x68F4FC x71A3EA x72A8B7 x7E6D78 x89F9FC x8DC2A9 x963178 xAAA76B xBCE7FD xC41403 xE4494C x1C2C65 }
 			state_type = incorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:shona
 		add_homeland = cu:spanish
 	}
@@ -3681,7 +3681,7 @@
 			state_type = treaty_port
 			state_type = unincorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 	}
 	s:STATE_LOWLANDS = {
 		create_state = {
@@ -3890,7 +3890,7 @@
 			owned_provinces = { x05BD60 x05FF42 x06DF39 x0C6712 x0D56B2 x0EE79F x20CF20 x20D0A0 x246457 x252184 x25523D x272AAD x3955E4 x3DCE56 x45DB44 x48B0D1 x53834E x5713ED x5E1EA3 x69BCDD x6EB0BA x7F64AC x80A9AC x87D6C4 x8A68C1 x8AC4E0 x8E30B0 x908947 x93D215 x98DFE2 xA05020 xA0ECF8 xB5420C xB5969E xBB2E89 xBE3AC5 xBFC9C0 xC1822C xC2176F xD83883 xDF5EBB xE0D021 xE68265 xEBB23F xEC728B xF901CB xF942C3 }
 			state_type = incorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 	}
 	s:STATE_MAURITANIA = {
 		create_state = {
@@ -3993,7 +3993,7 @@
 			owned_provinces = { x08B43B x0EBC9F x11D0E0 x5050E0 x50D060 x69472D x78104A x908F20 x919B7D xA050A0 xA41CF4 xC35ABD xC7858D xD39096 xF01121 }
 			state_type = incorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 	}
 	s:STATE_MIDLANDS = {
 		create_state = {
@@ -4094,7 +4094,7 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:chewa
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:makua
 		add_homeland = cu:swahili
 	}
@@ -5542,7 +5542,7 @@
 		}
 		add_homeland = cu:aborigine
 		add_homeland = cu:australian
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:japanese
 		add_homeland = cu:moro
 		add_claim = c:NZL
@@ -5606,7 +5606,7 @@
 			owned_provinces = { x04ADAD x209F10 x2DBD09 x3CA803 x3E97BF x52CFCA x5C88B8 x63C8FD x667CE1 x6BE070 x73AB85 x787130 x7D6876 x834B1E x848FA1 x92CECB x935F28 x9374F3 xA09C0F xADF7C0 xAE1D62 xB5E965 xC0F3D2 xCF4C38 xD3CE4A xE02111 xF02E37 xF03E07 xF14E14 xF27D1C xF2EBEC xF6B009 }
 			state_type = incorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:maasai
 	}
 	s:STATE_RIGA = {
@@ -6060,7 +6060,7 @@
 			owned_provinces = { x390CFC x44F1F5 x464B8A x76E63D x7DA2DA x8E5FD6 x8ED45E xAB924B xAF35C9 xC01060 xC3AB33 xD431F9 xEC3DC5 }
 			state_type = incorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:outremer
 	}
 	s:STATE_SINALOA = {
@@ -6477,7 +6477,7 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:baganda
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:ruanda
 		add_homeland = cu:unyamwezi
 	}
@@ -6747,7 +6747,7 @@
 			owned_provinces = { x009F47 x00AA38 x0190E0 x02CCF5 x0479EF x06135E x070399 x0A5735 x0B1422 x0C5EBE x0C98CD x11D0A0 x163759 x1845BE x1C2606 x1F3EAA x1F8886 x202929 x26FEF6 x285F4F x2A751D x2B86F4 x2BBB9C x321C7F x3293BF x348703 x37034A x3F1904 x41960C x41FEF5 x43C678 x4508B3 x460BB7 x463A7E x4B9EB1 x4D4A58 x4E480E x5183F2 x587B0B x5B44AB x5B7280 x5F28EB x5F830E x617DC1 x6316C9 x65294E x67758E x68DB95 x6951D5 x6EA444 x725A37 x72AD6F x756DFD x7C0DA3 x7CFB8C x7EE2C1 x801060 x8010E0 x81C7D9 x8207BC x83708C x84D04D x85204C x86E434 x87476F x8855E0 x886CFB x8ADB51 x8C63E2 x8EDC4D x909C77 x976D70 x98E67F x9A4E88 xA06BA4 xA14DC8 xA3B5DA xA3E261 xA3FFD3 xA48E9C xA4B02B xA95E42 xAA6A72 xAAD5CC xACD89C xACF78C xADD677 xB01814 xB11A98 xB55E99 xB89482 xBABA5F xBD52A2 xBFA1D6 xC050A0 xC3C4EC xC49FA7 xC4D8ED xC6722B xC724C8 xCA4E6B xCB3322 xD2D69C xD4F032 xD7CBD9 xD7FFBE xD8876F xD9A89D xDA32A4 xDA9E29 xE6917C xE9B457 xEB8E58 xF3329A xF42EA1 xF65A12 xF88C6A xFCE120 xFD5B11 xFF8008 xFFED82 }
 			state_type = incorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:maghrebi
 	}
 	s:STATE_TUCUMAN = {
@@ -6854,7 +6854,7 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:baganda
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:luo
 		add_homeland = cu:maasai
 	}
@@ -6890,7 +6890,7 @@
 			owned_provinces = { x01735F x04D622 x0E8E92 x13DF6A x25D78E x2A731C x3B8FDC x3CD16F x3EE61D x4249C3 x44702D x465ACA x4D2090 x4FB62D x675F3B x6A6080 x709020 x7B5BED x7B75E6 x7E0628 x906720 xA75EBA xACD490 xB002FE xB22B9E xC304C5 xC83592 xD0D060 xD26E7A xE0A0AC xE1FB56 xEDE183 xF32C0A }
 			state_type = incorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 	}
 	s:STATE_UPPER_YENISEYSK = {
 		create_state = {
@@ -7151,7 +7151,7 @@
 			owned_provinces = { x0E95EA x0FFA6D x105589 x112BBD x1134A4 x12A660 x169BFB x16B5EB x1732C7 x179616 x1AFE6B x203F1F x26D9BF x2A283A x2A6299 x2E1718 x393BE5 x3A28C0 x3A3469 x3AA356 x3BBEEC x3FA17F x4F577D x5090A0 x50E9F2 x625A6A x6D3421 x700354 x736C1E x75371E x76617A x7892B1 x7B31F9 x7C4D25 x80A0D0 x822F93 x85433C x89620D x8AAAC8 x905160 x907D63 x915193 x93DC26 x955141 x9B7EB0 x9CA808 xA04F86 xAC0CAC xADEC7A xB2CF76 xB48161 xB50BBC xB53F51 xB8433D xBA95F2 xBAE52C xBBFD2F xBCB4F7 xBECAFF xC08646 xC0A050 xC2903A xC4A492 xC948EE xCFFFA7 xD090A0 xD11858 xD17974 xD28614 xD2CB1C xD62009 xD7D808 xD96611 xDDEE90 xE0D9F6 xE86570 xEC3C28 xF1EDE4 xF236EA xF42410 xF6377D }
 			state_type = incorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:dynamic-zaghawa-culture-num1
 		add_homeland = cu:kanuri
 	}
@@ -7209,7 +7209,7 @@
 		}
 		add_homeland = cu:aborigine
 		add_homeland = cu:australian
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:japanese
 		add_claim = c:NZL
 		add_claim = c:WAS
@@ -7244,7 +7244,7 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:melanesian
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 	}
 	s:STATE_WESTERN_NORWAY = {
 		create_state = {
@@ -7667,7 +7667,7 @@
 			owned_provinces = { x01DAF2 xC5FD71 xCC2E4C x6D48F8 x28ECB2 x04EE2A x076DB2 x0EB967 x137E0F x31BEE9 x361062 x4A5DD9 x5B459D x778391 x79A426 x8866AE x8BDDAB x8D6CA6 x931020 xB54AA9 xC8E1C9 xDC956A xF9EA9A x9C721A xA02031}
 			state_type = incorporated
 		}
-		add_homeland = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+		add_homeland = cu:dynamic_east_african
 		add_homeland = cu:spanish
 	}
 	s:STATE_ZANZIBAR = {

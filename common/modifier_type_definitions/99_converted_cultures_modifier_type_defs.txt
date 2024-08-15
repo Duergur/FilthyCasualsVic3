@@ -1023,7 +1023,7 @@ state_dynamic-andalucian-culture-num1_standard_of_living_add = {
 	}
 }
 
-state_dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1_standard_of_living_add = {
+state_dynamic_east_african_standard_of_living_add = {
 	decimals=1
 	color=good
 	game_data={

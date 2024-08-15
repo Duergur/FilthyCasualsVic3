@@ -29,7 +29,7 @@ ETH = { #Fatimids
 	color = { 35 130 50 }
 	country_type = recognized
 	tier = hegemony
-	cultures = { dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 }
+	cultures = { dynamic_east_african }
 	religion = shiite
 	capital = STATE_LOWER_EGYPT
 }

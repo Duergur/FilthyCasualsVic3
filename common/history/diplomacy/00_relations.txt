@@ -139,7 +139,7 @@
 		set_relations = { country = c:CAS value = 10 }
 	}
 	c:W57 = {
-		set_relations = { country = c:ETH value = 10 }
+		set_relations = { country = c:ETH value = -10 }
 	}
 	c:W58 = {
 		set_relations = { country = c:ETH value = 10 }

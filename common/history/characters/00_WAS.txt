@@ -4,7 +4,7 @@
 			first_name = "Mahdi_Wami"
 			is_general = yes
 			commander_rank = commander_rank_2
-			culture = cu:dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1
+			culture = cu:dynamic_east_african
 			religion = rel:shiite
 			birth_date = 1786.5.26
 			traits = {

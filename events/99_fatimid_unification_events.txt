@@ -1,7 +1,7 @@
 namespace = fat_vas
 
 # Fatamid Vassal absorbs poorer neighbour
-fat_vas.1 = {
+fat_vas.1 = { 
 	type = country_event
 	placement = ROOT
 
@@ -33,37 +33,42 @@ fat_vas.1 = {
 							}
 						}
 						OR = {
-							any_scope_state = {
-								any_sea_node_adjacent_state = {
-									owner = {
-										OR={
-											owns_entire_state_region = STATE_NORTH_MADAGASCAR
-											owns_entire_state_region = STATE_SOUTH_MADAGASCAR
-										}
-									}
-									ROOT={
-										NOR={
-											owns_entire_state_region = STATE_NORTH_MADAGASCAR
-											owns_entire_state_region = STATE_SOUTH_MADAGASCAR
-										}
-									}
+							AND = {
+								# Target is african, the initiator is Madagascar
+								NOR={
+									owns_entire_state_region = STATE_NORTH_MADAGASCAR
+									owns_entire_state_region = STATE_SOUTH_MADAGASCAR
 								}
+								any_scope_state = {
+									any_sea_node_adjacent_state = {
+										owner = {								
+											THIS = ROOT
+											OR={
+												owns_entire_state_region = STATE_NORTH_MADAGASCAR
+												owns_entire_state_region = STATE_SOUTH_MADAGASCAR
+											}
+										}
+									}
+								}								
 							}
-							any_scope_state = {
-								any_sea_node_adjacent_state = {
-									owner = {
-										NOR={
-											owns_entire_state_region = STATE_NORTH_MADAGASCAR
-											owns_entire_state_region = STATE_SOUTH_MADAGASCAR
-										}
-									}
-									ROOT={
-										OR={
-											owns_entire_state_region = STATE_NORTH_MADAGASCAR
-											owns_entire_state_region = STATE_SOUTH_MADAGASCAR
-										}
-									}
+
+							AND = {
+								# Target is Madagascar, the initiator is African
+								OR={
+									owns_entire_state_region = STATE_NORTH_MADAGASCAR
+									owns_entire_state_region = STATE_SOUTH_MADAGASCAR
 								}
+								any_scope_state = {
+									any_sea_node_adjacent_state = {
+										owner = {								
+											THIS = ROOT
+											NOR={
+												owns_entire_state_region = STATE_NORTH_MADAGASCAR
+												owns_entire_state_region = STATE_SOUTH_MADAGASCAR
+											}
+										}
+									}
+								}								
 							}
 						}						
 					}

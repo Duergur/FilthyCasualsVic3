@@ -562,6 +562,7 @@
 		set_strategy = ai_strategy_conservative_agenda
 	}
 	c:W57 = {
+		set_strategy = ai_strategy_economic_imperialism
 		random_list = {
 			25 = { set_strategy = ai_strategy_agricultural_expansion }
 			25 = { set_strategy = ai_strategy_placate_population }

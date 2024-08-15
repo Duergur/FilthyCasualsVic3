@@ -1,0 +1,627 @@
+je_fatamid_india_conquest_vassal = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_historical_content
+	timeout = 7300
+
+	is_shown_when_inactive = {
+		capital={
+			OR={
+				region = sr:region_south_india
+				region = sr:region_north_india
+			}
+		}
+		any_neighbouring_state = {
+			owner = {
+				any_primary_culture = {
+					has_discrimination_trait = south_asian_heritage
+				}
+			}
+		}	
+		any_primary_culture = {
+			THIS = cu:dynamic_east_african
+		}
+	}
+
+	possible = {
+		custom_tooltip={
+			text = je_fatamid_india_conquest_tt_5
+			capital={
+				OR={
+					region = sr:region_south_india
+					region = sr:region_north_india
+				}
+			}
+		}
+		
+		custom_tooltip={
+			text = je_fatamid_india_conquest_tt_6
+			any_neighbouring_state = {
+				owner = {
+					NOT={
+						THIS = ROOT
+					}
+					is_subject = no
+					any_primary_culture = {
+						has_discrimination_trait = south_asian_heritage
+					}
+				}
+			}	
+		}
+	}
+
+	fail = {
+		custom_tooltip = {
+			text=je_fatamid_india_conquest_tt_4
+			capital={
+				NOR={
+					region = sr:region_south_india
+					region = sr:region_north_india
+				}
+			}
+		}
+	}
+
+	complete = {
+		custom_tooltip = {
+			text=je_fatamid_india_conquest_tt_1
+			sr:region_south_india = {
+				any_scope_state = {
+					count >= 3
+					owner={
+						OR={
+							THIS = ROOT 
+							any_overlord_or_above = {
+								THIS = ROOT
+							}
+						}
+						PREV={
+							state_region = {
+								PREVPREV = {
+									owns_entire_state_region = PREV
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		custom_tooltip = {
+			text=je_fatamid_india_conquest_tt_2
+			calc_true_if={
+				amount >= 5
+				s:STATE_CEYLON = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+				s:STATE_TRAVANCORE = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+				s:STATE_MADRAS = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+				s:STATE_CIRCARS = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+				s:STATE_HYDERABAD = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+				s:STATE_BOMBAY = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+				s:STATE_NAGPUR = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+				s:STATE_CENTRAL_INDIA  = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+				s:STATE_ORISSA  = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+			}	
+		}
+
+		custom_tooltip = {
+			text=je_fatamid_india_conquest_tt_3
+			NOT={
+				any_neighbouring_state = {
+					owner={
+						NOT={
+							THIS = ROOT
+						}
+						is_subject = no
+						any_primary_culture = {
+							THIS = cu:telegu
+						}
+					}
+				}
+			}	
+		}
+	}	
+	
+	on_complete = {
+		add_modifier = {
+			name = india_conquest_vassal_modifier
+			months = normal_modifier_time
+		}
+	}
+
+
+	weight = 100
+
+	should_be_pinned_by_default = yes
+}
+
+je_fatamid_india_conquest_overlord = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_historical_content
+	timeout = 7300
+
+	is_shown_when_inactive = {
+		THIS = c:ETH
+		any_in_hierarchy = {
+			count > 0
+			any_scope_state = {
+				OR={
+					region = sr:region_south_india
+					region = sr:region_north_india
+				}
+			}
+		}
+	}
+
+	possible = {
+		custom_tooltip = {
+			text=je_fatamid_india_conquest_tt_8
+			calc_true_if={
+				amount < 5
+				s:STATE_CEYLON = {
+					any_scope_state = {
+						owner={
+							any_in_hierarchy = {
+								THIS = ROOT
+							}
+						}
+					}
+				}
+				s:STATE_TRAVANCORE = {
+					any_scope_state = {
+						owner={
+							any_in_hierarchy = {
+								THIS = ROOT
+							}
+						}
+					}
+				}
+				s:STATE_MADRAS = {
+					any_scope_state = {
+						owner={
+							any_in_hierarchy = {
+								THIS = ROOT
+							}
+						}
+					}
+				}
+				s:STATE_CIRCARS = {
+					any_scope_state = {
+						owner={
+							any_in_hierarchy = {
+								THIS = ROOT
+							}
+						}
+					}
+				}
+				s:STATE_HYDERABAD = {
+					any_scope_state = {
+						owner={
+							any_in_hierarchy = {
+								THIS = ROOT
+							}
+						}
+					}
+				}
+			}	
+		}
+
+		hidden_trigger = {
+			THIS = c:ETH
+		}
+		is_subject = no
+		custom_tooltip = {
+			text = je_fatamid_india_conquest_tt_7
+			any_in_hierarchy = {
+				count > 0
+				any_scope_state = {
+					OR={
+						region = sr:region_south_india
+						region = sr:region_north_india
+					}
+				}
+			}
+		}
+		
+	}
+
+	fail = {
+		OR={
+			is_subject = yes
+			NOT = {
+				custom_tooltip = {
+					text = je_fatamid_india_conquest_tt_9
+					any_in_hierarchy = {
+						count > 0
+						any_scope_state = {
+							OR={
+								region = sr:region_south_india
+								region = sr:region_north_india
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	complete = {
+		custom_tooltip = {
+			text=je_fatamid_india_conquest_tt_1
+			sr:region_south_india = {
+				any_scope_state = {
+					count >= 3
+					owner={
+						OR={
+							THIS = ROOT 
+							any_overlord_or_above = {
+								THIS = ROOT
+							}
+						}
+						PREV={
+							state_region = {
+								PREVPREV = {
+									owns_entire_state_region = PREV
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		custom_tooltip = {
+			text=je_fatamid_india_conquest_tt_2
+			calc_true_if={
+				amount >= 5
+				s:STATE_CEYLON = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+				s:STATE_TRAVANCORE = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+				s:STATE_MADRAS = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+				s:STATE_CIRCARS = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+				s:STATE_HYDERABAD = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+				s:STATE_BOMBAY = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+				s:STATE_NAGPUR = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+				s:STATE_CENTRAL_INDIA  = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+				s:STATE_ORISSA  = {
+					any_scope_state = {
+						owner={
+							OR={
+								THIS = ROOT
+								any_overlord_or_above = {
+									THIS = ROOT
+								}
+							}
+						}
+					}
+				}
+			}	
+		}
+
+		custom_tooltip = {
+			text=je_fatamid_india_conquest_tt_3
+			NOT={
+				any_neighbouring_state = {
+					owner={
+						NOT={
+							THIS = ROOT
+						}
+						is_subject = no
+						any_primary_culture = {
+							THIS = cu:telegu
+						}
+					}
+				}
+			}	
+		}
+	}	
+	
+	on_complete = {
+		add_modifier = {
+			name = fatamid_india_conquest_overlord_modifier
+			months = normal_modifier_time
+		}
+	}
+
+	on_fail = {
+		add_modifier = {
+			name = fatamid_india_conquest_overlord_modifier_failed
+			months = normal_modifier_time
+		}	
+	}
+
+	weight = 100
+	should_be_pinned_by_default = yes
+}
+
+je_fatamid_india_gdp = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	group = je_group_historical_content
+
+	is_shown_when_inactive = {
+		capital={
+			OR={
+				region = sr:region_south_india
+				region = sr:region_north_india
+			}
+		}	
+		hidden_trigger={
+			THIS = c:W57
+		}
+	}
+
+	possible = {
+		hidden_trigger={
+			THIS = c:W57
+		}
+		gdp > 5000000
+		custom_tooltip={
+			text = je_fatamid_india_conquest_tt_5
+			capital={
+				OR={
+					region = sr:region_south_india
+					region = sr:region_north_india
+				}
+			}
+		}
+	}
+
+
+	complete = {
+		calc_true_if = {
+			amount >= 3
+			gdp > 10000000
+			gdp > 20000000
+			custom_tooltip={
+				text = je_fatimid_indian_gdp_tt_1
+				NOR = {
+					sr:region_south_india = {
+						any_scope_state = {
+							is_capital = yes
+							owner={
+								gdp > root.gdp
+							}
+						}
+					}
+					sr:region_north_india = {
+						any_scope_state = {
+							is_capital = yes
+							owner={
+								gdp > root.gdp
+							}
+						}
+					}
+				}
+			}
+			custom_tooltip={
+				text = je_fatimid_indian_gdp_tt_2
+				OR={
+					is_subject = no 
+					NOT = {
+						any_in_hierarchy = {
+							NOR={
+								THIS = ROOT
+								THIS = root.overlord
+							}
+							gdp > root.gdp
+						}
+					}
+				}
+			}
+			average_sol >= 15
+		}
+	}	
+
+	invalid = {
+		NOT={
+			custom_tooltip={
+				text = je_fatamid_india_conquest_tt_4
+				capital={
+					OR={
+						region = sr:region_south_india
+						region = sr:region_north_india
+					}
+				}
+			}
+		}
+	}
+	
+	on_complete = {
+		add_modifier = {
+			name = ceylon_gdp_modifier
+			months = normal_modifier_time
+		}
+	}
+
+
+	weight = 100
+
+	should_be_pinned_by_default = yes
+}
