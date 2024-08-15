@@ -94,6 +94,26 @@ je_fatimid_unification_overlord = {
 
 	possible = {
 		has_technology_researched = nationalism
+
+		any_subject_or_below = {
+			OR = {
+				owns_entire_state_region = STATE_UGANDA
+				owns_entire_state_region = STATE_KENYA
+				owns_entire_state_region = STATE_RIFT_VALLEY
+				owns_entire_state_region = STATE_TANGANYIKA
+				owns_entire_state_region = STATE_LINDI
+				owns_entire_state_region = STATE_ZANZIBAR
+				owns_entire_state_region = STATE_MOCAMBIQUE
+				owns_entire_state_region = STATE_KAZEMBE
+				owns_entire_state_region = STATE_ZAMBEZI
+				owns_entire_state_region = STATE_ZAMBIA
+				owns_entire_state_region = STATE_ZAMBEZIA
+				owns_entire_state_region = STATE_LOURENCO_MARQUES
+				owns_entire_state_region = STATE_NORTH_MADAGASCAR
+				owns_entire_state_region = STATE_SOUTH_MADAGASCAR
+			}
+			count >= 2
+		}
 	}
 
 	complete = {
@@ -124,5 +144,5 @@ je_fatimid_unification_overlord = {
 
 	weight = 100
 
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default = no
 }

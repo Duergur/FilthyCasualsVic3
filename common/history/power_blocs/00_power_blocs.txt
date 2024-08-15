@@ -29,8 +29,8 @@
 			name = ETH_BLOC
 			map_color = { 35 130 50 }
 			founding_date = 1.1.1
-			identity = identity_sovereign_empire
-			principle = principle_vassalization_1
+			identity = identity_religious
+			principle = principle_sacred_civics_1
 			
 			member = c:TUN
 			member = c:W57

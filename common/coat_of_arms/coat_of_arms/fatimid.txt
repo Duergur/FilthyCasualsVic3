@@ -1,17 +1,18 @@
 AWT = {
 	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "white"
+	color1 = "black"
+	color2 = "yellow"
+	color3 = "green"
 
 	colored_emblem = {
-		texture = "border_west_africa_02"
+		texture = "ce_frame_circle.dds"
 		color1 = color2
 		color2 = color1	
 	}
 	colored_emblem = {
-		texture = "gfx/interface/icons/religion_icons/animist.dds"
-		color1 = color1
-		color2 = color1
+		texture = "ce_nguni_shield.dds"
+		color1 = color3
+		color2 = color2
 		instance = { scale = { 0.8 0.8 } } 
 	}
 }

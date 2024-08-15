@@ -227,7 +227,6 @@ je_fatamid_india_conquest_vassal = {
 		}
 	}
 
-
 	weight = 100
 
 	should_be_pinned_by_default = yes
@@ -514,6 +513,17 @@ je_fatamid_india_conquest_overlord = {
 			name = fatamid_india_conquest_overlord_modifier_failed
 			months = normal_modifier_time
 		}	
+	}
+
+	immediate = {
+		c:X74 = {
+			every_scope_state = {
+				state_region={
+					add_claim = c:ETH
+					add_claim = c:W57
+				}
+			}
+		}
 	}
 
 	weight = 100

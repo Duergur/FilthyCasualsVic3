@@ -290,9 +290,9 @@ fat_vas.4 = {
 	type = country_event
 	placement = ROOT
 
-	title = can_aus.5.t
-	desc = can_aus.6.d
-	flavor = can_aus.5.f
+	title = fat_vas.5.t
+	desc = fat_vas.6.d
+	flavor = fat_vas.5.f
 
 	event_image = {
 		video = "unspecific_signed_contract"
