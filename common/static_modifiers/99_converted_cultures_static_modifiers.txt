@@ -1151,13 +1151,13 @@ dynamic-andalucian-culture-num1_standard_of_living_modifier_negative = {
 	state_dynamic-andalucian-culture-num1_standard_of_living_add = 1
 }
 
-dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1_standard_of_living_modifier_positive = {
+dynamic_east_african_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1_standard_of_living_add = 1
+	state_dynamic_east_african_standard_of_living_add = 1
 }
-dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1_standard_of_living_modifier_negative = {
+dynamic_east_african_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1_standard_of_living_add = 1
+	state_dynamic_east_african_standard_of_living_add = 1
 }
 
 dynamic-bedouin_arabic-culture-num2_standard_of_living_modifier_positive = {

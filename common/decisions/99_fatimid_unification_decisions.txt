@@ -1,0 +1,272 @@
+fatamid_unite_vassal = {
+	is_shown = {
+		is_subject = yes
+		any_primary_culture = {
+			has_discrimination_trait = african_heritage 
+		}
+		OR = {
+			owns_entire_state_region = STATE_UGANDA
+			owns_entire_state_region = STATE_KENYA
+			owns_entire_state_region = STATE_RIFT_VALLEY
+			owns_entire_state_region = STATE_TANGANYIKA
+			owns_entire_state_region = STATE_LINDI
+			owns_entire_state_region = STATE_ZANZIBAR
+			owns_entire_state_region = STATE_MOCAMBIQUE
+			owns_entire_state_region = STATE_KAZEMBE
+			owns_entire_state_region = STATE_ZAMBEZI
+			owns_entire_state_region = STATE_ZAMBIA
+			owns_entire_state_region = STATE_ZAMBEZIA
+			owns_entire_state_region = STATE_LOURENCO_MARQUES
+			owns_entire_state_region = STATE_NORTH_MADAGASCAR
+			owns_entire_state_region = STATE_SOUTH_MADAGASCAR
+		}
+		OR = {
+			any_neighbouring_state = {
+				owner = {	
+					any_primary_culture = {
+						has_discrimination_trait = african_heritage 
+					}				
+					OR = {
+						owns_entire_state_region = STATE_UGANDA
+						owns_entire_state_region = STATE_KENYA
+						owns_entire_state_region = STATE_RIFT_VALLEY
+						owns_entire_state_region = STATE_TANGANYIKA
+						owns_entire_state_region = STATE_LINDI
+						owns_entire_state_region = STATE_ZANZIBAR
+						owns_entire_state_region = STATE_MOCAMBIQUE
+						owns_entire_state_region = STATE_KAZEMBE
+						owns_entire_state_region = STATE_ZAMBEZI
+						owns_entire_state_region = STATE_ZAMBIA
+						owns_entire_state_region = STATE_ZAMBEZIA
+						owns_entire_state_region = STATE_LOURENCO_MARQUES
+						owns_entire_state_region = STATE_NORTH_MADAGASCAR
+						owns_entire_state_region = STATE_SOUTH_MADAGASCAR
+					}
+					is_subject = yes
+					NOT = { THIS = ROOT }
+					NOT={
+						any_primary_culture={
+							culture_is_discriminated_in = ROOT
+						}
+					}
+					top_overlord = {
+						THIS = root.top_overlord
+					}
+				}
+			}
+
+			any_state = {
+				any_sea_node_adjacent_state = {
+					owner = {				
+						any_primary_culture = {
+							has_discrimination_trait = african_heritage 
+						}
+						OR = {
+							owns_entire_state_region = STATE_UGANDA
+							owns_entire_state_region = STATE_KENYA
+							owns_entire_state_region = STATE_RIFT_VALLEY
+							owns_entire_state_region = STATE_TANGANYIKA
+							owns_entire_state_region = STATE_LINDI
+							owns_entire_state_region = STATE_ZANZIBAR
+							owns_entire_state_region = STATE_MOCAMBIQUE
+							owns_entire_state_region = STATE_KAZEMBE
+							owns_entire_state_region = STATE_ZAMBEZI
+							owns_entire_state_region = STATE_ZAMBIA
+							owns_entire_state_region = STATE_ZAMBEZIA
+							owns_entire_state_region = STATE_LOURENCO_MARQUES
+							owns_entire_state_region = STATE_NORTH_MADAGASCAR
+							owns_entire_state_region = STATE_SOUTH_MADAGASCAR
+						}
+						is_subject = yes
+						NOT = { THIS = ROOT }
+						top_overlord = {
+							THIS = root.top_overlord
+						}
+					}
+				}	
+			}
+		}
+	}
+
+	possible = {
+		is_at_war = no
+		has_technology_researched = nationalism
+		top_overlord = {
+			relations:root >= relations_threshold:amicable
+		}
+		bureaucracy >= 50
+		NOT = { has_modifier = alwatan_unifier_modifier }
+		custom_tooltip = {
+			text = unite_alwatan_decision_tt
+			OR = {
+				any_state = {
+					any_sea_node_adjacent_state = {				
+						owner = {						
+							is_at_war = no
+							any_primary_culture = {
+								has_discrimination_trait = african_heritage 
+							}
+							is_ai = yes
+							this.gdp < root.gdp					
+							NOT={
+								any_primary_culture={
+									culture_is_discriminated_in = ROOT
+								}
+							}
+							OR = {
+								owns_entire_state_region = STATE_UGANDA
+								owns_entire_state_region = STATE_KENYA
+								owns_entire_state_region = STATE_RIFT_VALLEY
+								owns_entire_state_region = STATE_TANGANYIKA
+								owns_entire_state_region = STATE_LINDI
+								owns_entire_state_region = STATE_ZANZIBAR
+								owns_entire_state_region = STATE_MOCAMBIQUE
+								owns_entire_state_region = STATE_KAZEMBE
+								owns_entire_state_region = STATE_ZAMBEZI
+								owns_entire_state_region = STATE_ZAMBIA
+								owns_entire_state_region = STATE_ZAMBEZIA
+								owns_entire_state_region = STATE_LOURENCO_MARQUES
+								owns_entire_state_region = STATE_NORTH_MADAGASCAR
+								owns_entire_state_region = STATE_SOUTH_MADAGASCAR
+							}
+							is_subject = yes
+							NOT = { THIS = ROOT }
+							top_overlord = {
+								THIS = root.top_overlord
+							}
+						}
+					}
+				}
+				any_neighbouring_state = {
+					owner = {	
+						any_primary_culture = {
+							has_discrimination_trait = african_heritage 
+						}				
+						OR = {
+							owns_entire_state_region = STATE_UGANDA
+							owns_entire_state_region = STATE_KENYA
+							owns_entire_state_region = STATE_RIFT_VALLEY
+							owns_entire_state_region = STATE_TANGANYIKA
+							owns_entire_state_region = STATE_LINDI
+							owns_entire_state_region = STATE_ZANZIBAR
+							owns_entire_state_region = STATE_MOCAMBIQUE
+							owns_entire_state_region = STATE_KAZEMBE
+							owns_entire_state_region = STATE_ZAMBEZI
+							owns_entire_state_region = STATE_ZAMBIA
+							owns_entire_state_region = STATE_ZAMBEZIA
+							owns_entire_state_region = STATE_LOURENCO_MARQUES
+							owns_entire_state_region = STATE_NORTH_MADAGASCAR
+							owns_entire_state_region = STATE_SOUTH_MADAGASCAR
+						}
+						is_subject = yes
+						NOT = { THIS = ROOT }
+						NOT={
+							any_primary_culture={
+								culture_is_discriminated_in = ROOT
+							}
+						}
+						top_overlord = {
+							THIS = root.top_overlord
+						}
+					}
+				}
+			}
+		}
+	}
+	when_taken = {
+		custom_tooltip = unite_alwatan_tt
+		hidden_effect = {
+			add_modifier = {
+				name = 	alwatan_unifier_modifier
+				months = short_modifier_time
+			}
+			trigger_event = { id = fat_vas.1 popup = yes }
+		}
+	}
+
+	ai_chance = {
+		base = 100		 
+	}
+}
+
+fatamid_unite_overlord = {
+	is_shown = {
+		any_subject_or_below = {
+			any_primary_culture = {
+				has_discrimination_trait = african_heritage 
+			}
+			OR = {
+				owns_entire_state_region = STATE_UGANDA
+				owns_entire_state_region = STATE_KENYA
+				owns_entire_state_region = STATE_RIFT_VALLEY
+				owns_entire_state_region = STATE_TANGANYIKA
+				owns_entire_state_region = STATE_LINDI
+				owns_entire_state_region = STATE_ZANZIBAR
+				owns_entire_state_region = STATE_MOCAMBIQUE
+				owns_entire_state_region = STATE_KAZEMBE
+				owns_entire_state_region = STATE_ZAMBEZI
+				owns_entire_state_region = STATE_ZAMBIA
+				owns_entire_state_region = STATE_ZAMBEZIA
+				owns_entire_state_region = STATE_LOURENCO_MARQUES
+				owns_entire_state_region = STATE_NORTH_MADAGASCAR
+				owns_entire_state_region = STATE_SOUTH_MADAGASCAR
+			}
+			is_ai = yes
+			count >= 2
+		}
+	}
+	possible = {
+		is_at_war = no
+		has_technology_researched = nationalism
+		NOT = { has_modifier = alwatan_unifier_modifier }
+		custom_tooltip = {
+			text = gbr_can_relations_tt
+			any_subject_or_below = {	
+				count >= 2
+				is_ai = yes		
+				any_primary_culture = {
+					has_discrimination_trait = african_heritage 
+				}				
+				relations:root >= relations_threshold:amicable
+				OR = {
+					owns_entire_state_region = STATE_UGANDA
+					owns_entire_state_region = STATE_KENYA
+					owns_entire_state_region = STATE_RIFT_VALLEY
+					owns_entire_state_region = STATE_TANGANYIKA
+					owns_entire_state_region = STATE_LINDI
+					owns_entire_state_region = STATE_ZANZIBAR
+					owns_entire_state_region = STATE_MOCAMBIQUE
+					owns_entire_state_region = STATE_KAZEMBE
+					owns_entire_state_region = STATE_ZAMBEZI
+					owns_entire_state_region = STATE_ZAMBIA
+					owns_entire_state_region = STATE_ZAMBEZIA
+					owns_entire_state_region = STATE_LOURENCO_MARQUES
+					owns_entire_state_region = STATE_NORTH_MADAGASCAR
+					owns_entire_state_region = STATE_SOUTH_MADAGASCAR
+				}
+			}
+		}
+	}
+	when_taken = {
+		custom_tooltip = unite_canada_tt
+		hidden_effect = {
+			trigger_event = { id = fat_vas.2 popup = yes }
+		}
+		add_modifier = {
+			name = 	alwatan_unifier_modifier
+			months = short_modifier_time
+		}
+	}
+
+	ai_chance = {
+		base = 0
+		modifier = {
+			has_technology_researched = nationalism
+			add = 75
+		}			
+		modifier = {
+			has_technology_researched = pan-nationalism
+			add = 25
+		}		
+	}
+}

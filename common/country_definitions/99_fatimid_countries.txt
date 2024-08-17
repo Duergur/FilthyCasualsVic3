@@ -1,0 +1,63 @@
+MOC = { # Mocambique
+	color = { 227 5 60 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { chewa swahili makua}
+	capital = STATE_MOCAMBIQUE
+}
+
+KZM = {
+	color = { 202 217 170 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { luba chewa }
+	religion = shiite
+	capital = STATE_KAZEMBE
+}
+
+ZAN = {
+	color = { 166  189  199 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { swahili }
+	capital = STATE_ZANZIBAR
+	is_named_from_capital = yes
+	religion = shiite
+}
+KKY = {
+	color = { 169 52 90 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { swahili somali}
+	capital = STATE_KENYA
+	religion = shiite
+}
+BUG = {
+	color = { 21 21 227 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { baganda }
+	religion = shiite
+	capital = STATE_UGANDA
+}
+
+RWD = {
+	color = { 213 160 18 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	religion = animist
+	cultures = { ruanda }
+	capital = STATE_TANGANYIKA
+}
+ 
+AWT = {
+	country_type = unrecognized
+	religion = animist
+	cultures = { ruanda baganda swahili somali luba chewa makua malagasy}
+	color = {160 0 0}
+	capital = STATE_TANGANYIKA
+	tier = kingdom
+
+}

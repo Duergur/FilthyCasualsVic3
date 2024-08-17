@@ -31,7 +31,7 @@
  dynamic-aka-yorumba-culture-num1: "Yorubo-Akan"
  dynamic-al_suryah_arabic-culture-num1: "Kurdo-Mashriqi"
  dynamic-andalucian-culture-num1: "Andaluso-Baranis"
- dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1: "East African"
+ dynamic_east_african: "East African"
  dynamic-bedouin_arabic-culture-num2: "Beja-Bedouin"
  dynamic-bedouin_arabic-somali-culture-num1: "Somali-Bedouin"
  dynamic-berber-soninke-culture-num1: "Soninke-Butr"

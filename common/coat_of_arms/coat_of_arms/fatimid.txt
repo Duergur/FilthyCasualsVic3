@@ -1,0 +1,18 @@
+AWT = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "yellow"
+	color3 = "green"
+
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = color2
+		color2 = color1	
+	}
+	colored_emblem = {
+		texture = "ce_nguni_shield.dds"
+		color1 = color3
+		color2 = color2
+		instance = { scale = { 0.8 0.8 } } 
+	}
+}

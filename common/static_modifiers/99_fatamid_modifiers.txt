@@ -1,0 +1,44 @@
+alwatan_unifier_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_add = 50
+}
+
+alwatan_unified = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_mult = 0.2
+}
+
+india_conquest_vassal_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_legitimacy_base_add = 10
+	country_prestige_add = 10
+}	
+
+fatamid_india_conquest_overlord_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_prestige_mult = 0.15
+}
+
+fatamid_india_conquest_overlord_modifier_failed = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_prestige_mult = -0.10
+}
+
+ceylon_gdp_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_prestige_mult = 0.2
+	country_company_construction_efficiency_bonus_add = 0.1
+	country_trade_route_competitiveness_mult = 0.25
+}
+
+fatimid_caliphate_overlord = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_prestige_mult = 0.2
+	interest_group_ig_devout_approval_add = 5 
+}
+
+fatimid_caliphate_vassal= {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	state_conversion_mult = 1
+	interest_group_ig_devout_pol_str_mult = 0.15
+}

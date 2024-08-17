@@ -270,7 +270,7 @@ ABU = {
 	color = { 113 112 96 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { bedouin dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 }
+	cultures = { bedouin dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 }
 	capital = STATE_ABU_DHABI
 	is_named_from_capital = yes
 }
@@ -438,7 +438,7 @@ ANL = {
 	color = { 135 198 25 }
 	country_type = decentralized
 	tier = empire
-	cultures = { bedouin dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 visigothic }
+	cultures = { bedouin dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 visigothic }
 	capital = STATE_ANDALUSIA
 }
 
@@ -463,7 +463,7 @@ ARA = {
 	color = { 66 111 19 }
 	country_type = decentralized
 	tier = empire
-	cultures = { bedouin dynamic-al_suryah_arabic-culture-num1 dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 mashriqi misri yemenite }
+	cultures = { bedouin dynamic-al_suryah_arabic-culture-num1 dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 mashriqi misri yemenite }
 	capital = STATE_BAGHDAD
 }
 
@@ -960,7 +960,7 @@ BHN = {
 	color = { 169 51 51 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { bedouin dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 }
+	cultures = { bedouin dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 }
 	capital = STATE_ABU_DHABI
 }
 
@@ -2021,7 +2021,7 @@ DFR = {
 	color = { 44 160 70 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { bedouin dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 dynamic-zaghawa-culture-num1 fur }
+	cultures = { bedouin dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 dynamic-zaghawa-culture-num1 fur }
 	capital = STATE_DARFUR
 }
 
@@ -2342,7 +2342,7 @@ EOT = {
 	color = { 212 11 27 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { bedouin dynamic-al_suryah_arabic-culture-num1 dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 mashriqi }
+	cultures = { bedouin dynamic-al_suryah_arabic-culture-num1 dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 mashriqi }
 	capital = STATE_TRANSJORDAN
 }
 
@@ -2376,7 +2376,7 @@ EST = {
 #	color = { 35 130 50 }
 #	country_type = recognized
 #	tier = hegemony
-#	cultures = { dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 }
+#	cultures = { dynamic_east_african }
 #	religion = shiite
 #	capital = STATE_LOWER_EGYPT
 #}
@@ -3016,8 +3016,8 @@ HAR = {
 }
 
 HAU = {
-	color = { 48 169 96 }
-	country_type = decentralized
+	color = { 130 40 0 }
+	country_type = unrecognized
 	tier = grand_principality
 	cultures = { hausa }
 	religion = sunni
@@ -3053,7 +3053,7 @@ HDJ = {
 	color = { 121 229 215 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { bedouin dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 }
+	cultures = { bedouin dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 }
 	religion = sunni
 	capital = STATE_HEDJAZ
 }
@@ -3519,7 +3519,7 @@ JAB = {
 	color = { 183 62 62 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { bedouin dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 }
+	cultures = { bedouin dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 }
 	capital = STATE_HAIL
 }
 
@@ -3975,7 +3975,7 @@ KAT = {
 	color = { 79 152 64 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { bedouin dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 yemenite }
+	cultures = { bedouin dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 yemenite }
 	capital = STATE_YEMEN
 }
 
@@ -4033,7 +4033,7 @@ KFA = {
 	color = { 150 0 25 }
 	country_type = recognized
 	tier = city_state
-	cultures = { dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 }
+	cultures = { dynamic_east_african }
 	religion = sunni
 	capital = STATE_AMHARA
 }
@@ -4050,7 +4050,7 @@ KHI = {
 	color = { 188 123 103 }
 	country_type = decentralized
 	tier = principality
-	cultures = { bedouin dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 }
+	cultures = { bedouin dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 }
 	religion = sunni
 	capital = STATE_UZBEKIA
 }
@@ -4078,14 +4078,6 @@ KK1 = {
 	cultures = { malagasy tamil }
 	religion = animist
 	capital = STATE_INDIAN_OCEAN_TERRITORY
-}
-
-KKY = {
-	color = { 169 52 90 }
-	country_type = decentralized
-	tier = principality
-	cultures = { kikuyu }
-	capital = STATE_KENYA
 }
 
 KLM = {
@@ -4450,7 +4442,7 @@ LAH = {
 	color = { 209 41 41 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { bedouin dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 yemenite }
+	cultures = { bedouin dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 yemenite }
 	religion = sunni
 	capital = STATE_YEMEN
 }
@@ -5060,7 +5052,7 @@ MAH = {
 	color = { 0 153 76 }
 	country_type = decentralized
 	tier = principality
-	cultures = { bedouin dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 yemenite }
+	cultures = { bedouin dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 yemenite }
 	religion = nestorian
 	capital = STATE_YEMEN
 }
@@ -5714,7 +5706,7 @@ NEJ = {
 	color = { 209 219 116 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { bedouin dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 }
+	cultures = { bedouin dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 }
 	capital = STATE_NEJD
 	is_named_from_capital = yes
 }
@@ -6037,7 +6029,7 @@ OMA = {
 	color = { 98 134 153 }
 	country_type = decentralized
 	tier = principality
-	cultures = { bedouin dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 }
+	cultures = { bedouin dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 }
 	religion = ibadi
 	capital = STATE_OMAN
 }
@@ -7487,7 +7479,7 @@ SUD = {
 	color = { 189 159 69 }
 	country_type = unrecognized
 	tier = kingdom
-	cultures = { bedouin beja dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 sudanese }
+	cultures = { bedouin beja dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 sudanese }
 	capital = STATE_BLUE_NILE
 }
 
@@ -7824,7 +7816,7 @@ T37 = {
 	color = { 99 150 9 }
 	country_type = decentralized
 	tier = principality
-	cultures = { bedouin dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 }
+	cultures = { bedouin dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 }
 	religion = sunni
 	capital = STATE_KHORASAN
 }
@@ -9062,7 +9054,7 @@ W57 = {
 	color = { 141 21 58 }
 	country_type = recognized
 	tier = principality
-	cultures = { dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 }
+	cultures = { dynamic_east_african }
 	religion = shiite
 	capital = STATE_MADRAS
 }
@@ -9071,7 +9063,7 @@ W58 = {
 	color = { 196 191 61 }
 	country_type = recognized
 	tier = principality
-	cultures = { dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 }
+	cultures = { dynamic_east_african }
 	religion = shiite
 	capital = STATE_EASTERN_NEW_GUINEA
 }
@@ -9346,7 +9338,7 @@ WAS = {
 	color = { 60 144 73 }
 	country_type = colonial
 	tier = principality
-	cultures = { dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 }
+	cultures = { dynamic_east_african }
 	religion = shiite
 	capital = STATE_WESTERN_AUSTRALIA
 }
@@ -9473,7 +9465,7 @@ X00 = {
 	color = { 145 70 130 }
 	country_type = recognized
 	tier = grand_principality
-	cultures = { dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 }
+	cultures = { dynamic_east_african }
 	religion = shiite
 	capital = STATE_SOMALILAND
 }
@@ -9984,7 +9976,7 @@ X62 = {
 	tier = principality
 	cultures = { hindustani_proper }
 	religion = vidilist
-	capital = STATE_PASHTUNISTAN
+	capital = STATE_PUNJAB
 }
 
 X63 = {
@@ -10002,7 +9994,7 @@ X64 = {
 	tier = principality
 	cultures = { ugrian }
 	religion = vidilist
-	capital = STATE_OKHOTSK
+	capital = STATE_UPPER_YENISEYSK
 }
 
 #X65 = { #quebek
@@ -10512,7 +10504,7 @@ YEM = {
 	color = { 255 191 191 }
 	country_type = decentralized
 	tier = principality
-	cultures = { bedouin dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 yemenite }
+	cultures = { bedouin dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 yemenite }
 	religion = sunni
 	capital = STATE_YEMEN
 }
@@ -10647,7 +10639,7 @@ ZAI = {
 	color = { 153 76 0 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { bedouin dynamic-bedouin_arabic-al_misr_arabic-somali-culture-num1 dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 yemenite }
+	cultures = { bedouin dynamic_east_african dynamic-bedouin_arabic-culture-num2 dynamic-bedouin_arabic-somali-culture-num1 yemenite }
 	capital = STATE_YEMEN
 }
 
@@ -10671,8 +10663,8 @@ ZHI = {
 ZIM = {
 	color = { 0 173 112 }
 	country_type = unrecognized
-	tier = kingdom
-	cultures = { nguni shona }
+	tier = principality
+	cultures = { sena chewa tonga }
 	capital = STATE_ZAMBEZIA
 }
 

@@ -10,7 +10,67 @@
 	c:ETH = {
 		create_diplomatic_pact = {
 			country = c:TUN #Tunis
+			type = protectorate
+		}
+	}	
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:HAU #Hausaland
+			type = dominion
+		}
+	}	
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:ZIM #Zambezi
 			type = puppet
+		}
+	}	
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:MAD #Zambezi
+			type = puppet
+		}
+	}	
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:MOC #Mocambique
+			type = puppet
+		}
+	}	
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:KZM #Kazambe
+			type = puppet
+		}
+	}	
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:ZAN #Zanzibar
+			type = puppet
+		}
+	}	
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:KKY #Kenya
+			type = puppet
+		}
+	}	
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:BUG #Uganda
+			type = puppet
+		}
+	}	
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:RWD #Uganda
+			type = puppet
+		}
+	}
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:WAD #Waddai
+			type = dominion
 		}
 	}
 	c:ETH = {
@@ -42,7 +102,8 @@
 #Relations
 	c:ETH = {
 		set_relations = { country = c:P13 value = 75 }
-		set_relations = { country = c:TUN value = 10 }
+		set_relations = { country = c:TUN value = 25 }
+		set_relations = { country = c:HAU value = 5 }
 		set_relations = { country = c:W25 value = 75 }
 		set_relations = { country = c:W57 value = 10 }
 		set_relations = { country = c:W58 value = 10 }

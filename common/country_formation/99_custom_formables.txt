@@ -1,0 +1,27 @@
+AWT = {
+	states = {
+		STATE_UGANDA
+		STATE_KENYA
+		STATE_RIFT_VALLEY
+		STATE_TANGANYIKA
+		STATE_LINDI
+		STATE_ZANZIBAR
+		STATE_MOCAMBIQUE
+		STATE_KAZEMBE
+		STATE_ZAMBEZI
+		STATE_ZAMBIA
+		STATE_ZAMBEZIA
+		STATE_LOURENCO_MARQUES
+		STATE_NORTH_MADAGASCAR
+		STATE_SOUTH_MADAGASCAR
+	}
+	required_states_fraction = 0.7
+	ai_will_do={
+		always=yes
+	}
+
+	possible = {
+		has_technology_researched = pan-nationalism
+		
+	}
+}
