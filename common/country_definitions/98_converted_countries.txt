@@ -9976,7 +9976,7 @@ X62 = {
 	tier = principality
 	cultures = { hindustani_proper }
 	religion = vidilist
-	capital = STATE_PASHTUNISTAN
+	capital = STATE_PUNJAB
 }
 
 X63 = {
@@ -9994,7 +9994,7 @@ X64 = {
 	tier = principality
 	cultures = { ugrian }
 	religion = vidilist
-	capital = STATE_OKHOTSK
+	capital = STATE_UPPER_YENISEYSK
 }
 
 #X65 = { #quebek
