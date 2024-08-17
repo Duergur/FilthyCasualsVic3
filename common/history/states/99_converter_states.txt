@@ -52,6 +52,7 @@
 		add_homeland = cu:romanian
 		add_homeland = cu:tatar
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 		add_claim = c:X64
 	}
 	s:STATE_AKTOBE = {
@@ -61,6 +62,7 @@
 			state_type = unincorporated
 		}
 		add_homeland = cu:tatar
+		add_homeland = cu:baltoruth
 	}
 	s:STATE_ALABAMA = {
 		create_state = {
@@ -510,6 +512,7 @@
 			state_type = unincorporated
 		}
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 	}
 	s:STATE_ARMENIA = {
 		create_state = {
@@ -543,6 +546,7 @@
 		add_homeland = cu:greek
 		add_homeland = cu:tatar
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 		add_claim = c:X64
 	}
 	s:STATE_ASTURIAS = {
@@ -616,6 +620,7 @@
 		}
 		add_homeland = cu:azerbaijani
 		add_homeland = cu:georgian
+		add_homeland = cu:baltoruth
 		add_claim = c:X90
 	}
 	s:STATE_AZORES = {
@@ -1370,6 +1375,7 @@
 		add_homeland = cu:romanian
 		add_homeland = cu:tatar
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 		add_claim = c:X64
 	}
 	s:STATE_CHERNIHIV = {
@@ -1386,7 +1392,7 @@
 		create_state = {
 			country = c:X90
 			owned_provinces = { x0E1864 x13997A x29EE58 x305004 x3DA304 x3E5AF0 x3E66A1 x421B54 x4ABD60 x5BE6ED x652CE8 x716121 x71E021 x71E061 x726291 x73216A x7FC1CF x89CE7C x924D7E x925815 x9E24DE xA669E7 xA81C77 xB02161 xB285AE xB5123B xCC0D93 xD7E3C1 xDCE378 xE315A3 xE4AA78 xF0E0A0 xF60A93 xFD6659 xFDD2CF }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:greek
 		add_claim = c:X98
@@ -1466,6 +1472,7 @@
 		}
 		add_homeland = cu:tatar
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 		add_claim = c:X64
 	}
 	s:STATE_CIRCARS = {
@@ -1978,6 +1985,7 @@
 		add_homeland = cu:karelian
 		add_homeland = cu:sami
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 	}
 	s:STATE_EAST_MICRONESIA = {
 		create_state = {
@@ -2303,6 +2311,7 @@
 		}
 		add_homeland = cu:dynamic-meshchera-russian_culture-culture-num1
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 		add_claim = c:X64
 	}
 	s:STATE_GALICIA = {
@@ -2915,6 +2924,7 @@
 			owned_provinces = { x01A0E0 x042A4F x065E68 x0FEA4B x246095 x3F6DEC x441576 x57DF51 x607A9E x6122C5 x743B9C x80A0E0 x8F79E9 x93FBC9 xA79D26 xAD3522 xAEBDCB xB64167 xB6C9C3 xBB73A3 xCD164E xD14E99 xD1CBDD xD6A28B xD7689F xDA2E04 xDED975 xE97616 xE9C671 xF4E44C }
 			state_type = incorporated
 		}
+		add_homeland = cu:baltoruth
 		add_homeland = cu:baltic_culture
 		add_homeland = cu:karelian
 		add_homeland = cu:russian
@@ -3258,6 +3268,7 @@
 		}
 		add_homeland = cu:tatar
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 		add_claim = c:X64
 	}
 	s:STATE_KAZEMBE = {
@@ -3408,7 +3419,7 @@
 		create_state = {
 			country = c:X90
 			owned_provinces = { x0E69B9 x16687C x191F70 x2CF115 x2E1A32 x33CC4D x3C9016 x405000 x469A99 x522F82 x594403 x61D073 x6BB70E x6F16AA x708C99 x76B63F x7BCBCC x80D080 x89223D x9809B7 x9A01E0 xAF4F59 xB63D94 xBCF376 xC88562 xD5648D xD9CD9D xE6667B xEB2EF5 xF51533 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:greek
 		add_claim = c:X98
@@ -3432,6 +3443,7 @@
 		add_homeland = cu:mordvin
 		add_homeland = cu:ugrian
 		add_homeland = cu:ukrainian
+		add_homeland = cu:baltoruth
 		add_claim = c:X64
 	}
 	s:STATE_KYUSHU = {
@@ -4167,10 +4179,11 @@
 		create_state = {
 			country = c:X90
 			owned_provinces = { x13D91C x43F336 x4DBAEC x54C962 x632D29 x8B324E xC05614 xE0A021 xE19E7E xE32FD0 xEC68C6 xF75BCA }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:dynamic-meshchera-russian_culture-culture-num1
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 	}
 	s:STATE_MOSUL = {
 		create_state = {
@@ -4311,6 +4324,7 @@
 			state_type = unincorporated
 		}
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 	}
 	s:STATE_NEVADA = {
 		create_state = {
@@ -4541,6 +4555,7 @@
 		}
 		add_homeland = cu:dynamic-meshchera-russian_culture-culture-num1
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 		add_claim = c:X64
 	}
 	s:STATE_NORMANDY = {
@@ -4851,6 +4866,7 @@
 		add_homeland = cu:karelian
 		add_homeland = cu:russian
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 	}
 	s:STATE_NUNAVUT = {
 		create_state = {
@@ -4911,6 +4927,7 @@
 			state_type = unincorporated
 		}
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 		add_claim = c:W25
 		add_claim = c:X64
 	}
@@ -5055,6 +5072,7 @@
 		add_homeland = cu:dynamic-meshchera-russian_culture-culture-num1
 		add_homeland = cu:russian
 		add_homeland = cu:ukrainian
+		add_homeland = cu:baltoruth
 	}
 	s:STATE_OSTROBOTHNIA = {
 		create_state = {
@@ -5293,6 +5311,7 @@
 			owned_provinces = { x014042 x031756 x081DE7 x094CC5 x0A0D9C x1389A5 x146D55 x1503E7 x15D25C x2070D2 x26FB73 x27D9A3 x2BA46E x2C8976 x3094DC x31E881 x3217FC x32C845 x342573 x39A857 x3A921A x3D9F1E x3E6E33 x41B5D5 x4624B5 x46DC5A x472E11 x494BAD x4E936E x501FAB x5106B9 x56C499 x5E5BAD x65EE9B x679157 x6BC20A x6F37B1 x75D7E5 x75E539 x76E214 x7738DD x77CB43 x78C443 x7C3CC4 x7D601C x7F8CDA x7FCAB3 x88305D x8D1320 x929A7E x974F8C x9BA9EF x9D18DE xA08040 xA11DD7 xA49D63 xA5F8BE xA9655B xABE7CB xB530B9 xB56FB9 xB5DD9A xB66D1D xB83FDC xBB4EAE xBE68A3 xC249F9 xC3CE60 xC4199A xC44B2B xC7D292 xC92EEE xCC45E3 xCD1012 xD00DDF xD23AE0 xD29308 xD30253 xDB9616 xDFFE19 xE0557D xE0632D xE0812B xE53D48 xEB5380 xF1472B xF3943F xF8422A xFB3B8C xFF1174 }
 			state_type = unincorporated
 		}
+		add_homeland = cu:baltoruth
 		add_homeland = cu:ugrian
 		add_claim = c:X64
 	}
@@ -5707,6 +5726,7 @@
 		}
 		add_homeland = cu:dynamic-meshchera-russian_culture-culture-num1
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 	}
 	s:STATE_RYUKYU_ISLANDS = {
 		create_state = {
@@ -5751,6 +5771,7 @@
 		}
 		add_homeland = cu:tatar
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 		add_claim = c:X64
 	}
 	s:STATE_SANTA_CATARINA = {
@@ -5919,6 +5940,7 @@
 		add_homeland = cu:manchu
 		add_homeland = cu:ugrian
 		add_homeland = cu:uzbek
+		add_homeland = cu:baltoruth
 		add_claim = c:X64
 	}
 	s:STATE_SEMNAN = {
@@ -6121,10 +6143,11 @@
 		create_state = {
 			country = c:X90
 			owned_provinces = { x03673A x1A2893 x20A020 x219D59 x25D843 x2EB40F x534355 x5699C6 x6100EC x620BE8 x74F08E x87264D x8D6462 x93DF31 x95A3EA x9692BD x9BF7E1 xA0A021 xACF404 xC0A060 xC7D77B xD8537A xECBC4D xFBBA8C xFCDD8C }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:dynamic-meshchera-russian_culture-culture-num1
 		add_homeland = cu:russian
+		add_homeland = cu:baltoruth
 	}
 	s:STATE_SOLOMON_ISLANDS = {
 		create_state = {
@@ -6345,7 +6368,7 @@
 		create_state = {
 			country = c:X90
 			owned_provinces = { x1ED727 x32FEBA x3E954F x565E50 x6B2515 x7685A4 x76C012 x793FDE x796017 x891792 x929AC4 x9A43C9 x9B5EC8 x9BAE11 x9CDC20 xA4B654 xAA6E62 xB3593A xBC214C xC0D001 xD7EDE7 xE0E16A xE2E1EB xF7D005 xF88EA3 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:greek
 		add_claim = c:X98
@@ -6375,6 +6398,7 @@
 		}
 		add_homeland = cu:georgian
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 		add_claim = c:X64
 	}
 	s:STATE_SUZHOU = {
@@ -6408,6 +6432,7 @@
 		add_homeland = cu:kirgiz
 		add_homeland = cu:manchu
 		add_homeland = cu:tatar
+		add_homeland = cu:baltoruth
 	}
 	s:STATE_SYRIA = {
 		create_state = {
@@ -6467,7 +6492,8 @@
 			state_type = unincorporated
 		}
 		add_homeland = cu:dynamic-meshchera-russian_culture-culture-num1
-		add_homeland = cu:ugrian
+		add_homeland = cu:ugrian 
+		add_homeland = cu:baltoruth
 		add_claim = c:X64
 	}
 	s:STATE_TANGANYIKA = {
@@ -6498,6 +6524,7 @@
 		}
 		add_homeland = cu:tatar
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 		add_claim = c:X64
 	}
 	s:STATE_TARTU = {
@@ -6520,7 +6547,7 @@
 		create_state = {
 			country = c:X90
 			owned_provinces = { x000AE0 x055C67 x0EBC1D x135B1E x19213B x35FCF1 x4202ED x580D2A x58331B x5AB195 x637D8D x7020DF x7141E0 x71E0E0 x76E2A3 x87109C x8A09FD xA1BAF7 xAD4F1C xB06935 xB69E4B xC262E0 xCFBD13 xE6C06A xF06161 xF0E061 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:greek
 		add_claim = c:X98
@@ -6630,6 +6657,7 @@
 		}
 		add_homeland = cu:georgian
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 		
 	}
 	s:STATE_TOGO = {
@@ -6667,6 +6695,7 @@
 		add_homeland = cu:georgian
 		add_homeland = cu:tuvan
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 		add_claim = c:X64
 	}
 	s:STATE_TONGA = {
@@ -6814,6 +6843,7 @@
 		add_homeland = cu:karelian
 		add_homeland = cu:russian
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 	}
 	s:STATE_TYROL = {
 		create_state = {
@@ -6846,6 +6876,7 @@
 		}
 		add_homeland = cu:bashkir
 		add_homeland = cu:tatar
+		add_homeland = cu:baltoruth
 	}
 	s:STATE_UGANDA = {
 		create_state = {
@@ -6913,6 +6944,7 @@
 		}
 		add_homeland = cu:romanian
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 		add_claim = c:X64
 	}
 	s:STATE_URALSK = {
@@ -6922,6 +6954,7 @@
 			state_type = unincorporated
 		}
 		add_homeland = cu:tatar
+		add_homeland = cu:baltoruth
 	}
 	s:STATE_URGA = {
 		create_state = {
@@ -7143,6 +7176,7 @@
 			state_type = unincorporated
 		}
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 		add_claim = c:X64
 	}
 	s:STATE_WADDAI = {
@@ -7518,6 +7552,7 @@
 		}
 		add_homeland = cu:dynamic-meshchera-russian_culture-culture-num1
 		add_homeland = cu:ugrian
+		add_homeland = cu:baltoruth
 	}
 	s:STATE_YEMEN = {
 		create_state = {
