@@ -1,0 +1,69 @@
+je_fatamid_religion = {
+	icon = "gfx/interface/icons/icons/religion_icons/shiite.dds"
+
+	group = je_group_historical_content
+
+	is_shown_when_inactive = {
+		ROOT=c:ETH
+	}
+
+	possible = {
+		hidden_trigger = {
+			ROOT=c:ETH
+		}
+		has_law = law_type:law_theocracy
+	}
+	
+	invalid = {
+		NOT={
+			has_law = law_type:law_theocracy
+		}
+	}
+
+	complete = {
+		not={
+			any_subject_or_below = {
+				NOR ={
+					country_has_state_religion = rel:shiite
+					custom_tooltip={
+						text = je_fatamid_religion_tt_0
+						religion_percent_country = {
+							target = rel:shiite 
+							value  < 0.25
+						}
+					}
+				}
+			}
+		}
+
+
+		any_country = {
+			count >= 5
+			country_has_state_religion = rel:shiite
+		}
+		power_bloc={
+			power_bloc_leader = ROOT
+			has_identity = identity:identity_religious
+			current_cohesion_percentage>=0.5
+		}
+	}	
+	
+	on_complete = {
+		add_modifier = {
+			name = fatimid_caliphate_overlord
+			months = normal_modifier_time
+		}
+
+		every_in_hierarchy={
+			add_modifier = {
+				name = fatimid_caliphate_vassal
+				months = normal_modifier_time
+			}
+		}
+	}
+
+
+	weight = 100
+
+	should_be_pinned_by_default = no
+}
