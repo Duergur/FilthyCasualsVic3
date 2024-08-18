@@ -362,9 +362,14 @@
 		activate_law = law_type:law_slavery_banned
 		
 		#InterestGroups,Haven't touched these at all yet, just default converter settings
-		ig:ig_trade_unions = {
-			set_ig_bolstering = yes
- 		}
+		ig:ig_landowners = {
+			remove_ideology = ideology_paternalistic
+			add_ideology = ideology_junker_paternalistic
+			}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			add_ideology = ideology_egalitarian
+			}
 	}
 
     c:CAS = { #CastilianDominion

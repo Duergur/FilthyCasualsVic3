@@ -1082,12 +1082,6 @@
 				reserves = 1
 				activate_production_methods = { "pm_picks_and_shovels_building_gold_mine" }
 			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
 		}
 	}
 	s:STATE_ARMENIA = {
@@ -1334,7 +1328,7 @@
 			}
 			create_building = {
 				building = "building_government_administration"
-				level = 2
+				level = 3
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
@@ -4280,12 +4274,6 @@
 				reserves = 1
 				activate_production_methods = { "pm_sulfite_pulping" }
 			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
 		}
 	}
 	s:STATE_CRETE = {
@@ -4627,6 +4615,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_handcrafted_furniture" "pm_no_luxuries" }
+			}
+			create_building = {
+				building = "building_government_administration"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
 		region_state:X59 = {
@@ -5084,7 +5078,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 5
+				level = 1
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -8116,7 +8110,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 3
+				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
@@ -8743,12 +8737,6 @@
 				reserves = 1
 				activate_production_methods = { "pm_no_organization" }
 			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
 		}
 	}
 	s:STATE_KANAK = {
@@ -9107,12 +9095,6 @@
 				level = 4
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
-			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
 			}
 		}
 	}
@@ -11756,12 +11738,6 @@
 		}
 		region_state:WIN = {
 			create_building = {
-				building = "building_construction_sector"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
 				building = "building_barracks"
 				level = 1
 				reserves = 1
@@ -11781,12 +11757,6 @@
 			}
 			create_building = {
 				building = "building_maize_farm"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_port"
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
@@ -11998,6 +11968,12 @@
 			create_building = {
 				building = "building_livestock_ranch"
 				level = 2
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_construction_sector"
+				level = 1
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -12415,12 +12391,6 @@
 	s:STATE_NENETSIA = {
 		region_state:X90 = {
 			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_basic_port" }
-			}
-			create_building = {
 				building = "building_naval_base"
 				level = 2
 				reserves = 1
@@ -12729,12 +12699,6 @@
 				reserves = 1
 				activate_production_methods = { "pm_picks_and_shovels_building_iron_mine" }
 			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
 		}
 	}
 	s:STATE_NORTHERN_ANHUI = {
@@ -12922,6 +12886,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_government_administration"
+				level = 3
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
 	}
@@ -13442,12 +13412,6 @@
 				activate_production_methods = { }
 			}
 			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_basic_port" }
-			}
-			create_building = {
 				building = "building_coal_mine"
 				level = 2
 				reserves = 1
@@ -13465,12 +13429,6 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
-			create_building = {
-				building = "building_port"
-				level = 2
-				reserves = 1
-				activate_production_methods = { }
-			}
 		}
 	}
 	
@@ -13483,7 +13441,7 @@
 				activate_production_methods = { }
 			}
 			create_building = {
-				building = "building_glassworks"
+				building = "buildings_glassworks"
 				level = 2
 				reserves = 1
 				activate_production_methods = { "pm_leaded_glass" }
@@ -14472,12 +14430,6 @@
 				reserves = 1
 				activate_production_methods = { "pm_handcrafted_furniture" "pm_no_luxuries" }
 			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
 		}
 		region_state:X90 = {
 			create_building = {
@@ -14711,7 +14663,7 @@
 			}
 			create_building = {
 				building = "building_government_administration"
-				level = 5
+				level = 7
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
@@ -15228,7 +15180,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 3
+				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
@@ -18544,6 +18496,12 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
+			create_building = {
+				building = "building_government_administration"
+				level = 4
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
 		}
 		region_state:X90 = {
 			create_building = {
@@ -18922,7 +18880,7 @@
 			}
 			create_building = {
 				building = "building_government_administration"
-				level = 3
+				level = 7
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
@@ -19103,7 +19061,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 3
+				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
@@ -19823,6 +19781,12 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
+			create_building = {
+				building = "building_government_administration"
+				level = 2
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
 		}
 	}
 	s:STATE_WESTERN_THRACE = {
@@ -20104,7 +20068,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 5
+				level = 1
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -20172,7 +20136,7 @@
 			}
 			create_building = {
 				building = "building_government_administration"
-				level = 2
+				level = 10
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
