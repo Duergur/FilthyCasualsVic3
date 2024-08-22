@@ -762,6 +762,12 @@
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
+			create_building = {
+				building = "building_barracks"
+				level = 20
+				reserves = 1
+				activate_production_methods = { "pm_no_organization" }
+			}
 		}
 	}
 	s:STATE_ANNAM = {
@@ -906,7 +912,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 4
+				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
@@ -2274,6 +2280,12 @@
 				reserves = 1
 				activate_production_methods = { "pm_vertical_filing_cabinets" }
 			}
+			create_building = {
+				building = "building_barracks"
+				level = 20
+				reserves = 1
+				activate_production_methods = { "pm_general_training" }
+			}
 		}
 	}
 	s:STATE_BOLIVAR = {
@@ -3042,7 +3054,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 4
+				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
@@ -5128,6 +5140,12 @@
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
+			create_building = {
+				building = "building_barracks"
+				level = 20
+				reserves = 1
+				activate_production_methods = { "pm_no_organization" }
+			}
 		}
 	}
 	s:STATE_EAST_AEGEAN_ISLANDS = {
@@ -5166,7 +5184,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 2
+				level = 1
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -5766,12 +5784,6 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_pot_stills" }
-			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
 			}
 		}
 	}
@@ -8379,12 +8391,6 @@
 				reserves = 1
 				activate_production_methods = { "pm_muskets" }
 			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
 		}
 	}
 	s:STATE_IVORY_COAST = {
@@ -8587,7 +8593,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 8
+				level = 1
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -9513,7 +9519,7 @@
 			}
 			create_building = {
 				building = "building_barracks"
-				level = 5
+				level = 25
 				reserves = 1
 				activate_production_methods = { "pm_no_organization" }
 			}
@@ -11954,6 +11960,12 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_barracks"
+				level = 20
+				reserves = 1
+				activate_production_methods = { "pm_general_training" }
 			}
 		}
 	}
@@ -14554,12 +14566,6 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
 		}
 	}
 	s:STATE_PSKOV = {
@@ -15158,7 +15164,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 3
+				level = 1
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -15697,7 +15703,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 4
+				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
@@ -18182,7 +18188,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 3
+				level = 1
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -18791,12 +18797,6 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = { "pm_pulp_pressing" }
-			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
 			}
 		}
 	}
